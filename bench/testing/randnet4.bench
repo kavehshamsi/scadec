@@ -1,0 +1,12 @@
+# Benchmark "./bench/testing/randnet4" written by ABC on Tue Jul 27 13:34:09 2021
+INPUT(in0)
+INPUT(in1)
+INPUT(in2)
+INPUT(in3)
+OUTPUT(out)
+n6          = not( in3 )
+n7          = not( in2 )
+n8          = nand( n7, in1 )
+n9          = nand( n8, n6 )
+n10         = nand( in3, n7, in1 )
+out         = nand( n10, n9 )

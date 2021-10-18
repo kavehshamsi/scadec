@@ -1,0 +1,1515 @@
+MDF Database:  version 1.0
+MDF_INFO | sca_unlock_top | XC2C512-7-PQ208
+MACROCELL | 7 | 1 | M_CLK_EXT0_N_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | M_CLK_EXT0_P
+INPUTP | 1 | 72
+EQ | 1 | 
+   M_CLK_EXT0_N = M_CLK_EXT0_P;	// (1 pt, 1 inp)
+
+MACROCELL | 1 | 1 | M_LED<0>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   M_LED<0> = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 1 | 13 | M_LED<1>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   M_LED<1> = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 1 | 14 | M_LED<2>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   M_LED<2> = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 1 | 15 | M_LED<3>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   M_LED<3> = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 3 | 1 | M_LED<4>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   M_LED<4> = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 7 | 13 | M_LED<5>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | M_HEADER_CLK_N
+INPUTP | 1 | 85
+EQ | 1 | 
+   M_LED<5> = M_HEADER_CLK_N;	// (1 pt, 1 inp)
+
+MACROCELL | 8 | 1 | M_LED<6>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | M_HEADER<0>
+INPUTP | 1 | 5
+EQ | 1 | 
+   M_LED<6> = M_HEADER<0>;	// (1 pt, 1 inp)
+
+MACROCELL | 8 | 2 | M_LED<7>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | M_HEADER<1>
+INPUTP | 1 | 319
+EQ | 1 | 
+   M_LED<7> = M_HEADER<1>;	// (1 pt, 1 inp)
+
+MACROCELL | 7 | 2 | M_LED<8>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 1 | M_CLK_EXT0_P
+INPUTP | 1 | 72
+EQ | 1 | 
+   M_LED<8> = M_CLK_EXT0_P;	// (1 pt, 1 inp)
+
+MACROCELL | 8 | 3 | M_LED<9>_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 2 | N_PZ_580  | N_PZ_634
+INPUTMC | 2 | 8 | 12 | 5 | 15
+EQ | 2 | 
+   M_LED<9> = N_PZ_580 & N_PZ_634
+	# !N_PZ_580 & !N_PZ_634;	// (2 pt, 2 inp)
+
+MACROCELL | 8 | 12 | N_PZ_580_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 8 | 3
+INPUTS | 4 | u0/dut/G296gat  | u0/Mxor_xor_out_Mxor__xor0001__xor0000  | u0/dut/G430gat_and0000  | N_PZ_593
+INPUTMC | 4 | 2 | 11 | 5 | 14 | 5 | 13 | 7 | 4
+EQ | 9 | 
+   N_PZ_580 = u0/dut/G296gat
+	$ u0/Mxor_xor_out_Mxor__xor0001__xor0000 & 
+	u0/dut/G430gat_and0000 & N_PZ_593
+	# u0/Mxor_xor_out_Mxor__xor0001__xor0000 & 
+	!u0/dut/G430gat_and0000 & !N_PZ_593
+	# !u0/Mxor_xor_out_Mxor__xor0001__xor0000 & 
+	u0/dut/G430gat_and0000 & !N_PZ_593
+	# !u0/Mxor_xor_out_Mxor__xor0001__xor0000 & 
+	!u0/dut/G430gat_and0000 & N_PZ_593;	// (5 pt, 4 inp)
+
+MACROCELL | 2 | 11 | u0/dut/G296gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 13 | 8 | 12 | 5 | 12 | 5 | 10 | 2 | 13 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11 | 5 | 5 | 6 | 11 | 2 | 9 | 5 | 6 | 5 | 15
+INPUTS | 26 | u0/dut/xenc10_xor0000  | u0/dut_inputs<17>  | u0/dut_inputs<47>  | N_PZ_607  | u0/dut_inputs<30>  | N_PZ_584  | u0/dut/G199gat  | u0/dut_inputs<18>  | u0/dut_inputs<49>  | u0/dut_inputs<25>  | u0/dut_inputs<26>  | N_PZ_576  | u0/dut_inputs<2>  | u0/dut_inputs<3>  | N_PZ_571  | u0/dut_inputs<7>  | u0/dut_inputs<9>  | N_PZ_486  | u0/dut_inputs<21>  | u0/dut_inputs<19>  | u0/dut_inputs<22>  | u0/dut_inputs<34>  | u0/dut_inputs<31>  | u0/dut_inputs<35>  | u0/dut_inputs<32>  | N_PZ_601
+INPUTMC | 26 | 5 | 9 | 3 | 7 | 6 | 12 | 5 | 7 | 4 | 7 | 6 | 10 | 4 | 15 | 3 | 6 | 6 | 3 | 3 | 13 | 3 | 3 | 8 | 14 | 4 | 13 | 7 | 12 | 7 | 0 | 0 | 14 | 7 | 11 | 7 | 3 | 3 | 2 | 3 | 5 | 3 | 0 | 4 | 12 | 4 | 6 | 4 | 4 | 4 | 5 | 5 | 4
+EQ | 22 | 
+   u0/dut/G296gat = u0/dut/xenc10_xor0000
+	# u0/dut_inputs<17> & !u0/dut_inputs<47>
+	# !u0/dut_inputs<47> & !N_PZ_607
+	# !u0/dut_inputs<30> & N_PZ_584
+	# !u0/dut_inputs<17> & u0/dut_inputs<47> & N_PZ_607
+	# !u0/dut/G199gat & !u0/dut_inputs<18> & 
+	!u0/dut_inputs<49>
+	# u0/dut_inputs<25> & !u0/dut_inputs<26> & !N_PZ_576
+	# u0/dut_inputs<2> & !u0/dut_inputs<3> & N_PZ_571
+	# u0/dut_inputs<7> & !u0/dut_inputs<9> & N_PZ_486
+	# u0/dut/G199gat & u0/dut_inputs<21> & 
+	!u0/dut_inputs<19> & !u0/dut_inputs<22>
+	# u0/dut/G199gat & u0/dut_inputs<34> & 
+	!u0/dut_inputs<31> & !u0/dut_inputs<35>
+	# !u0/dut/G199gat & u0/dut_inputs<21> & 
+	u0/dut_inputs<19> & !u0/dut_inputs<22>
+	# !u0/dut/G199gat & u0/dut_inputs<34> & 
+	u0/dut_inputs<31> & !u0/dut_inputs<35>
+	# u0/dut_inputs<18> & u0/dut_inputs<49> & 
+	!u0/dut_inputs<32> & N_PZ_601
+	# u0/dut_inputs<18> & !u0/dut_inputs<49> & 
+	u0/dut_inputs<32> & N_PZ_601;	// (15 pt, 26 inp)
+
+MACROCELL | 3 | 7 | u0/dut_inputs<17>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 5 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<17>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<17>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<17>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 2 | u0/flipbit_index<5>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<18>
+INPUTMC | 1 | 3 | 12
+EQ | 3 | 
+   u0/flipbit_index<5> := u0/w_shift_reg<18>;	// (1 pt, 1 inp)
+   u0/flipbit_index<5>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<5>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 12 | u0/w_shift_reg<18>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 1 | 2 | 1 | 0
+INPUTS | 1 | u0/SR/shift_reg<17>
+INPUTMC | 1 | 0 | 4
+EQ | 3 | 
+   u0/w_shift_reg<18> := u0/SR/shift_reg<17>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<18>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<18>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 4 | u0/SR/shift_reg<17>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 3 | 12
+INPUTS | 1 | u0/SR/shift_reg<16>
+INPUTMC | 1 | 0 | 5
+EQ | 3 | 
+   u0/SR/shift_reg<17> := u0/SR/shift_reg<16>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<17>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<17>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 5 | u0/SR/shift_reg<16>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 4
+INPUTS | 1 | u0/SR/shift_reg<15>
+INPUTMC | 1 | 0 | 6
+EQ | 3 | 
+   u0/SR/shift_reg<16> := u0/SR/shift_reg<15>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<16>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<16>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 6 | u0/SR/shift_reg<15>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 5
+INPUTS | 1 | u0/SR/shift_reg<14>
+INPUTMC | 1 | 0 | 7
+EQ | 3 | 
+   u0/SR/shift_reg<15> := u0/SR/shift_reg<14>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<15>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<15>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 7 | u0/SR/shift_reg<14>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 6
+INPUTS | 1 | u0/SR/shift_reg<13>
+INPUTMC | 1 | 0 | 8
+EQ | 3 | 
+   u0/SR/shift_reg<14> := u0/SR/shift_reg<13>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<14>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<14>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 8 | u0/SR/shift_reg<13>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 7
+INPUTS | 1 | u0/SR/shift_reg<12>
+INPUTMC | 1 | 0 | 9
+EQ | 3 | 
+   u0/SR/shift_reg<13> := u0/SR/shift_reg<12>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<13>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<13>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 9 | u0/SR/shift_reg<12>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 8
+INPUTS | 1 | u0/SR/shift_reg<11>
+INPUTMC | 1 | 0 | 10
+EQ | 3 | 
+   u0/SR/shift_reg<12> := u0/SR/shift_reg<11>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<12>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<12>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 10 | u0/SR/shift_reg<11>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 9
+INPUTS | 1 | u0/SR/shift_reg<10>
+INPUTMC | 1 | 0 | 11
+EQ | 3 | 
+   u0/SR/shift_reg<11> := u0/SR/shift_reg<10>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<11>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<11>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 11 | u0/SR/shift_reg<10>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 10
+INPUTS | 1 | u0/SR/shift_reg<9>
+INPUTMC | 1 | 1 | 12
+EQ | 3 | 
+   u0/SR/shift_reg<10> := u0/SR/shift_reg<9>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<10>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<10>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 12 | u0/SR/shift_reg<9>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 0 | 11
+INPUTS | 1 | u0/SR/shift_reg<8>
+INPUTMC | 1 | 0 | 15
+EQ | 3 | 
+   u0/SR/shift_reg<9> := u0/SR/shift_reg<8>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<9>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<9>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 15 | u0/SR/shift_reg<8>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 1 | 12
+INPUTS | 1 | u0/w_shift_reg<7>
+INPUTMC | 1 | 7 | 7
+EQ | 3 | 
+   u0/SR/shift_reg<8> := u0/w_shift_reg<7>;	// (1 pt, 1 inp)
+   u0/SR/shift_reg<8>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/SR/shift_reg<8>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 7 | u0/w_shift_reg<7>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 0 | 15 | 0 | 14
+INPUTS | 1 | u0/w_shift_reg<6>
+INPUTMC | 1 | 7 | 6
+EQ | 3 | 
+   u0/w_shift_reg<7> := u0/w_shift_reg<6>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<7>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<7>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 6 | u0/w_shift_reg<6>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 7 | 7 | 7 | 9
+INPUTS | 1 | u0/w_shift_reg<5>
+INPUTMC | 1 | 7 | 8
+EQ | 3 | 
+   u0/w_shift_reg<6> := u0/w_shift_reg<5>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<6>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<6>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 8 | u0/w_shift_reg<5>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 7 | 6 | 4 | 11
+INPUTS | 1 | u0/w_shift_reg<4>
+INPUTMC | 1 | 7 | 14
+EQ | 3 | 
+   u0/w_shift_reg<5> := u0/w_shift_reg<4>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<5>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<5>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 14 | u0/w_shift_reg<4>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 7 | 8 | 7 | 10
+INPUTS | 1 | u0/w_shift_reg<3>
+INPUTMC | 1 | 7 | 15
+EQ | 3 | 
+   u0/w_shift_reg<4> := u0/w_shift_reg<3>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<4>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<4>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 15 | u0/w_shift_reg<3>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 7 | 14 | 7 | 12
+INPUTS | 1 | u0/w_shift_reg<2>
+INPUTMC | 1 | 6 | 9
+EQ | 3 | 
+   u0/w_shift_reg<3> := u0/w_shift_reg<2>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<3>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<3>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 9 | u0/w_shift_reg<2>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 7 | 15 | 4 | 13
+INPUTS | 1 | u0/w_shift_reg<1>
+INPUTMC | 1 | 3 | 11
+EQ | 3 | 
+   u0/w_shift_reg<2> := u0/w_shift_reg<1>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<2>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<2>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 11 | u0/w_shift_reg<1>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 6 | 9 | 6 | 8
+INPUTS | 1 | u0/w_shift_reg<0>
+INPUTMC | 1 | 0 | 0
+EQ | 3 | 
+   u0/w_shift_reg<1> := u0/w_shift_reg<0>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<1>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<1>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 0 | u0/w_shift_reg<0>_MC
+ATTRIBUTES | 2189459456 | 4
+OUTPUTMC | 2 | 3 | 11 | 3 | 10
+INPUTS | 0 
+EQ | 5 | 
+   
+// Direct Input Register
+u0/w_shift_reg<0> := M_HEADER<0>;	// (0 pt, 0 inp)
+   u0/w_shift_reg<0>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<0>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 6 | u0/flipbit_index<3>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<20>
+INPUTMC | 1 | 1 | 3
+EQ | 3 | 
+   u0/flipbit_index<3> := u0/w_shift_reg<20>;	// (1 pt, 1 inp)
+   u0/flipbit_index<3>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<3>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 3 | u0/w_shift_reg<20>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 1 | 6 | 1 | 5
+INPUTS | 1 | u0/w_shift_reg<19>
+INPUTMC | 1 | 1 | 0
+EQ | 3 | 
+   u0/w_shift_reg<20> := u0/w_shift_reg<19>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<20>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<20>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 0 | u0/w_shift_reg<19>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 1 | 3 | 1 | 4
+INPUTS | 1 | u0/w_shift_reg<18>
+INPUTMC | 1 | 3 | 12
+EQ | 3 | 
+   u0/w_shift_reg<19> := u0/w_shift_reg<18>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<19>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<19>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 8 | u0/flipbit_index<2>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<21>
+INPUTMC | 1 | 1 | 5
+EQ | 3 | 
+   u0/flipbit_index<2> := u0/w_shift_reg<21>;	// (1 pt, 1 inp)
+   u0/flipbit_index<2>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<2>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 5 | u0/w_shift_reg<21>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 1 | 8 | 1 | 7
+INPUTS | 1 | u0/w_shift_reg<20>
+INPUTMC | 1 | 1 | 3
+EQ | 3 | 
+   u0/w_shift_reg<21> := u0/w_shift_reg<20>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<21>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<21>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 10 | u0/flipbit_index<1>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<22>
+INPUTMC | 1 | 1 | 7
+EQ | 3 | 
+   u0/flipbit_index<1> := u0/w_shift_reg<22>;	// (1 pt, 1 inp)
+   u0/flipbit_index<1>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<1>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 7 | u0/w_shift_reg<22>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 2 | 1 | 10 | 1 | 9
+INPUTS | 1 | u0/w_shift_reg<21>
+INPUTMC | 1 | 1 | 5
+EQ | 3 | 
+   u0/w_shift_reg<22> := u0/w_shift_reg<21>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<22>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<22>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 11 | u0/flipbit_index<0>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<23>
+INPUTMC | 1 | 1 | 9
+EQ | 3 | 
+   u0/flipbit_index<0> := u0/w_shift_reg<23>;	// (1 pt, 1 inp)
+   u0/flipbit_index<0>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<0>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 9 | u0/w_shift_reg<23>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 1 | 1 | 11
+INPUTS | 1 | u0/w_shift_reg<22>
+INPUTMC | 1 | 1 | 7
+EQ | 3 | 
+   u0/w_shift_reg<23> := u0/w_shift_reg<22>;	// (1 pt, 1 inp)
+   u0/w_shift_reg<23>.CLK  =  !M_HEADER_CLK_N;	// GCK	(0 pt, 0 inp)
+   u0/w_shift_reg<23>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_HEADER_CLK_N | 4 | M_HEADER<1>
+
+MACROCELL | 1 | 4 | u0/flipbit_index<4>_MC
+ATTRIBUTES | 2189460224 | 0
+OUTPUTMC | 51 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+INPUTS | 1 | u0/w_shift_reg<19>
+INPUTMC | 1 | 1 | 0
+EQ | 3 | 
+   u0/flipbit_index<4> := u0/w_shift_reg<19>;	// (1 pt, 1 inp)
+   u0/flipbit_index<4>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/flipbit_index<4>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 12 | u0/dut_inputs<47>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<47>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<47>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<47>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 5 | 9 | u0/dut/xenc10_xor0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 5 | 10
+INPUTS | 6 | u0/dut_inputs<46>  | u0/dut_inputs<12>  | u0/dut_inputs<50>  | u0/dut/G199gat  | u0/dut_inputs<10>  | u0/dut_inputs<13>
+INPUTMC | 6 | 6 | 13 | 0 | 3 | 6 | 2 | 4 | 15 | 0 | 13 | 0 | 2
+EQ | 11 | 
+   !u0/dut/xenc10_xor0000 = u0/dut_inputs<46>
+	$ !u0/dut_inputs<12> & u0/dut_inputs<50> & 
+	!u0/dut/G199gat
+	# u0/dut_inputs<10> & u0/dut_inputs<13> & 
+	u0/dut_inputs<50> & !u0/dut/G199gat
+	# u0/dut_inputs<12> & u0/dut_inputs<10> & 
+	!u0/dut_inputs<13> & !u0/dut_inputs<50> & !u0/dut/G199gat
+	# u0/dut_inputs<12> & !u0/dut_inputs<10> & 
+	u0/dut_inputs<13> & u0/dut_inputs<50> & u0/dut/G199gat
+	# u0/dut_inputs<12> & !u0/dut_inputs<10> & 
+	!u0/dut_inputs<13> & !u0/dut_inputs<50> & u0/dut/G199gat;	// (6 pt, 6 inp)
+
+MACROCELL | 6 | 13 | u0/dut_inputs<46>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 5 | 9
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<46>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<46>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<46>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 3 | u0/dut_inputs<12>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 5 | 9 | 5 | 10 | 5 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<12>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<12>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<12>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 13 | u0/dut_inputs<10>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 5 | 9 | 5 | 10 | 5 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<10>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<10>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<10>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 2 | u0/dut_inputs<13>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 5 | 9 | 5 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<13>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<13>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<13>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 2 | u0/dut_inputs<50>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 5 | 9
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<50>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<50>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<50>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 15 | u0/dut/G199gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 20 | 5 | 9 | 7 | 3 | 7 | 0 | 8 | 14 | 6 | 10 | 5 | 4 | 5 | 7 | 2 | 11 | 5 | 10 | 2 | 13 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11 | 5 | 5 | 6 | 11 | 2 | 9 | 7 | 4 | 5 | 6 | 5 | 15
+INPUTS | 20 | u0/dut_inputs<12>  | u0/dut_inputs<10>  | u0/dut_inputs<16>  | u0/dut_inputs<14>  | u0/dut_inputs<21>  | u0/dut_inputs<19>  | u0/dut_inputs<29>  | u0/dut_inputs<27>  | u0/dut_inputs<34>  | u0/dut_inputs<31>  | u0/dut_inputs<18>  | u0/dut_inputs<8>  | u0/dut_inputs<40>  | u0/dut_inputs<2>  | u0/dut_inputs<0>  | u0/dut_inputs<7>  | u0/dut_inputs<5>  | u0/dut_inputs<25>  | u0/dut_inputs<23>  | u0/dut_inputs<36>
+INPUTMC | 20 | 0 | 3 | 0 | 13 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 3 | 13 | 3 | 15 | 4 | 3
+EQ | 15 | 
+   u0/dut/G199gat = u0/dut_inputs<12> & !u0/dut_inputs<10>
+	# u0/dut_inputs<16> & !u0/dut_inputs<14>
+	# u0/dut_inputs<21> & !u0/dut_inputs<19>
+	# u0/dut_inputs<29> & !u0/dut_inputs<27>
+	# u0/dut_inputs<34> & !u0/dut_inputs<31>
+	# u0/dut_inputs<18> & !u0/dut_inputs<8>
+	# !u0/dut_inputs<40> & !u0/dut_inputs<2>
+	# !u0/dut_inputs<40> & u0/dut_inputs<0>
+	# u0/dut_inputs<7> & !u0/dut_inputs<5>
+	# u0/dut_inputs<25> & u0/dut_inputs<23> & 
+	!u0/dut_inputs<36>
+	# u0/dut_inputs<25> & !u0/dut_inputs<23> & 
+	u0/dut_inputs<36>
+	# u0/dut_inputs<40> & u0/dut_inputs<2> & 
+	!u0/dut_inputs<0>;	// (12 pt, 20 inp)
+
+MACROCELL | 3 | 8 | u0/dut_inputs<16>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 5 | 7 | 5 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<16>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<16>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<16>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 1 | u0/dut_inputs<14>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 5 | 7 | 5 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<14>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<14>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<14>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 2 | u0/dut_inputs<21>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 2 | 10
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<21>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<21>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<21>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 5 | u0/dut_inputs<19>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 2 | 10
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<19>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<19>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<19>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 8 | u0/dut_inputs<29>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 6 | 10 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<29>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<29>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<29>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 10 | u0/dut_inputs<27>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 6 | 10 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<27>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<27>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<27>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 12 | u0/dut_inputs<34>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 2 | 9
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<34>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<34>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<34>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 6 | u0/dut_inputs<31>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 2 | 9
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<31>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<31>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<31>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 6 | u0/dut_inputs<18>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 5 | 6
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<18>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<18>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<18>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 0 | u0/dut_inputs<8>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 5 | 4 | 5 | 6
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<8>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<8>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<8>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 13 | u0/dut_inputs<25>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 15 | 2 | 11 | 2 | 13 | 5 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<25>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<25>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<25>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 15 | u0/dut_inputs<23>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 4 | 15 | 8 | 14 | 5 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<23>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<23>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<23>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 3 | u0/dut_inputs<36>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 4 | 15 | 8 | 14
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<36>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<36>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<36>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 7 | u0/dut_inputs<40>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 4 | 15 | 7 | 0
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<40>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<40>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<40>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 13 | u0/dut_inputs<2>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 5 | 4 | 13 | 4 | 15 | 2 | 11 | 5 | 12 | 5 | 15
+INPUTS | 8 | u0/w_shift_reg<2>  | u0/dut_inputs<2>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 6 | 9 | 4 | 13 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<2>.T := u0/w_shift_reg<2> & !u0/dut_inputs<2>
+	# !u0/w_shift_reg<2> & u0/dut_inputs<2>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<2>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<2>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 10 | u0/dut_inputs<0>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 3 | 10 | 4 | 15 | 7 | 0 | 5 | 15
+INPUTS | 8 | u0/w_shift_reg<0>  | u0/dut_inputs<0>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 0 | 0 | 3 | 10 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<0>.T := u0/w_shift_reg<0> & !u0/dut_inputs<0>
+	# !u0/w_shift_reg<0> & u0/dut_inputs<0>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<0>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<0>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 0 | 14 | u0/dut_inputs<7>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 5 | 0 | 14 | 4 | 15 | 2 | 11 | 2 | 13 | 2 | 8
+INPUTS | 8 | u0/w_shift_reg<7>  | u0/dut_inputs<7>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 7 | 7 | 0 | 14 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<7>.T := u0/w_shift_reg<7> & !u0/dut_inputs<7>
+	# !u0/w_shift_reg<7> & u0/dut_inputs<7>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<7>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<7>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 11 | u0/dut_inputs<5>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 4 | 11 | 4 | 15 | 7 | 3 | 2 | 8
+INPUTS | 8 | u0/w_shift_reg<5>  | u0/dut_inputs<5>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 7 | 8 | 4 | 11 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<5>.T := u0/w_shift_reg<5> & !u0/dut_inputs<5>
+	# !u0/w_shift_reg<5> & u0/dut_inputs<5>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<5>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<5>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 11 | u0/dut_inputs<9>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 2 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<9>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<9>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<9>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 3 | N_PZ_486_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 3 | u0/dut/G199gat  | u0/dut_inputs<5>  | u0/dut_inputs<42>
+INPUTMC | 3 | 4 | 15 | 4 | 11 | 6 | 5
+EQ | 3 | 
+   N_PZ_486 = u0/dut/G199gat
+	$ u0/dut_inputs<5> & u0/dut_inputs<42>
+	# !u0/dut_inputs<5> & !u0/dut_inputs<42>;	// (3 pt, 3 inp)
+
+MACROCELL | 6 | 5 | u0/dut_inputs<42>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 7 | 3
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<42>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<42>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<42>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 12 | u0/dut_inputs<3>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 4 | 7 | 12 | 2 | 11 | 5 | 12 | 5 | 15
+INPUTS | 8 | u0/w_shift_reg<3>  | u0/dut_inputs<3>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 7 | 15 | 7 | 12 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<3>.T := u0/w_shift_reg<3> & !u0/dut_inputs<3>
+	# !u0/w_shift_reg<3> & u0/dut_inputs<3>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<3>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<3>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 0 | N_PZ_571_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 5 | 12
+INPUTS | 3 | u0/dut/G199gat  | u0/dut_inputs<40>  | u0/dut_inputs<0>
+INPUTMC | 3 | 4 | 15 | 6 | 7 | 3 | 10
+EQ | 3 | 
+   N_PZ_571 = u0/dut/G199gat
+	$ u0/dut_inputs<40> & u0/dut_inputs<0>
+	# !u0/dut_inputs<40> & !u0/dut_inputs<0>;	// (3 pt, 3 inp)
+
+MACROCELL | 3 | 3 | u0/dut_inputs<26>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 5 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<26>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<26>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<26>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 8 | 14 | N_PZ_576_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 4 | u0/dut/G199gat  | u0/dut_inputs<23>  | u0/dut_inputs<36>  | u0/dut_inputs<48>
+INPUTMC | 4 | 4 | 15 | 3 | 15 | 4 | 3 | 6 | 4
+EQ | 9 | 
+   N_PZ_576 = u0/dut/G199gat
+	$ u0/dut_inputs<23> & u0/dut_inputs<36> & 
+	u0/dut_inputs<48>
+	# u0/dut_inputs<23> & !u0/dut_inputs<36> & 
+	!u0/dut_inputs<48>
+	# !u0/dut_inputs<23> & u0/dut_inputs<36> & 
+	!u0/dut_inputs<48>
+	# !u0/dut_inputs<23> & !u0/dut_inputs<36> & 
+	u0/dut_inputs<48>;	// (5 pt, 4 inp)
+
+MACROCELL | 6 | 4 | u0/dut_inputs<48>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 8 | 14
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<48>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<48>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<48>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 0 | u0/dut_inputs<22>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 2 | 10
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<22>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<22>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<22>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 4 | u0/dut_inputs<35>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 2 | 9
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<35>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<35>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<35>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 3 | u0/dut_inputs<49>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<49>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<49>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<49>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 7 | u0/dut_inputs<30>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<30>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<30>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<30>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 10 | N_PZ_584_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 4 | u0/dut/G199gat  | u0/dut_inputs<29>  | u0/dut_inputs<44>  | u0/dut_inputs<27>
+INPUTMC | 4 | 4 | 15 | 4 | 8 | 6 | 15 | 4 | 10
+EQ | 6 | 
+   N_PZ_584 = !u0/dut/G199gat & !u0/dut_inputs<29> & 
+	u0/dut_inputs<44>
+	# u0/dut/G199gat & u0/dut_inputs<29> & 
+	!u0/dut_inputs<27> & !u0/dut_inputs<44>
+	# !u0/dut/G199gat & u0/dut_inputs<29> & 
+	u0/dut_inputs<27> & !u0/dut_inputs<44>;	// (3 pt, 4 inp)
+
+MACROCELL | 6 | 15 | u0/dut_inputs<44>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 6 | 10
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<44>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<44>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<44>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 5 | u0/dut_inputs<32>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 2 | 11 | 2 | 13 | 5 | 6
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<32>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<32>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<32>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 5 | 4 | N_PZ_601_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 2 | u0/dut/G199gat  | u0/dut_inputs<8>
+INPUTMC | 2 | 4 | 15 | 6 | 0
+EQ | 2 | 
+   N_PZ_601 = u0/dut/G199gat & !u0/dut_inputs<8>
+	# !u0/dut/G199gat & u0/dut_inputs<8>;	// (2 pt, 2 inp)
+
+MACROCELL | 5 | 7 | N_PZ_607_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 2 | 11 | 2 | 13
+INPUTS | 3 | u0/dut/G199gat  | u0/dut_inputs<16>  | u0/dut_inputs<14>
+INPUTMC | 3 | 4 | 15 | 3 | 8 | 0 | 1
+EQ | 4 | 
+   N_PZ_607 = u0/dut/G199gat & u0/dut_inputs<16> & 
+	!u0/dut_inputs<14>
+	# !u0/dut/G199gat & u0/dut_inputs<16> & 
+	u0/dut_inputs<14>;	// (2 pt, 3 inp)
+
+MACROCELL | 5 | 14 | u0/Mxor_xor_out_Mxor__xor0001__xor0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 8 | 12
+INPUTS | 8 | u0/dut_inputs<43>  | u0/dut/G381gat_and0000  | u0/dut/G417gat  | u0/dut/G399gat_and0000  | N_PZ_472  | u0/dut/G419gat  | u0/dut/G418gat  | u0/dut/G420gat
+INPUTMC | 8 | 6 | 1 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11 | 6 | 11 | 5 | 5 | 2 | 9
+EQ | 12 | 
+   u0/Mxor_xor_out_Mxor__xor0001__xor0000 = !u0/dut_inputs<43> & u0/dut/G381gat_and0000
+	$ u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & !u0/dut/G399gat_and0000 & N_PZ_472
+	# u0/dut/G381gat_and0000 & u0/dut/G417gat & 
+	!u0/dut/G399gat_and0000 & N_PZ_472 & !u0/dut/G419gat
+	# u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & N_PZ_472 & u0/dut/G418gat & u0/dut/G419gat
+	# !u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & u0/dut/G399gat_and0000 & N_PZ_472 & 
+	!u0/dut/G418gat
+	# !u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & N_PZ_472 & u0/dut/G419gat & u0/dut/G420gat;	// (6 pt, 8 inp)
+
+MACROCELL | 6 | 1 | u0/dut_inputs<43>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 5 | 14 | 5 | 13
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<43>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<43>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<43>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 2 | 8 | u0/dut/G381gat_and0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 5 | 14 | 5 | 13 | 5 | 15
+INPUTS | 7 | u0/dut_inputs<7>  | u0/dut/G296gat  | u0/dut_inputs<9>  | u0/dut/G199gat  | u0/dut_inputs<5>  | u0/dut_inputs<11>  | N_PZ_561
+INPUTMC | 7 | 0 | 14 | 2 | 11 | 7 | 11 | 4 | 15 | 4 | 11 | 0 | 12 | 7 | 5
+EQ | 4 | 
+   u0/dut/G381gat_and0000 = !u0/dut_inputs<7>
+	# u0/dut/G296gat & u0/dut_inputs<9>
+	# u0/dut/G199gat & u0/dut_inputs<5>
+	# u0/dut_inputs<11> & N_PZ_561;	// (4 pt, 7 inp)
+
+MACROCELL | 0 | 12 | u0/dut_inputs<11>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 13 | 2 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<11>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<11>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<11>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 5 | N_PZ_561_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 9 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11 | 5 | 5 | 6 | 11 | 2 | 9 | 5 | 6 | 5 | 15
+INPUTS | 2 | u0/dut_inputs<39>  | u0/dut/G357gat
+INPUTMC | 2 | 4 | 0 | 2 | 13
+EQ | 2 | 
+   N_PZ_561 = u0/dut_inputs<39> & !u0/dut/G357gat
+	# !u0/dut_inputs<39> & u0/dut/G357gat;	// (2 pt, 2 inp)
+
+MACROCELL | 4 | 0 | u0/dut_inputs<39>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 7 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<39>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<39>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<39>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 2 | 13 | u0/dut/G357gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 7 | 5 | 7 | 4
+INPUTS | 32 | u0/dut/G356gat_and0000  | u0/dut/G350gat_and0000  | u0/dut/G296gat  | u0/dut_inputs<30>  | N_PZ_584  | u0/dut_inputs<33>  | u0/dut_inputs<17>  | u0/dut_inputs<47>  | N_PZ_607  | u0/dut_inputs<20>  | u0/dut_inputs<25>  | u0/dut_inputs<26>  | N_PZ_576  | u0/dut_inputs<28>  | u0/dut_inputs<7>  | u0/dut_inputs<9>  | N_PZ_486  | u0/dut_inputs<11>  | u0/dut/G199gat  | u0/dut_inputs<21>  | u0/dut_inputs<19>  | u0/dut_inputs<22>  | u0/dut_inputs<24>  | u0/dut_inputs<34>  | u0/dut_inputs<31>  | u0/dut_inputs<35>  | u0/dut_inputs<1>  | u0/dut_inputs<18>  | u0/dut_inputs<49>  | u0/dut_inputs<32>  | N_PZ_601  | u0/dut_inputs<6>
+INPUTMC | 32 | 5 | 12 | 5 | 10 | 2 | 11 | 4 | 7 | 6 | 10 | 4 | 14 | 3 | 7 | 6 | 12 | 5 | 7 | 3 | 4 | 3 | 13 | 3 | 3 | 8 | 14 | 4 | 9 | 0 | 14 | 7 | 11 | 7 | 3 | 0 | 12 | 4 | 15 | 3 | 2 | 3 | 5 | 3 | 0 | 3 | 14 | 4 | 12 | 4 | 6 | 4 | 4 | 6 | 8 | 3 | 6 | 6 | 3 | 4 | 5 | 5 | 4 | 7 | 9
+EQ | 54 | 
+   u0/dut/G357gat = u0/dut/G356gat_and0000
+	# u0/dut/G350gat_and0000
+	# u0/dut/G296gat & !u0/dut_inputs<30> & N_PZ_584 & 
+	!u0/dut_inputs<33>
+	# !u0/dut/G296gat & u0/dut_inputs<30> & N_PZ_584 & 
+	!u0/dut_inputs<33>
+	# u0/dut/G296gat & u0/dut_inputs<17> & 
+	!u0/dut_inputs<47> & N_PZ_607 & !u0/dut_inputs<20>
+	# u0/dut/G296gat & !u0/dut_inputs<17> & 
+	u0/dut_inputs<47> & N_PZ_607 & !u0/dut_inputs<20>
+	# u0/dut/G296gat & u0/dut_inputs<25> & 
+	!u0/dut_inputs<26> & !N_PZ_576 & !u0/dut_inputs<28>
+	# u0/dut/G296gat & u0/dut_inputs<7> & 
+	!u0/dut_inputs<9> & N_PZ_486 & !u0/dut_inputs<11>
+	# !u0/dut/G296gat & u0/dut_inputs<17> & 
+	u0/dut_inputs<47> & N_PZ_607 & !u0/dut_inputs<20>
+	# !u0/dut/G296gat & !u0/dut_inputs<17> & 
+	!u0/dut_inputs<47> & N_PZ_607 & !u0/dut_inputs<20>
+	# !u0/dut/G296gat & u0/dut_inputs<25> & 
+	u0/dut_inputs<26> & !N_PZ_576 & !u0/dut_inputs<28>
+	# !u0/dut/G296gat & u0/dut_inputs<7> & 
+	u0/dut_inputs<9> & N_PZ_486 & !u0/dut_inputs<11>
+	# u0/dut/G296gat & u0/dut/G199gat & 
+	u0/dut_inputs<21> & !u0/dut_inputs<19> & !u0/dut_inputs<22> & 
+	!u0/dut_inputs<24>
+	# u0/dut/G296gat & u0/dut/G199gat & 
+	u0/dut_inputs<34> & !u0/dut_inputs<31> & !u0/dut_inputs<35> & 
+	!u0/dut_inputs<1>
+	# u0/dut/G296gat & !u0/dut/G199gat & 
+	u0/dut_inputs<21> & u0/dut_inputs<19> & !u0/dut_inputs<22> & 
+	!u0/dut_inputs<24>
+	# u0/dut/G296gat & !u0/dut/G199gat & 
+	u0/dut_inputs<34> & u0/dut_inputs<31> & !u0/dut_inputs<35> & 
+	!u0/dut_inputs<1>
+	# u0/dut/G296gat & u0/dut_inputs<18> & 
+	u0/dut_inputs<49> & !u0/dut_inputs<32> & N_PZ_601 & !u0/dut_inputs<6>
+	# u0/dut/G296gat & u0/dut_inputs<18> & 
+	!u0/dut_inputs<49> & u0/dut_inputs<32> & N_PZ_601 & !u0/dut_inputs<6>
+	# !u0/dut/G296gat & u0/dut/G199gat & 
+	u0/dut_inputs<21> & !u0/dut_inputs<19> & u0/dut_inputs<22> & 
+	!u0/dut_inputs<24>
+	# !u0/dut/G296gat & u0/dut/G199gat & 
+	u0/dut_inputs<34> & !u0/dut_inputs<31> & u0/dut_inputs<35> & 
+	!u0/dut_inputs<1>
+	# !u0/dut/G296gat & !u0/dut/G199gat & 
+	u0/dut_inputs<21> & u0/dut_inputs<19> & u0/dut_inputs<22> & 
+	!u0/dut_inputs<24>
+	# !u0/dut/G296gat & !u0/dut/G199gat & 
+	u0/dut_inputs<34> & u0/dut_inputs<31> & u0/dut_inputs<35> & 
+	!u0/dut_inputs<1>
+	# !u0/dut/G296gat & u0/dut_inputs<18> & 
+	u0/dut_inputs<49> & u0/dut_inputs<32> & N_PZ_601 & !u0/dut_inputs<6>
+	# !u0/dut/G296gat & u0/dut_inputs<18> & 
+	!u0/dut_inputs<49> & !u0/dut_inputs<32> & N_PZ_601 & !u0/dut_inputs<6>;	// (24 pt, 32 inp)
+
+MACROCELL | 4 | 9 | u0/dut_inputs<28>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 13 | 5 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<28>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<28>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<28>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 14 | u0/dut_inputs<24>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 13 | 2 | 10
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<24>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<24>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<24>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 8 | u0/dut_inputs<1>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 6 | 8 | 2 | 13 | 2 | 9
+INPUTS | 8 | u0/w_shift_reg<1>  | u0/dut_inputs<1>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 3 | 11 | 6 | 8 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<1>.T := u0/w_shift_reg<1> & !u0/dut_inputs<1>
+	# !u0/w_shift_reg<1> & u0/dut_inputs<1>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<1>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<1>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 5 | 12 | u0/dut/G356gat_and0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 5 | u0/dut/G296gat  | u0/dut_inputs<2>  | u0/dut_inputs<3>  | N_PZ_571  | u0/dut_inputs<4>
+INPUTMC | 5 | 2 | 11 | 4 | 13 | 7 | 12 | 7 | 0 | 7 | 10
+EQ | 4 | 
+   u0/dut/G356gat_and0000 = u0/dut/G296gat & u0/dut_inputs<2> & 
+	!u0/dut_inputs<3> & N_PZ_571 & !u0/dut_inputs<4>
+	# !u0/dut/G296gat & u0/dut_inputs<2> & 
+	u0/dut_inputs<3> & N_PZ_571 & !u0/dut_inputs<4>;	// (2 pt, 5 inp)
+
+MACROCELL | 7 | 10 | u0/dut_inputs<4>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 7 | 10 | 5 | 12 | 5 | 15
+INPUTS | 8 | u0/w_shift_reg<4>  | u0/dut_inputs<4>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 7 | 14 | 7 | 10 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<4>.T := u0/w_shift_reg<4> & !u0/dut_inputs<4>
+	# !u0/w_shift_reg<4> & u0/dut_inputs<4>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<4>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<4>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 5 | 10 | u0/dut/G350gat_and0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 2 | 13
+INPUTS | 6 | u0/dut/G296gat  | u0/dut/xenc10_xor0000  | u0/dut_inputs<12>  | u0/dut_inputs<10>  | u0/dut/G199gat  | u0/dut_inputs<15>
+INPUTMC | 6 | 2 | 11 | 5 | 9 | 0 | 3 | 0 | 13 | 4 | 15 | 3 | 9
+EQ | 12 | 
+   u0/dut/G350gat_and0000 = u0/dut/G296gat & u0/dut/xenc10_xor0000 & 
+	u0/dut_inputs<12> & u0/dut_inputs<10> & !u0/dut/G199gat & 
+	!u0/dut_inputs<15>
+	# u0/dut/G296gat & u0/dut/xenc10_xor0000 & 
+	u0/dut_inputs<12> & !u0/dut_inputs<10> & u0/dut/G199gat & 
+	!u0/dut_inputs<15>
+	# !u0/dut/G296gat & !u0/dut/xenc10_xor0000 & 
+	u0/dut_inputs<12> & u0/dut_inputs<10> & !u0/dut/G199gat & 
+	!u0/dut_inputs<15>
+	# !u0/dut/G296gat & !u0/dut/xenc10_xor0000 & 
+	u0/dut_inputs<12> & !u0/dut_inputs<10> & u0/dut/G199gat & 
+	!u0/dut_inputs<15>;	// (4 pt, 6 inp)
+
+MACROCELL | 3 | 9 | u0/dut_inputs<15>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 5 | 10 | 5 | 11 | 5 | 15
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<15>.T := !u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<15>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<15>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 14 | u0/dut_inputs<33>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 13 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<33>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<33>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<33>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 7 | 9 | u0/dut_inputs<6>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 3 | 7 | 9 | 2 | 13 | 5 | 6
+INPUTS | 8 | u0/w_shift_reg<6>  | u0/dut_inputs<6>  | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 8 | 7 | 6 | 7 | 9 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 7 | 
+   u0/dut_inputs<6>.T := u0/w_shift_reg<6> & !u0/dut_inputs<6>
+	# !u0/w_shift_reg<6> & u0/dut_inputs<6>
+	# !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (3 pt, 8 inp)
+   u0/dut_inputs<6>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<6>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 3 | 4 | u0/dut_inputs<20>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 2 | 2 | 13 | 5 | 8
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<20>.T := !u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<20>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<20>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 5 | 8 | u0/dut/G417gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 5 | 14 | 5 | 13 | 5 | 15
+INPUTS | 7 | u0/dut_inputs<16>  | u0/dut/G296gat  | u0/dut_inputs<17>  | u0/dut/G199gat  | u0/dut_inputs<14>  | N_PZ_561  | u0/dut_inputs<20>
+INPUTMC | 7 | 3 | 8 | 2 | 11 | 3 | 7 | 4 | 15 | 0 | 1 | 7 | 5 | 3 | 4
+EQ | 4 | 
+   u0/dut/G417gat = !u0/dut_inputs<16>
+	# u0/dut/G296gat & u0/dut_inputs<17>
+	# u0/dut/G199gat & u0/dut_inputs<14>
+	# N_PZ_561 & u0/dut_inputs<20>;	// (4 pt, 7 inp)
+
+MACROCELL | 2 | 10 | u0/dut/G399gat_and0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 5 | 14 | 5 | 13 | 5 | 15
+INPUTS | 7 | u0/dut_inputs<21>  | u0/dut/G296gat  | u0/dut_inputs<22>  | u0/dut/G199gat  | u0/dut_inputs<19>  | N_PZ_561  | u0/dut_inputs<24>
+INPUTMC | 7 | 3 | 2 | 2 | 11 | 3 | 0 | 4 | 15 | 3 | 5 | 7 | 5 | 3 | 14
+EQ | 4 | 
+   u0/dut/G399gat_and0000 = !u0/dut_inputs<21>
+	# u0/dut/G296gat & u0/dut_inputs<22>
+	# u0/dut/G199gat & u0/dut_inputs<19>
+	# N_PZ_561 & u0/dut_inputs<24>;	// (4 pt, 7 inp)
+
+MACROCELL | 5 | 11 | N_PZ_472_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 3 | 5 | 14 | 5 | 13 | 5 | 15
+INPUTS | 7 | u0/dut_inputs<12>  | u0/dut/G296gat  | u0/dut_inputs<13>  | u0/dut_inputs<10>  | u0/dut/G199gat  | N_PZ_561  | u0/dut_inputs<15>
+INPUTMC | 7 | 0 | 3 | 2 | 11 | 0 | 2 | 0 | 13 | 4 | 15 | 7 | 5 | 3 | 9
+EQ | 4 | 
+   N_PZ_472 = !u0/dut_inputs<12>
+	# u0/dut/G296gat & u0/dut_inputs<13>
+	# u0/dut_inputs<10> & u0/dut/G199gat
+	# N_PZ_561 & u0/dut_inputs<15>;	// (4 pt, 7 inp)
+
+MACROCELL | 5 | 5 | u0/dut/G418gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 5 | 14 | 5 | 15
+INPUTS | 8 | u0/dut_inputs<25>  | u0/dut/G296gat  | u0/dut_inputs<26>  | u0/dut/G199gat  | u0/dut_inputs<41>  | u0/dut_inputs<23>  | N_PZ_561  | u0/dut_inputs<28>
+INPUTMC | 8 | 3 | 13 | 2 | 11 | 3 | 3 | 4 | 15 | 6 | 6 | 3 | 15 | 7 | 5 | 4 | 9
+EQ | 7 | 
+   u0/dut/G418gat = !u0/dut_inputs<25>
+	# u0/dut/G296gat & u0/dut_inputs<26>
+	# !u0/dut/G199gat & !u0/dut_inputs<41>
+	# !u0/dut_inputs<23> & !u0/dut_inputs<41>
+	# N_PZ_561 & u0/dut_inputs<28>
+	# u0/dut/G199gat & u0/dut_inputs<23> & 
+	u0/dut_inputs<41>;	// (6 pt, 8 inp)
+
+MACROCELL | 6 | 6 | u0/dut_inputs<41>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 5 | 5
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<41>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	!u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<41>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<41>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 6 | 11 | u0/dut/G419gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 5 | 14 | 5 | 15
+INPUTS | 9 | u0/dut_inputs<29>  | u0/dut/G296gat  | u0/dut_inputs<30>  | u0/dut/G199gat  | u0/dut_inputs<38>  | u0/dut_inputs<27>  | N_PZ_561  | u0/dut_inputs<37>  | u0/dut_inputs<33>
+INPUTMC | 9 | 4 | 8 | 2 | 11 | 4 | 7 | 4 | 15 | 4 | 1 | 4 | 10 | 7 | 5 | 4 | 2 | 4 | 14
+EQ | 9 | 
+   u0/dut/G419gat = !u0/dut_inputs<29>
+	# u0/dut/G296gat & u0/dut_inputs<30>
+	# !u0/dut/G199gat & !u0/dut_inputs<38>
+	# !u0/dut_inputs<27> & !u0/dut_inputs<38>
+	# !N_PZ_561 & u0/dut_inputs<37>
+	# !u0/dut_inputs<33> & u0/dut_inputs<37>
+	# u0/dut/G199gat & u0/dut_inputs<27> & 
+	u0/dut_inputs<38>
+	# N_PZ_561 & u0/dut_inputs<33> & !u0/dut_inputs<37>;	// (8 pt, 9 inp)
+
+MACROCELL | 4 | 2 | u0/dut_inputs<37>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<37>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<37>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<37>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 4 | 1 | u0/dut_inputs<38>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 6 | 11
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<38>.T := u0/flipbit_index<5> & !u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & u0/flipbit_index<1> & !u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<38>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<38>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+MACROCELL | 2 | 9 | u0/dut/G420gat_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 2 | 5 | 14 | 5 | 15
+INPUTS | 7 | u0/dut_inputs<34>  | u0/dut/G296gat  | u0/dut_inputs<35>  | u0/dut/G199gat  | u0/dut_inputs<31>  | N_PZ_561  | u0/dut_inputs<1>
+INPUTMC | 7 | 4 | 12 | 2 | 11 | 4 | 4 | 4 | 15 | 4 | 6 | 7 | 5 | 6 | 8
+EQ | 4 | 
+   u0/dut/G420gat = !u0/dut_inputs<34>
+	# u0/dut/G296gat & u0/dut_inputs<35>
+	# u0/dut/G199gat & u0/dut_inputs<31>
+	# N_PZ_561 & u0/dut_inputs<1>;	// (4 pt, 7 inp)
+
+MACROCELL | 5 | 13 | u0/dut/G430gat_and0000_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 8 | 12
+INPUTS | 5 | u0/dut_inputs<43>  | u0/dut/G381gat_and0000  | u0/dut/G417gat  | u0/dut/G399gat_and0000  | N_PZ_472
+INPUTMC | 5 | 6 | 1 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11
+EQ | 4 | 
+   u0/dut/G430gat_and0000 = u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	!u0/dut/G417gat & u0/dut/G399gat_and0000 & N_PZ_472
+	# !u0/dut_inputs<43> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & u0/dut/G399gat_and0000 & N_PZ_472;	// (2 pt, 5 inp)
+
+MACROCELL | 7 | 4 | N_PZ_593_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 8 | 12
+INPUTS | 2 | u0/dut/G199gat  | u0/dut/G357gat
+INPUTMC | 2 | 4 | 15 | 2 | 13
+EQ | 2 | 
+   N_PZ_593 = u0/dut/G199gat & u0/dut/G357gat
+	# !u0/dut/G199gat & !u0/dut/G357gat;	// (2 pt, 2 inp)
+
+MACROCELL | 5 | 15 | N_PZ_634_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 8 | 3
+INPUTS | 16 | N_PZ_528  | u0/dut_inputs<2>  | u0/dut/G381gat_and0000  | u0/dut/G417gat  | u0/dut/G399gat_and0000  | N_PZ_472  | u0/dut/G418gat  | u0/dut/G419gat  | u0/dut/G420gat  | u0/dut/G296gat  | u0/dut_inputs<3>  | u0/dut/G199gat  | u0/dut_inputs<0>  | N_PZ_561  | u0/dut_inputs<4>  | u0/dut_inputs<15>
+INPUTMC | 16 | 5 | 6 | 4 | 13 | 2 | 8 | 5 | 8 | 2 | 10 | 5 | 11 | 5 | 5 | 6 | 11 | 2 | 9 | 2 | 11 | 7 | 12 | 4 | 15 | 3 | 10 | 7 | 5 | 7 | 10 | 3 | 9
+EQ | 16 | 
+   N_PZ_634 = !N_PZ_528
+	# !u0/dut_inputs<2> & u0/dut/G381gat_and0000 & 
+	u0/dut/G417gat & u0/dut/G399gat_and0000 & N_PZ_472 & 
+	u0/dut/G418gat & u0/dut/G419gat & u0/dut/G420gat
+	# u0/dut/G296gat & u0/dut_inputs<3> & 
+	u0/dut/G381gat_and0000 & u0/dut/G417gat & u0/dut/G399gat_and0000 & 
+	N_PZ_472 & u0/dut/G418gat & u0/dut/G419gat & u0/dut/G420gat
+	# u0/dut/G199gat & u0/dut_inputs<0> & 
+	u0/dut/G381gat_and0000 & u0/dut/G417gat & u0/dut/G399gat_and0000 & 
+	N_PZ_472 & u0/dut/G418gat & u0/dut/G419gat & u0/dut/G420gat
+	# u0/dut/G381gat_and0000 & N_PZ_561 & 
+	u0/dut_inputs<4> & u0/dut_inputs<15> & u0/dut/G417gat & 
+	u0/dut/G399gat_and0000 & u0/dut/G418gat & u0/dut/G419gat & u0/dut/G420gat
+	# u0/dut/G381gat_and0000 & N_PZ_561 & 
+	u0/dut_inputs<4> & u0/dut/G417gat & u0/dut/G399gat_and0000 & 
+	N_PZ_472 & u0/dut/G418gat & u0/dut/G419gat & u0/dut/G420gat;	// (6 pt, 16 inp)
+
+MACROCELL | 5 | 6 | N_PZ_528_MC
+ATTRIBUTES | 536871680 | 0
+OUTPUTMC | 1 | 5 | 15
+INPUTS | 8 | u0/dut_inputs<18>  | u0/dut/G296gat  | u0/dut_inputs<32>  | u0/dut/G199gat  | u0/dut_inputs<45>  | u0/dut_inputs<8>  | N_PZ_561  | u0/dut_inputs<6>
+INPUTMC | 8 | 3 | 6 | 2 | 11 | 4 | 5 | 4 | 15 | 6 | 14 | 6 | 0 | 7 | 5 | 7 | 9
+EQ | 7 | 
+   N_PZ_528 = !u0/dut_inputs<18>
+	# u0/dut/G296gat & u0/dut_inputs<32>
+	# !u0/dut/G199gat & !u0/dut_inputs<45>
+	# !u0/dut_inputs<8> & !u0/dut_inputs<45>
+	# N_PZ_561 & u0/dut_inputs<6>
+	# u0/dut/G199gat & u0/dut_inputs<8> & 
+	u0/dut_inputs<45>;	// (6 pt, 8 inp)
+
+MACROCELL | 6 | 14 | u0/dut_inputs<45>_MC
+ATTRIBUTES | 2185265920 | 0
+OUTPUTMC | 1 | 5 | 6
+INPUTS | 6 | u0/flipbit_index<5>  | u0/flipbit_index<3>  | u0/flipbit_index<2>  | u0/flipbit_index<1>  | u0/flipbit_index<0>  | u0/flipbit_index<4>
+INPUTMC | 6 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4
+EQ | 5 | 
+   u0/dut_inputs<45>.T := u0/flipbit_index<5> & u0/flipbit_index<3> & 
+	u0/flipbit_index<2> & !u0/flipbit_index<1> & u0/flipbit_index<0> & 
+	!u0/flipbit_index<4>;	// (1 pt, 6 inp)
+   u0/dut_inputs<45>.CLK  =  M_CLK_EXT0_P;	// GCK	(0 pt, 0 inp)
+   u0/dut_inputs<45>.AR = !M_HEADER<1>;	// GSR	(0 pt, 0 inp)
+GLOBALS | 2 | 2 | M_CLK_EXT0_P | 4 | M_HEADER<1>
+
+PIN | M_CLK_EXT0_P | 8256 | 16 | LVCMOS18 | 72 | 59 | 7 | 1 | 7 | 2 | 1 | 2 | 1 | 6 | 1 | 8 | 1 | 10 | 1 | 11 | 1 | 4 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+PIN | M_HEADER<1> | 65600 | 16 | LVCMOS18 | 319 | 82 | 8 | 2 | 0 | 0 | 3 | 11 | 6 | 9 | 7 | 15 | 7 | 14 | 7 | 8 | 7 | 6 | 7 | 7 | 0 | 15 | 1 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 4 | 3 | 12 | 1 | 2 | 1 | 0 | 1 | 3 | 1 | 6 | 1 | 5 | 1 | 8 | 1 | 7 | 1 | 10 | 1 | 9 | 1 | 11 | 1 | 4 | 3 | 7 | 6 | 12 | 6 | 13 | 0 | 3 | 0 | 13 | 0 | 2 | 6 | 2 | 3 | 8 | 0 | 1 | 3 | 2 | 3 | 5 | 4 | 8 | 4 | 10 | 4 | 12 | 4 | 6 | 3 | 6 | 6 | 0 | 3 | 13 | 3 | 15 | 4 | 3 | 6 | 7 | 4 | 13 | 3 | 10 | 0 | 14 | 4 | 11 | 7 | 11 | 6 | 5 | 7 | 12 | 3 | 3 | 6 | 4 | 3 | 0 | 4 | 4 | 6 | 3 | 4 | 7 | 6 | 15 | 4 | 5 | 6 | 1 | 0 | 12 | 4 | 0 | 4 | 9 | 3 | 14 | 6 | 8 | 7 | 10 | 3 | 9 | 4 | 14 | 7 | 9 | 3 | 4 | 6 | 6 | 4 | 2 | 4 | 1 | 6 | 14
+PIN | M_HEADER_CLK_N | 16448 | 16 | LVCMOS18 | 85 | 25 | 7 | 13 | 0 | 0 | 3 | 11 | 6 | 9 | 7 | 15 | 7 | 14 | 7 | 8 | 7 | 6 | 7 | 7 | 0 | 15 | 1 | 12 | 0 | 11 | 0 | 10 | 0 | 9 | 0 | 8 | 0 | 7 | 0 | 6 | 0 | 5 | 0 | 4 | 3 | 12 | 1 | 0 | 1 | 3 | 1 | 5 | 1 | 7 | 1 | 9
+PIN | M_HEADER<0> | 64 | 16 | LVCMOS18 | 5 | 2 | 8 | 1 | 0 | 0
+PIN | M_CLK_EXT0_N | 536871040 | 0 | LVCMOS18 | 35
+PIN | M_LED<0> | 536871040 | 0 | LVCMOS18 | 8
+PIN | M_LED<1> | 536871040 | 0 | LVCMOS18 | 12
+PIN | M_LED<2> | 536871040 | 0 | LVCMOS18 | 13
+PIN | M_LED<3> | 536871040 | 0 | LVCMOS18 | 15
+PIN | M_LED<4> | 536871040 | 0 | LVCMOS18 | 18
+PIN | M_LED<5> | 536871040 | 0 | LVCMOS18 | 40
+PIN | M_LED<6> | 536871040 | 0 | LVCMOS18 | 79
+PIN | M_LED<7> | 536871040 | 0 | LVCMOS18 | 78
+PIN | M_LED<8> | 536871040 | 0 | LVCMOS18 | 36
+PIN | M_LED<9> | 536871040 | 0 | LVCMOS18 | 77

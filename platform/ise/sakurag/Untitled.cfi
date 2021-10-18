@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            12/27/2019 - 15:27
+SOURCE          /home/kaveh/projects/scadobf/ise/sakurag/Untitled.mcs
+DEVICE          4096K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0x1A839232
+START_ADDRESS   0x00000000 END_ADDRESS 0x00256E63 DIRECTION_UP   "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.bit" 6slx75csg484

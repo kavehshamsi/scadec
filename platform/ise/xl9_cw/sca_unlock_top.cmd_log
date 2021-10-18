@@ -1,0 +1,1203 @@
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -sdf_anno true -sdf_path "netgen/map" -insert_glbl true -w -dir netgen/map -ofmt verilog -sim sca_unlock_top_map.ncd sca_unlock_top_map.v 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -fn -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/map" -insert_glbl false -w -dir netgen/map -ofmt verilog -sim sca_unlock_top_map.ncd sca_unlock_top_map.v 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top_preroute.twx sca_unlock_top_map.ncd -o sca_unlock_top_preroute.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/map" -insert_glbl false -w -dir netgen/map -ofmt verilog -sim sca_unlock_top_map.ncd sca_unlock_top_map.v 
+netgen -intstyle ise -mhf -insert_glbl false -w -dir netgen/translate -ofmt verilog -sim sca_unlock_top.ngd sca_unlock_top_translate.v 
+netgen -intstyle ise -mhf -insert_glbl false -w -dir netgen/synthesis -ofmt verilog -sim sca_unlock_top.ngc sca_unlock_top_synthesis.v 
+netgen -intstyle ise -s 2  -pcf sca_unlock_top.pcf -mhf -sdf_anno true -sdf_path "netgen/par" -insert_glbl false -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim sca_unlock_top.ncd sca_unlock_top_timesim.v 
+vhdtdtfi -lang verilog -prj xl9_cw -o /home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.tfi -lib work /home/kaveh/projects/scadobf/ise/xl9_cw//sca_unlock_post.v -module sca_unlock_top -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_top.xst" -ofn "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc CW308T_S6LX9_Example.ucf -p xc6slx9-tqg144-2 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 

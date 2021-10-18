@@ -1,0 +1,89 @@
+Pin Freeze File:  version P.20131013
+
+2C512208 XC2C512-7-PQ208
+M_CLK_EXT0_P S:PIN46
+M_HEADER<0> S:PIN7
+M_HEADER<1> S:PIN206
+M_HEADER_CLK_N S:PIN55
+M_CLK_EXT0_N S:PIN22
+M_LED<0> S:PIN8
+M_LED<1> S:PIN9
+M_LED<2> S:PIN10
+M_LED<3> S:PIN12
+M_LED<4> S:PIN14
+M_LED<5> S:PIN25
+M_LED<6> S:PIN50
+M_LED<7> S:PIN49
+M_LED<8> S:PIN23
+M_LED<9> S:PIN48
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_1 u0/w_shift_reg<0> u0/dut_inputs<14> u0/dut_inputs<13> u0/dut_inputs<12>
+		 u0/SR/shift_reg<17> u0/SR/shift_reg<16> u0/SR/shift_reg<15> u0/SR/shift_reg<14>
+		 u0/SR/shift_reg<13> u0/SR/shift_reg<12> u0/SR/shift_reg<11> u0/SR/shift_reg<10>
+		 u0/dut_inputs<11> u0/dut_inputs<10> u0/dut_inputs<7> u0/SR/shift_reg<8>
+		
+PARTITION FB2_1 u0/w_shift_reg<19> M_LED<0> u0/flipbit_index<5> u0/w_shift_reg<20>
+		 u0/flipbit_index<4> u0/w_shift_reg<21> u0/flipbit_index<3> u0/w_shift_reg<22>
+		 u0/flipbit_index<2> u0/w_shift_reg<23> u0/flipbit_index<1> u0/flipbit_index<0>
+		 u0/SR/shift_reg<9> M_LED<1> M_LED<2> M_LED<3>
+		
+PARTITION FB3_9 u0/dut/G381gat_and0000 u0/dut/G420gat u0/dut/G399gat_and0000 u0/dut/G296gat
+		
+PARTITION FB3_14 u0/dut/G357gat
+
+PARTITION FB4_1 u0/dut_inputs<22> M_LED<4> u0/dut_inputs<21> u0/dut_inputs<26>
+		 u0/dut_inputs<20> u0/dut_inputs<19> u0/dut_inputs<18> u0/dut_inputs<17>
+		 u0/dut_inputs<16> u0/dut_inputs<15> u0/dut_inputs<0> u0/w_shift_reg<1>
+		 u0/w_shift_reg<18> u0/dut_inputs<25> u0/dut_inputs<24> u0/dut_inputs<23>
+		
+PARTITION FB5_1 u0/dut_inputs<39> u0/dut_inputs<38> u0/dut_inputs<37> u0/dut_inputs<36>
+		 u0/dut_inputs<35> u0/dut_inputs<32> u0/dut_inputs<31> u0/dut_inputs<30>
+		 u0/dut_inputs<29> u0/dut_inputs<28> u0/dut_inputs<27> u0/dut_inputs<5>
+		 u0/dut_inputs<34> u0/dut_inputs<2> u0/dut_inputs<33> u0/dut/G199gat
+		
+PARTITION FB6_5 N_PZ_601 u0/dut/G418gat N_PZ_528 N_PZ_607
+		 u0/dut/G417gat u0/dut/xenc10_xor0000 u0/dut/G350gat_and0000 N_PZ_472
+		 u0/dut/G356gat_and0000 u0/dut/G430gat_and0000 u0/Mxor_xor_out_Mxor__xor0001__xor0000 N_PZ_634
+		
+PARTITION FB7_1 u0/dut_inputs<8> u0/dut_inputs<43> u0/dut_inputs<50> u0/dut_inputs<49>
+		 u0/dut_inputs<48> u0/dut_inputs<42> u0/dut_inputs<41> u0/dut_inputs<40>
+		 u0/dut_inputs<1> u0/w_shift_reg<2> N_PZ_584 u0/dut/G419gat
+		 u0/dut_inputs<47> u0/dut_inputs<46> u0/dut_inputs<45> u0/dut_inputs<44>
+		
+PARTITION FB8_1 N_PZ_571 M_CLK_EXT0_N M_LED<8> N_PZ_486
+		 N_PZ_593 N_PZ_561 u0/w_shift_reg<6> u0/w_shift_reg<7>
+		 u0/w_shift_reg<5> u0/dut_inputs<6> u0/dut_inputs<4> u0/dut_inputs<9>
+		 u0/dut_inputs<3> M_LED<5> u0/w_shift_reg<4> u0/w_shift_reg<3>
+		
+PARTITION FB9_2 M_LED<6> M_LED<7> M_LED<9>
+PARTITION FB9_13 N_PZ_580
+PARTITION FB9_15 N_PZ_576
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,788 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to ../../../../../../projects/scadobf/ise/xl9_cw/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to ../../../../../../projects/scadobf/ise/xl9_cw/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: sca_unlock_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sca_unlock_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sca_unlock_top"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : sca_unlock_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/dut.v" into library work
+Parsing module <c432_enc>.
+Analyzing Verilog file "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v" into library work
+Parsing module <sca_unlock_top>.
+Parsing module <sca_unlock>.
+Parsing module <scan_chain>.
+Parsing module <serial_receiver>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sca_unlock_top>.
+
+Elaborating module <sca_unlock>.
+
+Elaborating module <serial_receiver(data_len=92)>.
+
+Elaborating module <c432_enc>.
+
+Elaborating module <scan_chain(len=7)>.
+WARNING:HDLCompiler:1127 - "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v" Line 139: Assignment to out_data ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sca_unlock_top>.
+    Related source file is "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v".
+    Set property "S = TRUE" for instance <u0>.
+    Set property "KEEP_HIERARCHY = YES" for instance <u0>.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <sca_unlock_top> synthesized.
+
+Synthesizing Unit <sca_unlock>.
+    Related source file is "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v".
+        num_ins = 46
+        num_outs = 7
+    Set property "S = TRUE" for instance <dut>.
+    Set property "KEEP_HIERARCHY = YES" for instance <dut>.
+INFO:Xst:3210 - "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v" line 139: Output port <par_out> of the instance <out_scan> is unconnected or connected to loadless signal.
+    Summary:
+	inferred  46 Multiplexer(s).
+Unit <sca_unlock> synthesized.
+
+Synthesizing Unit <serial_receiver>.
+    Related source file is "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v".
+        data_len = 92
+    Found 92-bit register for signal <shift_reg>.
+    Summary:
+	inferred  92 D-type flip-flop(s).
+Unit <serial_receiver> synthesized.
+
+Synthesizing Unit <c432_enc>.
+    Related source file is "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/dut.v".
+    Set property "S = TRUE" for signal <G1gat>.
+    Set property "S = TRUE" for signal <G4gat>.
+    Set property "S = TRUE" for signal <G8gat>.
+    Set property "S = TRUE" for signal <G11gat>.
+    Set property "S = TRUE" for signal <G14gat>.
+    Set property "S = TRUE" for signal <G17gat>.
+    Set property "S = TRUE" for signal <G21gat>.
+    Set property "S = TRUE" for signal <G24gat>.
+    Set property "S = TRUE" for signal <G27gat>.
+    Set property "S = TRUE" for signal <G30gat>.
+    Set property "S = TRUE" for signal <G34gat>.
+    Set property "S = TRUE" for signal <G37gat>.
+    Set property "S = TRUE" for signal <G40gat>.
+    Set property "S = TRUE" for signal <G43gat>.
+    Set property "S = TRUE" for signal <G47gat>.
+    Set property "S = TRUE" for signal <G50gat>.
+    Set property "S = TRUE" for signal <G53gat>.
+    Set property "S = TRUE" for signal <G56gat>.
+    Set property "S = TRUE" for signal <G60gat>.
+    Set property "S = TRUE" for signal <G63gat>.
+    Set property "S = TRUE" for signal <G66gat>.
+    Set property "S = TRUE" for signal <G69gat>.
+    Set property "S = TRUE" for signal <G73gat>.
+    Set property "S = TRUE" for signal <G76gat>.
+    Set property "S = TRUE" for signal <G79gat>.
+    Set property "S = TRUE" for signal <G82gat>.
+    Set property "S = TRUE" for signal <G86gat>.
+    Set property "S = TRUE" for signal <G89gat>.
+    Set property "S = TRUE" for signal <G92gat>.
+    Set property "S = TRUE" for signal <G95gat>.
+    Set property "S = TRUE" for signal <G99gat>.
+    Set property "S = TRUE" for signal <G102gat>.
+    Set property "S = TRUE" for signal <G105gat>.
+    Set property "S = TRUE" for signal <G108gat>.
+    Set property "S = TRUE" for signal <G112gat>.
+    Set property "S = TRUE" for signal <G115gat>.
+    Set property "S = TRUE" for signal <keyinput0>.
+    Set property "S = TRUE" for signal <keyinput1>.
+    Set property "S = TRUE" for signal <keyinput2>.
+    Set property "S = TRUE" for signal <keyinput3>.
+    Set property "S = TRUE" for signal <keyinput4>.
+    Set property "S = TRUE" for signal <keyinput5>.
+    Set property "S = TRUE" for signal <keyinput6>.
+    Set property "S = TRUE" for signal <keyinput7>.
+    Set property "S = TRUE" for signal <keyinput8>.
+    Set property "S = TRUE" for signal <keyinput9>.
+    Set property "S = TRUE" for signal <G223gat>.
+    Set property "S = TRUE" for signal <G329gat>.
+    Set property "S = TRUE" for signal <G370gat>.
+    Set property "S = TRUE" for signal <G421gat>.
+    Set property "S = TRUE" for signal <G430gat>.
+    Set property "S = TRUE" for signal <G431gat>.
+    Set property "S = TRUE" for signal <G432gat>.
+    Set property "S = TRUE" for signal <G118gat>.
+    Set property "S = TRUE" for signal <G119gat>.
+    Set property "S = TRUE" for signal <G122gat>.
+    Set property "S = TRUE" for signal <G123gat>.
+    Set property "S = TRUE" for signal <G126gat>.
+    Set property "S = TRUE" for signal <G127gat>.
+    Set property "S = TRUE" for signal <G130gat>.
+    Set property "S = TRUE" for signal <G131gat>.
+    Set property "S = TRUE" for signal <G134gat>.
+    Set property "S = TRUE" for signal <G135gat>.
+    Set property "S = TRUE" for signal <G138gat>.
+    Set property "S = TRUE" for signal <G139gat>.
+    Set property "S = TRUE" for signal <G142gat>.
+    Set property "S = TRUE" for signal <G143gat>.
+    Set property "S = TRUE" for signal <G146gat>.
+    Set property "S = TRUE" for signal <G147gat>.
+    Set property "S = TRUE" for signal <G150gat>.
+    Set property "S = TRUE" for signal <G151gat>.
+    Set property "S = TRUE" for signal <G154gat>.
+    Set property "S = TRUE" for signal <G157gat>.
+    Set property "S = TRUE" for signal <G158gat>.
+    Set property "S = TRUE" for signal <G159gat>.
+    Set property "S = TRUE" for signal <G162gat>.
+    Set property "S = TRUE" for signal <G165gat>.
+    Set property "S = TRUE" for signal <G168gat>.
+    Set property "S = TRUE" for signal <G171gat>.
+    Set property "S = TRUE" for signal <G174gat>.
+    Set property "S = TRUE" for signal <G177gat>.
+    Set property "S = TRUE" for signal <G180gat>.
+    Set property "S = TRUE" for signal <G183gat>.
+    Set property "S = TRUE" for signal <G184gat>.
+    Set property "S = TRUE" for signal <G185gat>.
+    Set property "S = TRUE" for signal <G186gat>.
+    Set property "S = TRUE" for signal <G187gat>.
+    Set property "S = TRUE" for signal <G188gat>.
+    Set property "S = TRUE" for signal <xenc2>.
+    Set property "S = TRUE" for signal <G189gat>.
+    Set property "S = TRUE" for signal <G190gat>.
+    Set property "S = TRUE" for signal <G191gat>.
+    Set property "S = TRUE" for signal <G192gat>.
+    Set property "S = TRUE" for signal <G193gat>.
+    Set property "S = TRUE" for signal <G194gat>.
+    Set property "S = TRUE" for signal <G195gat>.
+    Set property "S = TRUE" for signal <G196gat>.
+    Set property "S = TRUE" for signal <G197gat>.
+    Set property "S = TRUE" for signal <G198gat>.
+    Set property "S = TRUE" for signal <xenc9>.
+    Set property "S = TRUE" for signal <G199gat>.
+    Set property "S = TRUE" for signal <G203gat>.
+    Set property "S = TRUE" for signal <G213gat>.
+    Set property "S = TRUE" for signal <G224gat>.
+    Set property "S = TRUE" for signal <G227gat>.
+    Set property "S = TRUE" for signal <G230gat>.
+    Set property "S = TRUE" for signal <G233gat>.
+    Set property "S = TRUE" for signal <G236gat>.
+    Set property "S = TRUE" for signal <G239gat>.
+    Set property "S = TRUE" for signal <G242gat>.
+    Set property "S = TRUE" for signal <G243gat>.
+    Set property "S = TRUE" for signal <G246gat>.
+    Set property "S = TRUE" for signal <G247gat>.
+    Set property "S = TRUE" for signal <G250gat>.
+    Set property "S = TRUE" for signal <G251gat>.
+    Set property "S = TRUE" for signal <G254gat>.
+    Set property "S = TRUE" for signal <G255gat>.
+    Set property "S = TRUE" for signal <G256gat>.
+    Set property "S = TRUE" for signal <G257gat>.
+    Set property "S = TRUE" for signal <G258gat>.
+    Set property "S = TRUE" for signal <G259gat>.
+    Set property "S = TRUE" for signal <G260gat>.
+    Set property "S = TRUE" for signal <G263gat>.
+    Set property "S = TRUE" for signal <G264gat>.
+    Set property "S = TRUE" for signal <G267gat>.
+    Set property "S = TRUE" for signal <G270gat>.
+    Set property "S = TRUE" for signal <G273gat>.
+    Set property "S = TRUE" for signal <G276gat>.
+    Set property "S = TRUE" for signal <G279gat>.
+    Set property "S = TRUE" for signal <G282gat>.
+    Set property "S = TRUE" for signal <xenc5>.
+    Set property "S = TRUE" for signal <G285gat>.
+    Set property "S = TRUE" for signal <G288gat>.
+    Set property "S = TRUE" for signal <G289gat>.
+    Set property "S = TRUE" for signal <xenc3>.
+    Set property "S = TRUE" for signal <G290gat>.
+    Set property "S = TRUE" for signal <G291gat>.
+    Set property "S = TRUE" for signal <G292gat>.
+    Set property "S = TRUE" for signal <G293gat>.
+    Set property "S = TRUE" for signal <G294gat>.
+    Set property "S = TRUE" for signal <G295gat>.
+    Set property "S = TRUE" for signal <xenc6>.
+    Set property "S = TRUE" for signal <G296gat>.
+    Set property "S = TRUE" for signal <G300gat>.
+    Set property "S = TRUE" for signal <G301gat>.
+    Set property "S = TRUE" for signal <G302gat>.
+    Set property "S = TRUE" for signal <G303gat>.
+    Set property "S = TRUE" for signal <G304gat>.
+    Set property "S = TRUE" for signal <G305gat>.
+    Set property "S = TRUE" for signal <G306gat>.
+    Set property "S = TRUE" for signal <G307gat>.
+    Set property "S = TRUE" for signal <G308gat>.
+    Set property "S = TRUE" for signal <G309gat>.
+    Set property "S = TRUE" for signal <G319gat>.
+    Set property "S = TRUE" for signal <G330gat>.
+    Set property "S = TRUE" for signal <G331gat>.
+    Set property "S = TRUE" for signal <G332gat>.
+    Set property "S = TRUE" for signal <G333gat>.
+    Set property "S = TRUE" for signal <G334gat>.
+    Set property "S = TRUE" for signal <G335gat>.
+    Set property "S = TRUE" for signal <G336gat>.
+    Set property "S = TRUE" for signal <G337gat>.
+    Set property "S = TRUE" for signal <G338gat>.
+    Set property "S = TRUE" for signal <G339gat>.
+    Set property "S = TRUE" for signal <G340gat>.
+    Set property "S = TRUE" for signal <G341gat>.
+    Set property "S = TRUE" for signal <G342gat>.
+    Set property "S = TRUE" for signal <G343gat>.
+    Set property "S = TRUE" for signal <G344gat>.
+    Set property "S = TRUE" for signal <G345gat>.
+    Set property "S = TRUE" for signal <G346gat>.
+    Set property "S = TRUE" for signal <G347gat>.
+    Set property "S = TRUE" for signal <G348gat>.
+    Set property "S = TRUE" for signal <G349gat>.
+    Set property "S = TRUE" for signal <G350gat>.
+    Set property "S = TRUE" for signal <G351gat>.
+    Set property "S = TRUE" for signal <G352gat>.
+    Set property "S = TRUE" for signal <G353gat>.
+    Set property "S = TRUE" for signal <G354gat>.
+    Set property "S = TRUE" for signal <G355gat>.
+    Set property "S = TRUE" for signal <xenc8>.
+    Set property "S = TRUE" for signal <G356gat>.
+    Set property "S = TRUE" for signal <xenc1>.
+    Set property "S = TRUE" for signal <G357gat>.
+    Set property "S = TRUE" for signal <G360gat>.
+    Set property "S = TRUE" for signal <G371gat>.
+    Set property "S = TRUE" for signal <G372gat>.
+    Set property "S = TRUE" for signal <G373gat>.
+    Set property "S = TRUE" for signal <G374gat>.
+    Set property "S = TRUE" for signal <G375gat>.
+    Set property "S = TRUE" for signal <G376gat>.
+    Set property "S = TRUE" for signal <G377gat>.
+    Set property "S = TRUE" for signal <G378gat>.
+    Set property "S = TRUE" for signal <G379gat>.
+    Set property "S = TRUE" for signal <G380gat>.
+    Set property "S = TRUE" for signal <xenc0>.
+    Set property "S = TRUE" for signal <G381gat>.
+    Set property "S = TRUE" for signal <G386gat>.
+    Set property "S = TRUE" for signal <G393gat>.
+    Set property "S = TRUE" for signal <G399gat>.
+    Set property "S = TRUE" for signal <G404gat>.
+    Set property "S = TRUE" for signal <xenc7>.
+    Set property "S = TRUE" for signal <G407gat>.
+    Set property "S = TRUE" for signal <xenc4>.
+    Set property "S = TRUE" for signal <G411gat>.
+    Set property "S = TRUE" for signal <G414gat>.
+    Set property "S = TRUE" for signal <G415gat>.
+    Set property "S = TRUE" for signal <G416gat>.
+    Set property "S = TRUE" for signal <G417gat>.
+    Set property "S = TRUE" for signal <G418gat>.
+    Set property "S = TRUE" for signal <G419gat>.
+    Set property "S = TRUE" for signal <G420gat>.
+    Set property "S = TRUE" for signal <G422gat>.
+    Set property "S = TRUE" for signal <G425gat>.
+    Set property "S = TRUE" for signal <G428gat>.
+    Set property "S = TRUE" for signal <G429gat>.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G154gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G159gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G165gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G168gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G171gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G174gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G177gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G180gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G260gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G264gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G267gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G270gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G273gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G276gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G279gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G285gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G348gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G349gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G350gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal G351gat may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal xenc1 may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal xenc7 may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal xenc8 may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - S property attached to signal xenc9 may hinder XST clustering optimizations.
+    Summary:
+Unit <c432_enc> synthesized.
+
+Synthesizing Unit <scan_chain>.
+    Related source file is "/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_post.v".
+        len = 7
+    Found 7-bit register for signal <shift_reg>.
+    Summary:
+	inferred   7 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <scan_chain> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 2
+ 7-bit register                                        : 1
+ 92-bit register                                       : 1
+# Multiplexers                                         : 48
+ 1-bit 2-to-1 multiplexer                              : 47
+ 7-bit 2-to-1 multiplexer                              : 1
+# Xors                                                 : 28
+ 1-bit xor2                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 99
+ Flip-Flops                                            : 99
+# Multiplexers                                         : 53
+ 1-bit 2-to-1 multiplexer                              : 53
+# Xors                                                 : 28
+ 1-bit xor2                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sca_unlock_top> ...
+
+Optimizing unit <sca_unlock> ...
+
+Optimizing unit <serial_receiver> ...
+
+Optimizing unit <scan_chain> ...
+
+Optimizing unit <c432_enc> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sca_unlock_top, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 99
+ Flip-Flops                                            : 99
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sca_unlock_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 230
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 40
+#      LUT2                        : 113
+#      LUT3                        : 54
+#      LUT4                        : 17
+#      LUT6                        : 4
+# FlipFlops/Latches                : 99
+#      FDC_1                       : 99
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 5
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              99  out of  11440     0%  
+ Number of Slice LUTs:                  229  out of   5720     4%  
+    Number used as Logic:               229  out of   5720     4%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    322
+   Number with an unused Flip Flop:     223  out of    322    69%  
+   Number with an unused LUT:            93  out of    322    28%  
+   Number of fully used LUT-FF pairs:     6  out of    322     1%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    102    10%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+H1                                 | IBUF+BUFG              | 92    |
+H9                                 | BUFGP                  | 7     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 1.535ns (Maximum Frequency: 651.466MHz)
+   Minimum input arrival time before clock: 26.713ns
+   Maximum output required time after clock: 5.158ns
+   Maximum combinational path delay: 6.119ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'H1'
+  Clock period: 1.324ns (frequency: 755.287MHz)
+  Total number of paths / destination ports: 91 / 91
+-------------------------------------------------------------------------
+Delay:               1.324ns (Levels of Logic = 0)
+  Source:            u0/SR/shift_reg_90 (FF)
+  Destination:       u0/SR/shift_reg_91 (FF)
+  Source Clock:      H1 falling
+  Destination Clock: H1 falling
+
+  Data Path: u0/SR/shift_reg_90 to u0/SR/shift_reg_91
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.525   0.725  SR/shift_reg_90 (SR/shift_reg_90)
+     FDC_1:D                   0.074          SR/shift_reg_91
+    ----------------------------------------
+    Total                      1.324ns (0.599ns logic, 0.725ns route)
+                                       (45.2% logic, 54.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'H9'
+  Clock period: 1.535ns (frequency: 651.466MHz)
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Delay:               1.535ns (Levels of Logic = 1)
+  Source:            u0/out_scan/shift_reg_5 (FF)
+  Destination:       u0/out_scan/shift_reg_6 (FF)
+  Source Clock:      H9 falling
+  Destination Clock: H9 falling
+
+  Data Path: u0/out_scan/shift_reg_5 to u0/out_scan/shift_reg_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            1   0.525   0.682  out_scan/shift_reg_5 (out_scan/shift_reg_5)
+     LUT3:I2->O            1   0.254   0.000  out_scan/mux611 (out_scan/par_in[6]_shift_reg[5]_mux_1_OUT<6>)
+     FDC_1:D                   0.074          out_scan/shift_reg_6
+    ----------------------------------------
+    Total                      1.535ns (0.853ns logic, 0.682ns route)
+                                       (55.6% logic, 44.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'H1'
+  Total number of paths / destination ports: 93 / 93
+-------------------------------------------------------------------------
+Offset:              4.923ns (Levels of Logic = 3)
+  Source:            H3 (PAD)
+  Destination:       u0/SR/shift_reg_91 (FF)
+  Destination Clock: H1 falling
+
+  Data Path: H3 to u0/SR/shift_reg_91
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  H3_IBUF (H3_IBUF)
+     begin scope: 'u0:sca_reset'
+     INV:I->O             99   0.255   2.200  SR/reset_inv1_INV_0 (SR/reset_inv)
+     FDC_1:CLR                 0.459          SR/shift_reg_0
+    ----------------------------------------
+    Total                      4.923ns (2.042ns logic, 2.881ns route)
+                                       (41.5% logic, 58.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'H9'
+  Total number of paths / destination ports: 89514 / 14
+-------------------------------------------------------------------------
+Offset:              26.713ns (Levels of Logic = 25)
+  Source:            H5 (PAD)
+  Destination:       u0/out_scan/shift_reg_6 (FF)
+  Destination Clock: H9 falling
+
+  Data Path: H5 to u0/out_scan/shift_reg_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            46   1.328   1.754  H5_IBUF (H5_IBUF)
+     begin scope: 'u0:flip_clk'
+     LUT3:I2->O            2   0.254   0.726  Mmux_dut_inputs<7>11 (dut_inputs<7>)
+     begin scope: 'u0/dut:dut_inputs<7>'
+     LUT1:I0->O            1   0.254   0.682  G126gat1 (G126gat)
+     LUT2:I1->O            1   0.254   0.790  G162gat1 (G162gat)
+     LUT2:I0->O            2   0.250   1.181  Mxor_xenc9_xo<0>1 (xenc9)
+     LUT6:I0->O            3   0.254   0.766  out9 (G199gat)
+     LUT1:I0->O            9   0.254   0.976  G203gat1 (G203gat)
+     LUT2:I1->O            2   0.254   0.726  Mxor_G247gat_xo<0>1 (G247gat)
+     LUT2:I1->O            1   0.254   0.790  G282gat1 (G282gat)
+     LUT2:I0->O            2   0.250   1.181  Mxor_xenc6_xo<0>1 (xenc6)
+     LUT6:I0->O            3   0.254   0.766  out18 (G296gat)
+     LUT1:I0->O            9   0.254   0.976  G309gat1 (G309gat)
+     LUT2:I1->O            1   0.254   0.682  Mxor_G335gat_xo<0>1 (G335gat)
+     LUT2:I1->O            1   0.254   0.790  G352gat1 (G352gat)
+     LUT2:I0->O            1   0.250   1.137  Mxor_xenc1_xo<0>1 (xenc1)
+     LUT6:I0->O            2   0.254   0.726  out10 (G357gat)
+     LUT1:I0->O            9   0.254   0.976  G360gat1 (G360gat)
+     LUT2:I1->O            1   0.254   0.682  G378gat1 (G378gat)
+     LUT4:I3->O            2   0.254   0.726  G411gat1 (G411gat)
+     LUT1:I0->O            1   0.254   0.958  G420gat1 (G420gat)
+     LUT4:I0->O            1   0.254   0.958  G429gat1 (G429gat)
+     LUT4:I0->O            1   0.254   0.790  G432gat1 (G432gat)
+     end scope: 'u0/dut:dut_outputs<6>'
+     LUT3:I1->O            1   0.250   0.000  out_scan/mux611 (out_scan/par_in[6]_shift_reg[5]_mux_1_OUT<6>)
+     FDC_1:D                   0.074          out_scan/shift_reg_6
+    ----------------------------------------
+    Total                     26.713ns (6.974ns logic, 19.739ns route)
+                                       (26.1% logic, 73.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'H1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.162ns (Levels of Logic = 2)
+  Source:            u0/SR/shift_reg_91 (FF)
+  Destination:       H4 (PAD)
+  Source Clock:      H1 falling
+
+  Data Path: u0/SR/shift_reg_91 to H4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            2   0.525   0.725  SR/shift_reg_91 (SR/shift_reg_91)
+     end scope: 'u0:sca_data_out'
+     OBUF:I->O                 2.912          H4_OBUF (H4)
+    ----------------------------------------
+    Total                      4.162ns (3.437ns logic, 0.725ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'H9'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              5.158ns (Levels of Logic = 3)
+  Source:            u0/out_scan/shift_reg_6 (FF)
+  Destination:       H7 (PAD)
+  Source Clock:      H9 falling
+
+  Data Path: u0/out_scan/shift_reg_6 to H7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            1   0.525   0.790  out_scan/shift_reg_6 (out_scan/shift_reg_6)
+     end scope: 'u0:shift_out_data'
+     LUT2:I0->O            1   0.250   0.681  Mmux_H711 (H7_OBUF)
+     OBUF:I->O                 2.912          H7_OBUF (H7)
+    ----------------------------------------
+    Total                      5.158ns (3.687ns logic, 1.471ns route)
+                                       (71.5% logic, 28.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               6.119ns (Levels of Logic = 3)
+  Source:            H8 (PAD)
+  Destination:       H7 (PAD)
+
+  Data Path: H8 to H7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.328   0.944  H8_IBUF (H8_IBUF)
+     LUT2:I1->O            1   0.254   0.681  Mmux_H711 (H7_OBUF)
+     OBUF:I->O                 2.912          H7_OBUF (H7)
+    ----------------------------------------
+    Total                      6.119ns (4.494ns logic, 1.625ns route)
+                                       (73.4% logic, 26.6% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock H1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H1             |         |         |    1.324|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock H9
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H1             |         |         |   25.091|         |
+H9             |         |         |    1.535|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 3.93 secs
+ 
+--> 
+
+
+Total memory usage is 376932 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :   25 (   0 filtered)
+

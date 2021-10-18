@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/kaveh/projects/scadobf/ise/sakurag/impact.xsl
+OUTFILE=/home/kaveh/projects/scadobf/ise/sakurag/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/kaveh/projects/scadobf/ise/sakurag
+LICENSE=iMPACT
+USER_INFO=iMPACT

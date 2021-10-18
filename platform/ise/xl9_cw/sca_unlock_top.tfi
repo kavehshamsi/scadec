@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+sca_unlock_top instance_name (
+    .LED1(LED1), 
+    .LED2(LED2), 
+    .LED3(LED3), 
+    .H1(H1), 
+    .H2(H2), 
+    .H3(H3), 
+    .H4(H4), 
+    .H5(H5), 
+    .H7(H7), 
+    .H8(H8), 
+    .H9(H9)
+    );
+
+

@@ -1,0 +1,15 @@
+Storage Target: SPI Flash Single FPGA
+32M
+FF
+Untitled
+/home/kaveh/projects/scadobf/ise/sakurag/
+
+MCS
+No
+s/scadobf/ise/sakurag/
+
+MCS
+sakurag/
+
+MCS
+No

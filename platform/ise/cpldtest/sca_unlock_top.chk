@@ -1,0 +1,268 @@
+
+----------------------------------------
+|  P a r t i t i o n    S u c c e e d  |
+----------------------------------------
+0 Group(s)
+
+GCLK1: 0=M_CLK_EXT0_P.p
+GCLK2: 4=M_HEADER_CLK_N.p
+GSET: 2=!M_HEADER<1>.p
+GRST: 2=!M_HEADER<1>.p
+----------------- B l o c k 0 ------------------
+PLApt(17/56), Fanin(16/38), Clk(2/3), Bct(0/4), Pin(2/8), Mcell(16/16)
+PLApts[17/56] 55 120 121 () () () () () () () () () () 69 () () 61 () () 77 () () 128 () () 127 () () 126 () 
+              () 125 () () 124 () () 123 () () 122 () () 131 () () 57 () () 73 () () () () () 119
+Fanins[16] u0/SR/shift_reg<10>.n u0/SR/shift_reg<11>.n u0/SR/shift_reg<12>.n u0/SR/shift_reg<13>.n 
+           u0/SR/shift_reg<14>.n u0/SR/shift_reg<15>.n u0/SR/shift_reg<16>.n u0/SR/shift_reg<9>.n 
+           u0/dut_inputs<7>.n u0/flipbit_index<0>.n u0/flipbit_index<1>.n u0/flipbit_index<2>.n 
+           u0/flipbit_index<3>.n u0/flipbit_index<4>.n u0/flipbit_index<5>.n u0/w_shift_reg<7>.n
+clk[2] M_HEADER_CLK_N M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[18] [M_HEADER<1>(206)] [u0/w_shift_reg<0>,M_HEADER<0>(7)] [u0/SR/shift_reg<10>(220)]  
+           [u0/SR/shift_reg<11>(219)] [u0/SR/shift_reg<12>(218)] [u0/SR/shift_reg<13>(217)]  
+           [u0/SR/shift_reg<14>(216)] [u0/SR/shift_reg<15>(215)] [u0/SR/shift_reg<16>(214)]  
+           [u0/SR/shift_reg<17>(213)] [u0/SR/shift_reg<8>(224)] [u0/dut_inputs<7>(223)]  
+           [u0/dut_inputs<10>(222)] [u0/dut_inputs<11>(221)] [u0/dut_inputs<12>(212)]  
+           [u0/dut_inputs<13>(211)] [u0/dut_inputs<14>(210)] 
+Signal[18] [ 0: u0/w_shift_reg<0>(209) M_HEADER<0>(7)  ][ 1: u0/dut_inputs<14>(210) (6)  ][ 2:  
+           u0/dut_inputs<13>(211) (5)  ][ 3: u0/dut_inputs<12>(212) (4)  ][ 4: u0/SR/shift_reg<17>(213)  ] 
+           [ 5: u0/SR/shift_reg<16>(214)  ][ 6: u0/SR/shift_reg<15>(215)  ][ 7: u0/SR/shift_reg<14>(216)  ] 
+           [ 8: u0/SR/shift_reg<13>(217)  ][ 9: u0/SR/shift_reg<12>(218)  ][ 10: u0/SR/shift_reg<11>(219)  ] 
+           [ 11: u0/SR/shift_reg<10>(220)  ][ 12: u0/dut_inputs<11>(221) (3)  ][ 13: u0/dut_inputs<10>(222)  
+           (2)  ][ 14: u0/dut_inputs<7>(223) (208)  ][ 15: u0/SR/shift_reg<8>(224) M_HEADER<1>(206)  ]
+----------------- B l o c k 1 ------------------
+PLApt(12/56), Fanin(7/38), Clk(2/3), Bct(0/4), Pin(4/4), Mcell(16/16)
+PLApts[12/47] () () () () () () () () () () 96 () () () () () 96 () () 97 () () 97 () () 101 () () 101 () () 
+              102 () () 102 () () 103 () () 103 () () 132 () () 130
+Fanins[ 7] u0/SR/shift_reg<8>.n u0/w_shift_reg<18>.n u0/w_shift_reg<19>.n u0/w_shift_reg<20>.n 
+           u0/w_shift_reg<21>.n u0/w_shift_reg<22>.n u0/w_shift_reg<23>.n
+clk[2] M_HEADER_CLK_N M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[16] [M_LED<0>(226),M_LED<0>(8)] [M_LED<1>(238),M_LED<1>(9)] [M_LED<2>(239),M_LED<2>(10)]  
+           [M_LED<3>(240),M_LED<3>(12)] [u0/SR/shift_reg<9>(237)] [u0/flipbit_index<0>(236)]  
+           [u0/flipbit_index<1>(235)] [u0/w_shift_reg<23>(234)] [u0/flipbit_index<2>(233)]  
+           [u0/w_shift_reg<22>(232)] [u0/flipbit_index<3>(231)] [u0/w_shift_reg<21>(230)]  
+           [u0/flipbit_index<4>(229)] [u0/w_shift_reg<20>(228)] [u0/flipbit_index<5>(227)]  
+           [u0/w_shift_reg<19>(225)] 
+Signal[16] [ 0: u0/w_shift_reg<19>(225)  ][ 1: M_LED<0>(226) M_LED<0>(8)  ][ 2: u0/flipbit_index<5>(227)  ] 
+           [ 3: u0/w_shift_reg<20>(228)  ][ 4: u0/flipbit_index<4>(229)  ][ 5: u0/w_shift_reg<21>(230)  ] 
+           [ 6: u0/flipbit_index<3>(231)  ][ 7: u0/w_shift_reg<22>(232)  ][ 8: u0/flipbit_index<2>(233)  ] 
+           [ 9: u0/w_shift_reg<23>(234)  ][ 10: u0/flipbit_index<1>(235)  ][ 11: u0/flipbit_index<0>(236)  ] 
+           [ 12: u0/SR/shift_reg<9>(237)  ][ 13: M_LED<1>(238) M_LED<1>(9)  ][ 14: M_LED<2>(239)  
+           M_LED<2>(10)  ][ 15: M_LED<3>(240) M_LED<3>(12)  ]
+----------------- B l o c k 2 ------------------
+PLApt(51/56), Fanin(38/38), Clk(0/3), Bct(0/4), Pin(0/6), Mcell(5/16)
+PLApts[51/51] 201 203 204 205 207 208 210 212 213 214 216 217 219 235 237 238 241 242 243 244 246 247 248 249 
+              25 133 134 135 136 142 144 167 168 180 236 239 240 245 250 8 141 195 223 10 143 199 226 85 163 
+              200 220
+Fanins[38] N_PZ_486.n N_PZ_561.n N_PZ_571.n N_PZ_576.n N_PZ_584.n N_PZ_601.n N_PZ_607.n u0/dut/G199gat.n 
+           u0/dut/G296gat.n u0/dut/G350gat_and0000.n u0/dut/G356gat_and0000.n u0/dut/xenc10_xor0000.n 
+           u0/dut_inputs<11>.n u0/dut_inputs<17>.n u0/dut_inputs<18>.n u0/dut_inputs<19>.n u0/dut_inputs<1>.n 
+           u0/dut_inputs<20>.n u0/dut_inputs<21>.n u0/dut_inputs<22>.n u0/dut_inputs<24>.n 
+           u0/dut_inputs<25>.n u0/dut_inputs<26>.n u0/dut_inputs<28>.n u0/dut_inputs<2>.n u0/dut_inputs<30>.n 
+           u0/dut_inputs<31>.n u0/dut_inputs<32>.n u0/dut_inputs<33>.n u0/dut_inputs<34>.n 
+           u0/dut_inputs<35>.n u0/dut_inputs<3>.n u0/dut_inputs<47>.n u0/dut_inputs<49>.n u0/dut_inputs<5>.n 
+           u0/dut_inputs<6>.n u0/dut_inputs<7>.n u0/dut_inputs<9>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 5] [u0/dut/G357gat(254)] [u0/dut/G296gat(252)] [u0/dut/G399gat_and0000(251)] [u0/dut/G420gat(250)]  
+           [u0/dut/G381gat_and0000(249)] 
+Signal[ 5] [ 0: (205)  ][ 1:  ][ 2: (203)  ][ 3:  ][ 4: (202)  ][ 5:  ][ 6:  ][ 7:  ][ 8:  
+           u0/dut/G381gat_and0000(249)  ][ 9: u0/dut/G420gat(250)  ][ 10: u0/dut/G399gat_and0000(251)  ] 
+           [ 11: u0/dut/G296gat(252)  ][ 12: (201)  ][ 13: u0/dut/G357gat(254)  ][ 14: (200)  ][ 15: (199)  ]
+----------------- B l o c k 3 ------------------
+PLApt(17/56), Fanin(9/38), Clk(2/3), Bct(0/4), Pin(1/5), Mcell(16/16)
+PLApts[17/56] 83 94 95 () () () () () () () 43 () () () () () 38 () () 44 () () 48 () () 36 () () 46 () () 41 
+              () () 51 () () 53 () () () () () 93 () () 129 () () 39 () () 49 () () 34
+Fanins[ 9] u0/SR/shift_reg<17>.n u0/dut_inputs<0>.n u0/flipbit_index<0>.n u0/flipbit_index<1>.n 
+           u0/flipbit_index<2>.n u0/flipbit_index<3>.n u0/flipbit_index<4>.n u0/flipbit_index<5>.n 
+           u0/w_shift_reg<0>.n
+clk[2] M_HEADER_CLK_N M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[16] [M_LED<4>(258),M_LED<4>(14)] [u0/w_shift_reg<18>(269)] [u0/w_shift_reg<1>(268)]  
+           [u0/dut_inputs<0>(267)] [u0/dut_inputs<15>(266)] [u0/dut_inputs<16>(265)]  
+           [u0/dut_inputs<17>(264)] [u0/dut_inputs<18>(263)] [u0/dut_inputs<19>(262)]  
+           [u0/dut_inputs<20>(261)] [u0/dut_inputs<21>(259)] [u0/dut_inputs<22>(257)]  
+           [u0/dut_inputs<23>(272)] [u0/dut_inputs<24>(271)] [u0/dut_inputs<25>(270)]  
+           [u0/dut_inputs<26>(260)] 
+Signal[16] [ 0: u0/dut_inputs<22>(257)  ][ 1: M_LED<4>(258) M_LED<4>(14)  ][ 2: u0/dut_inputs<21>(259)  ] 
+           [ 3: u0/dut_inputs<26>(260) (15)  ][ 4: u0/dut_inputs<20>(261)  ][ 5: u0/dut_inputs<19>(262)  ] 
+           [ 6: u0/dut_inputs<18>(263)  ][ 7: u0/dut_inputs<17>(264)  ][ 8: u0/dut_inputs<16>(265)  ][ 9:  
+           u0/dut_inputs<15>(266)  ][ 10: u0/dut_inputs<0>(267)  ][ 11: u0/w_shift_reg<1>(268)  ][ 12:  
+           u0/w_shift_reg<18>(269)  ][ 13: u0/dut_inputs<25>(270) (16)  ][ 14: u0/dut_inputs<24>(271) (17)  ] 
+           [ 15: u0/dut_inputs<23>(272) (18)  ]
+----------------- B l o c k 4 ------------------
+PLApt(31/56), Fanin(28/38), Clk(1/3), Bct(0/4), Pin(0/7), Mcell(16/16)
+PLApts[31/53] 12 13 14 15 16 17 18 19 84 87 54 89 92 70 75 105 62 106 63 78 114 115 58 () () 82 () () 33 () 
+              () 42 () () 37 () () 47 () () 35 () () () () () 74 () () () () () 66
+Fanins[28] u0/dut_inputs<0>.n u0/dut_inputs<10>.n u0/dut_inputs<12>.n u0/dut_inputs<14>.n u0/dut_inputs<16>.n 
+           u0/dut_inputs<18>.n u0/dut_inputs<19>.n u0/dut_inputs<21>.n u0/dut_inputs<23>.n 
+           u0/dut_inputs<25>.n u0/dut_inputs<27>.n u0/dut_inputs<29>.n u0/dut_inputs<2>.n u0/dut_inputs<31>.n 
+           u0/dut_inputs<34>.n u0/dut_inputs<36>.n u0/dut_inputs<40>.n u0/dut_inputs<5>.n u0/dut_inputs<7>.n 
+           u0/dut_inputs<8>.n u0/flipbit_index<0>.n u0/flipbit_index<1>.n u0/flipbit_index<2>.n 
+           u0/flipbit_index<3>.n u0/flipbit_index<4>.n u0/flipbit_index<5>.n u0/w_shift_reg<2>.n 
+           u0/w_shift_reg<5>.n
+clk[1] M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[16] [u0/dut/G199gat(288)] [u0/dut_inputs<2>(286)] [u0/dut_inputs<5>(284)] [u0/dut_inputs<27>(283)]  
+           [u0/dut_inputs<28>(282)] [u0/dut_inputs<29>(281)] [u0/dut_inputs<30>(280)]  
+           [u0/dut_inputs<31>(279)] [u0/dut_inputs<32>(278)] [u0/dut_inputs<33>(287)]  
+           [u0/dut_inputs<34>(285)] [u0/dut_inputs<35>(277)] [u0/dut_inputs<36>(276)]  
+           [u0/dut_inputs<37>(275)] [u0/dut_inputs<38>(274)] [u0/dut_inputs<39>(273)] 
+Signal[16] [ 0: u0/dut_inputs<39>(273) (198)  ][ 1: u0/dut_inputs<38>(274) (197)  ][ 2:  
+           u0/dut_inputs<37>(275) (196)  ][ 3: u0/dut_inputs<36>(276) (195)  ][ 4: u0/dut_inputs<35>(277)  
+           (194)  ][ 5: u0/dut_inputs<32>(278)  ][ 6: u0/dut_inputs<31>(279)  ][ 7: u0/dut_inputs<30>(280)  ] 
+           [ 8: u0/dut_inputs<29>(281)  ][ 9: u0/dut_inputs<28>(282)  ][ 10: u0/dut_inputs<27>(283)  ][ 11:  
+           u0/dut_inputs<5>(284)  ][ 12: u0/dut_inputs<34>(285) (193)  ][ 13: u0/dut_inputs<2>(286)  ][ 14:  
+           u0/dut_inputs<33>(287) (192)  ][ 15: u0/dut/G199gat(288)  ]
+----------------- B l o c k 5 ------------------
+PLApt(50/56), Fanin(38/38), Clk(0/3), Bct(0/4), Pin(0/3), Mcell(12/16)
+PLApts[50/53] 232 261 262 263 264 269 257 258 259 260 265 255 256 202 211 5 138 193 221 206 209 215 218 156 
+              159 181 182 185 6 139 194 222 140 166 7 23 149 24 174 198 227 9 22 147 171 196 224 145 169 () 
+              () () 229
+Fanins[38] N_PZ_472.n N_PZ_528.n N_PZ_561.n N_PZ_571.n u0/dut/G199gat.n u0/dut/G296gat.n 
+           u0/dut/G381gat_and0000.n u0/dut/G399gat_and0000.n u0/dut/G417gat.n u0/dut/G418gat.n 
+           u0/dut/G419gat.n u0/dut/G420gat.n u0/dut/xenc10_xor0000.n u0/dut_inputs<0>.n u0/dut_inputs<10>.n 
+           u0/dut_inputs<12>.n u0/dut_inputs<13>.n u0/dut_inputs<14>.n u0/dut_inputs<15>.n 
+           u0/dut_inputs<16>.n u0/dut_inputs<17>.n u0/dut_inputs<18>.n u0/dut_inputs<20>.n 
+           u0/dut_inputs<23>.n u0/dut_inputs<25>.n u0/dut_inputs<26>.n u0/dut_inputs<28>.n u0/dut_inputs<2>.n 
+           u0/dut_inputs<32>.n u0/dut_inputs<3>.n u0/dut_inputs<41>.n u0/dut_inputs<43>.n u0/dut_inputs<45>.n 
+           u0/dut_inputs<46>.n u0/dut_inputs<4>.n u0/dut_inputs<50>.n u0/dut_inputs<6>.n u0/dut_inputs<8>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[12] [N_PZ_634(304)] [u0/Mxor_xor_out_Mxor__xor0001__xor0000(303)] [u0/dut/G430gat_and0000(302)]  
+           [u0/dut/G356gat_and0000(301)] [N_PZ_472(300)] [u0/dut/G350gat_and0000(299)]  
+           [u0/dut/xenc10_xor0000(298)] [u0/dut/G417gat(297)] [N_PZ_607(296)] [N_PZ_528(295)]  
+           [u0/dut/G418gat(294)] [N_PZ_601(293)] 
+Signal[12] [ 0: (19)  ][ 1: (20)  ][ 2: (21)  ][ 3:  ][ 4: N_PZ_601(293)  ][ 5: u0/dut/G418gat(294)  ][ 6:  
+           N_PZ_528(295)  ][ 7: N_PZ_607(296)  ][ 8: u0/dut/G417gat(297)  ][ 9: u0/dut/xenc10_xor0000(298)  ] 
+           [ 10: u0/dut/G350gat_and0000(299)  ][ 11: N_PZ_472(300)  ][ 12: u0/dut/G356gat_and0000(301)  ] 
+           [ 13: u0/dut/G430gat_and0000(302)  ][ 14: u0/Mxor_xor_out_Mxor__xor0001__xor0000(303)  ][ 15:  
+           N_PZ_634(304)  ]
+----------------- B l o c k 6 ------------------
+PLApt(27/56), Fanin(18/38), Clk(2/3), Bct(0/4), Pin(0/8), Mcell(16/16)
+PLApts[27/56] 11 20 21 146 170 197 225 228 148 172 81 173 67 56 99 100 45 () () 40 () () 50 () () 72 () () 64 
+              () () 80 () () () () () 98 () () () () () () () () 52 () () 68 () () 60 () () 76
+Fanins[18] N_PZ_561.n u0/dut/G199gat.n u0/dut/G296gat.n u0/dut_inputs<1>.n u0/dut_inputs<27>.n 
+           u0/dut_inputs<29>.n u0/dut_inputs<30>.n u0/dut_inputs<33>.n u0/dut_inputs<37>.n 
+           u0/dut_inputs<38>.n u0/dut_inputs<44>.n u0/flipbit_index<0>.n u0/flipbit_index<1>.n 
+           u0/flipbit_index<2>.n u0/flipbit_index<3>.n u0/flipbit_index<4>.n u0/flipbit_index<5>.n 
+           u0/w_shift_reg<1>.n
+clk[2] M_HEADER_CLK_N M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[16] [u0/dut/G419gat(316)] [N_PZ_584(315)] [u0/w_shift_reg<2>(314)] [u0/dut_inputs<1>(313)]  
+           [u0/dut_inputs<40>(312)] [u0/dut_inputs<41>(311)] [u0/dut_inputs<42>(310)]  
+           [u0/dut_inputs<43>(306)] [u0/dut_inputs<44>(320)] [u0/dut_inputs<45>(319)]  
+           [u0/dut_inputs<46>(318)] [u0/dut_inputs<47>(317)] [u0/dut_inputs<48>(309)]  
+           [u0/dut_inputs<49>(308)] [u0/dut_inputs<50>(307)] [u0/dut_inputs<8>(305)] 
+Signal[16] [ 0: u0/dut_inputs<8>(305) (191)  ][ 1: u0/dut_inputs<43>(306)  ][ 2: u0/dut_inputs<50>(307)  
+           (189)  ][ 3: u0/dut_inputs<49>(308) (188)  ][ 4: u0/dut_inputs<48>(309) (187)  ][ 5:  
+           u0/dut_inputs<42>(310)  ][ 6: u0/dut_inputs<41>(311)  ][ 7: u0/dut_inputs<40>(312)  ][ 8:  
+           u0/dut_inputs<1>(313)  ][ 9: u0/w_shift_reg<2>(314)  ][ 10: N_PZ_584(315)  ][ 11:  
+           u0/dut/G419gat(316)  ][ 12: u0/dut_inputs<47>(317) (186)  ][ 13: u0/dut_inputs<46>(318) (185)  ] 
+           [ 14: u0/dut_inputs<45>(319) (184)  ][ 15: u0/dut_inputs<44>(320) (183)  ]
+----------------- B l o c k 7 ------------------
+PLApt(28/56), Fanin(23/38), Clk(2/3), Bct(0/4), Pin(3/3), Mcell(16/16)
+PLApts[28/56] 59 108 109 79 111 112 71 117 118 251 137 253 252 0 254 90 0 91 86 137 88 () () () () () () () 
+              113 () () 116 () () 110 () () () () () () () () 65 () () () () () 4 () () 107 () () 104
+Fanins[23] u0/dut/G199gat.n u0/dut/G357gat.n u0/dut_inputs<0>.n u0/dut_inputs<39>.n u0/dut_inputs<3>.n 
+           u0/dut_inputs<40>.n u0/dut_inputs<42>.n u0/dut_inputs<4>.n u0/dut_inputs<5>.n u0/dut_inputs<6>.n 
+           u0/flipbit_index<0>.n u0/flipbit_index<1>.n u0/flipbit_index<2>.n u0/flipbit_index<3>.n 
+           u0/flipbit_index<4>.n u0/flipbit_index<5>.n u0/w_shift_reg<2>.n u0/w_shift_reg<3>.n 
+           u0/w_shift_reg<4>.n u0/w_shift_reg<5>.n u0/w_shift_reg<6>.n M_CLK_EXT0_P.p M_HEADER_CLK_N.p
+clk[2] M_HEADER_CLK_N M_CLK_EXT0_P 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[16] [M_CLK_EXT0_N(322),M_CLK_EXT0_N(22)] [M_LED<5>(334),M_LED<5>(25)] [M_LED<8>(323),M_LED<8>(23)]  
+           [u0/w_shift_reg<3>(336)] [u0/w_shift_reg<4>(335)] [u0/dut_inputs<3>(333)] [u0/dut_inputs<9>(332)]  
+           [u0/dut_inputs<4>(331)] [u0/dut_inputs<6>(330)] [u0/w_shift_reg<5>(329)] [u0/w_shift_reg<7>(328)]  
+           [u0/w_shift_reg<6>(327)] [N_PZ_561(326)] [N_PZ_593(325)] [N_PZ_486(324)] [N_PZ_571(321)] 
+Signal[16] [ 0: N_PZ_571(321)  ][ 1: M_CLK_EXT0_N(322) M_CLK_EXT0_N(22)  ][ 2: M_LED<8>(323) M_LED<8>(23)  ] 
+           [ 3: N_PZ_486(324)  ][ 4: N_PZ_593(325)  ][ 5: N_PZ_561(326)  ][ 6: u0/w_shift_reg<6>(327)  ][ 7:  
+           u0/w_shift_reg<7>(328)  ][ 8: u0/w_shift_reg<5>(329)  ][ 9: u0/dut_inputs<6>(330)  ][ 10:  
+           u0/dut_inputs<4>(331)  ][ 11: u0/dut_inputs<9>(332)  ][ 12: u0/dut_inputs<3>(333)  ][ 13:  
+           M_LED<5>(334) M_LED<5>(25)  ][ 14: u0/w_shift_reg<4>(335)  ][ 15: u0/w_shift_reg<3>(336)  ]
+----------------- B l o c k 8 ------------------
+PLApt(14/56), Fanin(12/38), Clk(0/3), Bct(0/4), Pin(4/5), Mcell(5/16)
+PLApts[14/53] 267 268 26 27 28 29 270 273 276 279 () () () 3 () () 1 () () () () () () () () () () () () () 
+              () () () () () () () () () () () () () () () () 192 () () () () () 137
+Fanins[12] N_PZ_580.n N_PZ_593.n N_PZ_634.n u0/Mxor_xor_out_Mxor__xor0001__xor0000.n u0/dut/G199gat.n 
+           u0/dut/G296gat.n u0/dut/G430gat_and0000.n u0/dut_inputs<23>.n u0/dut_inputs<36>.n 
+           u0/dut_inputs<48>.n M_HEADER<0>.p M_HEADER<1>.p
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 6] [M_LED<6>(338),M_LED<6>(50)] [M_LED<7>(339),M_LED<7>(49)] [M_LED<9>(340),M_LED<9>(48)]  
+           [M_CLK_EXT0_P(46)] [N_PZ_576(351)] [N_PZ_580(349)] 
+Signal[ 6] [ 0:  ][ 1: M_LED<6>(338) M_LED<6>(50)  ][ 2: M_LED<7>(339) M_LED<7>(49)  ][ 3: M_LED<9>(340)  
+           M_LED<9>(48)  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10:  ][ 11:  ][ 12: N_PZ_580(349)  ] 
+           [ 13: (47)  ][ 14: N_PZ_576(351)  ][ 15: M_CLK_EXT0_P(46)  ]
+----------------- B l o c k 9 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(1/6), Mcell(0/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 1] [M_HEADER_CLK_N(55)] 
+Signal[ 1] [ 0: (51)  ][ 1: (54)  ][ 2: M_HEADER_CLK_N(55)  ][ 3: (56)  ][ 4:  ][ 5:  ][ 6:  ][ 7:  ][ 8:  ] 
+           [ 9:  ][ 10:  ][ 11:  ][ 12: (57)  ][ 13: (58)  ][ 14:  ][ 15:  ]
+----------------- B l o c k 10 ------------------
+----------------- B l o c k 11 ------------------
+----------------- B l o c k 12 ------------------
+----------------- B l o c k 13 ------------------
+----------------- B l o c k 14 ------------------
+----------------- B l o c k 15 ------------------
+----------------- B l o c k 16 ------------------
+----------------- B l o c k 17 ------------------
+----------------- B l o c k 18 ------------------
+----------------- B l o c k 19 ------------------
+----------------- B l o c k 20 ------------------
+----------------- B l o c k 21 ------------------
+----------------- B l o c k 22 ------------------
+----------------- B l o c k 23 ------------------
+----------------- B l o c k 24 ------------------
+----------------- B l o c k 25 ------------------
+----------------- B l o c k 26 ------------------
+----------------- B l o c k 27 ------------------
+----------------- B l o c k 28 ------------------
+----------------- B l o c k 29 ------------------
+----------------- B l o c k 30 ------------------
+----------------- B l o c k 31 ------------------

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="impact" timeStamp="Wed Jan  8 13:14:25 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="f2cc13408bf645709b4bfd51a2cbf15e"/>
+<property name="ProjectIteration" value="1"/>
+</section>
+<section name="iMPACT Project Info" visible="true">
+<property name="Use Project File" value="No"/>
+<property name="Project Entry" value="ise"/>
+<property name="OS Name" value="Ubuntu"/>
+<property name="OS Release" value="Ubuntu 16.04.6 LTS"/>
+<property name="User Lic. Info" value="211062854_1777509334_210607982_000"/>
+</section>
+<section name="iMPACT One Step SVF File Mode" visible="true">
+<item name="Chain Summary">
+<property name="Number of device" value="1"/>
+<property name="Number of Xilinx device" value="1"/>
+<property name="Number of Non-Xilinx device" value="0"/>
+</item>
+<item name="Chain Description">
+<property name="Device1" value="spartan6"/>
+<property name="Part1" value="xc6slx75"/>
+<property name="Device1" value="SPI FLASH"/>
+<property name="Part1" value="AT45DB321D"/>
+<property name="Data Width" value="x1"/>
+</item>
+<item name="Boundary Scan Operations Statistics">
+<property name="BSCAN Operation" value="Program -p 0 -dataWidth 1 -spionly -e -v -loadfpga
+"/>
+<property name="BSCAN Operation" value="Program -p 0 -dataWidth 1 -spionly -e -v -loadfpga
+"/>
+</item>
+<item name="Cable Summary">
+<property name="Cable Type" value="Platform Cable USB II"/>
+<property name="Cable Speed" value="6 MHz"/>
+<property name="Port" value="usb-hs"/>
+<property name="Local_Server_Mode" value="Local"/>
+</item>
+</section>
+</application>
+</document>

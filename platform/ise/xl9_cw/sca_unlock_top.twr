@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr
+sca_unlock_top.pcf -ucf CW308T_S6LX9_Example.ucf
+
+Design file:              sca_unlock_top.ncd
+Physical constraint file: sca_unlock_top.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock H1
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+H2          |   -1.231(F)|      FAST  |    3.684(F)|      SLOW  |LED1_OBUF_BUFG    |   0.000|
+H3          |    0.659(F)|      SLOW  |    2.613(F)|      SLOW  |LED1_OBUF_BUFG    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock H9
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+H3          |    1.330(F)|      SLOW  |    0.559(F)|      SLOW  |H9_BUFGP          |   0.000|
+H5          |   21.566(F)|      SLOW  |   -0.013(F)|      SLOW  |H9_BUFGP          |   0.000|
+H8          |   -0.446(F)|      FAST  |    3.092(F)|      SLOW  |H9_BUFGP          |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock H1 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+H4          |        15.837(F)|      SLOW  |         7.701(F)|      FAST  |LED1_OBUF_BUFG    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock H9 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+H7          |        16.764(F)|      SLOW  |         8.261(F)|      FAST  |H9_BUFGP          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock H1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H1             |         |         |         |    1.989|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock H9
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+H1             |         |         |         |   26.061|
+H9             |         |         |         |    1.475|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+H1             |LED1           |   14.330|
+H2             |LED2           |   13.102|
+H8             |H7             |   10.560|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Oct 16 19:14:11 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 372 MB
+
+
+

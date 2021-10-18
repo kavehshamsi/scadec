@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cpldtest.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="sca_unlock_top.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="sca_unlock_top.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="sca_unlock_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="sca_unlock_top.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="sca_unlock_top.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="sca_unlock_top.jed"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="sca_unlock_top.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="sca_unlock_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="sca_unlock_top.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="sca_unlock_top.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="sca_unlock_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="sca_unlock_top.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="sca_unlock_top.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="sca_unlock_top.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="sca_unlock_top.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sca_unlock_top.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sca_unlock_top.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="sca_unlock_top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="sca_unlock_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="sca_unlock_top.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sca_unlock_top.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="sca_unlock_top.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="sca_unlock_top_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sca_unlock_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="sca_unlock_top_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sca_unlock_top_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="sca_unlock_top_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="sca_unlock_top_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="sca_unlock_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1577213674" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1577213674">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1577213674" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5208284154478239270" xil_pn:start_ts="1577213674">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1577214050" xil_pn:in_ck="-6867186993784068292" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="476968809278414743" xil_pn:start_ts="1577214042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="sca_unlock_top.lso"/>
+      <outfile xil_pn:name="sca_unlock_top.ngc"/>
+      <outfile xil_pn:name="sca_unlock_top.ngr"/>
+      <outfile xil_pn:name="sca_unlock_top.prj"/>
+      <outfile xil_pn:name="sca_unlock_top.stx"/>
+      <outfile xil_pn:name="sca_unlock_top.syr"/>
+      <outfile xil_pn:name="sca_unlock_top.xst"/>
+      <outfile xil_pn:name="sca_unlock_top_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1577213971" xil_pn:in_ck="5350595257797771" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7260915871509297558" xil_pn:start_ts="1577213971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1577214055" xil_pn:in_ck="8377913049611410661" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="-5807149778032036552" xil_pn:start_ts="1577214050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="sca_unlock_top.bld"/>
+      <outfile xil_pn:name="sca_unlock_top.ngd"/>
+      <outfile xil_pn:name="sca_unlock_top_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1577214089" xil_pn:in_ck="-6179131659623560293" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="5468967672816014118" xil_pn:start_ts="1577214055">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="sca_unlock_top.chk"/>
+      <outfile xil_pn:name="sca_unlock_top.cxt"/>
+      <outfile xil_pn:name="sca_unlock_top.gyd"/>
+      <outfile xil_pn:name="sca_unlock_top.log"/>
+      <outfile xil_pn:name="sca_unlock_top.mfd"/>
+      <outfile xil_pn:name="sca_unlock_top.nga"/>
+      <outfile xil_pn:name="sca_unlock_top.pad"/>
+      <outfile xil_pn:name="sca_unlock_top.pnx"/>
+      <outfile xil_pn:name="sca_unlock_top.rpt"/>
+      <outfile xil_pn:name="sca_unlock_top.vm6"/>
+      <outfile xil_pn:name="sca_unlock_top.xml"/>
+      <outfile xil_pn:name="sca_unlock_top_build.xml"/>
+      <outfile xil_pn:name="sca_unlock_top_html"/>
+      <outfile xil_pn:name="sca_unlock_top_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1577214090" xil_pn:in_ck="-6179131659623551429" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1577214089">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="sca_unlock_top.jed"/>
+    </transform>
+    <transform xil_pn:name="TRAN_timRpt">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+    </transform>
+  </transforms>
+
+</generated_project>

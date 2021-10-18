@@ -1,0 +1,71 @@
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 
+xst -intstyle ise -ifn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.xst" -ofn "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sakura_g_main_r1.ucf -p xc6slx75-csg484-3 sca_unlock_top.ngc sca_unlock_top.ngd  
+map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd sca_unlock_top.pcf 
+par -w -intstyle ise -ol high -mt off sca_unlock_top_map.ncd sca_unlock_top.ncd sca_unlock_top.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sca_unlock_top.twx sca_unlock_top.ncd -o sca_unlock_top.twr sca_unlock_top.pcf -ucf sakura_g_main_r1.ucf 
+bitgen -intstyle ise -f sca_unlock_top.ut sca_unlock_top.ncd 

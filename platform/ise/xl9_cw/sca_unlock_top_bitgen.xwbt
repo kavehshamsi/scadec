@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_top.ncd
+OUTFILE=/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw/sca_unlock_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=/home/kaveh/Development/eclipse/scadec/platform/ise/xl9_cw
+LICENSE=WebPack
+USER_INFO=211562523_0_0_317

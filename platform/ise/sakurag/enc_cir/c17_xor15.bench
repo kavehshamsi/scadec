@@ -1,0 +1,22 @@
+# BENCH FILE 
+# circuit:c17.bench
+
+INPUT(keyinput0)
+INPUT(keyinput1)
+INPUT(keyinput2)
+INPUT(G1gat)
+INPUT(G2gat)
+INPUT(G3gat)
+INPUT(G6gat)
+INPUT(G7gat)
+OUTPUT(G22gat)
+OUTPUT(G23gat)
+G10gat = nand( G1gat, G3gat )
+G11gat = nand( G3gat, G6gat )
+G16gat = nand( G2gat, xenc1 )
+G19gat = nand( xenc1, G7gat )
+G22gat = nand( xenc2, G16gat )
+G23gat = nand( G16gat, xenc0 )
+xenc0 = xor( G19gat, keyinput0 )
+xenc1 = xnor( G11gat, keyinput1 )
+xenc2 = xnor( G10gat, keyinput2 )

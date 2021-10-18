@@ -1,0 +1,15 @@
+
+INPUT(G1gat)
+INPUT(G2gat)
+INPUT(G3gat)
+INPUT(G6gat)
+INPUT(G7gat)
+OUTPUT(G22gat)
+OUTPUT(G23gat)
+G10gat = nand(G1gat, G3gat)
+G11gat = nand(G3gat, G6gat)
+G16gat = nand(G2gat, G11gat)
+G19gat = nand(G11gat, G7gat)
+G22gat = nand(G10gat, G16gat)
+G23gat = nand(G16gat, G19gat)
+

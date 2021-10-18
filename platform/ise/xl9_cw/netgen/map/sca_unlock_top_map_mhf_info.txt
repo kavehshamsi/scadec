@@ -1,0 +1,39 @@
+// Xilinx design hierarchy information file produced by netgen (P.20131013) 
+// The information in this file is useful for 
+//   - Design hierarchy relationship between modules 
+//   - Bottom up compilation order (VHDL simulation) 
+//   - SDF file annotation (VHDL simulation) 
+//
+//  Design Name : sca_unlock_top
+//
+//  Module      : The name of the hierarchical design module.
+//  Instance    : The instance name used in the parent module.
+//  Design File : The name of the file that contains the module.
+//  SDF File    : The SDF file associated with the module.
+//  SubModule   : The sub module(s) contained within a given module.
+//     Module, Instance : The sub module and instance names.
+
+  Module	: glbl 
+  Instance	: NONE 
+  Design File	: glbl.v 
+  SubModule	: NONE 
+
+  Module      : and64
+  Instance    : dut
+  Design File : and64_sim.v
+  SDF File    : and64_sim.sdf
+  SubModule   : NONE
+
+  Module      : sca_unlock
+  Instance    : u0
+  Design File : sca_unlock_sim.v
+  SDF File    : sca_unlock_sim.sdf
+  SubModule   : and64
+       Module : and64, Instance : dut
+
+  Module      : sca_unlock_top
+  Design File : sca_unlock_top_map.v
+  SDF File    : sca_unlock_top_map.sdf
+  SubModule   : sca_unlock
+       Module : sca_unlock, Instance : u0
+

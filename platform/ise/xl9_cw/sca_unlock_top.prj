@@ -1,0 +1,2 @@
+verilog work "dut.v"
+verilog work "sca_unlock_post.v"

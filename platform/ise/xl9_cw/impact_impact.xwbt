@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/kaveh/projects/scadobf/ise/xl9_cw/impact.xsl
+OUTFILE=/home/kaveh/projects/scadobf/ise/xl9_cw/impact.xsl
+FAMILY=None
+PART=None
+WORKINGDIR=/home/kaveh/projects/scadobf/ise/xl9_cw
+LICENSE=iMPACT
+USER_INFO=iMPACT

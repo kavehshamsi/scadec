@@ -1,0 +1,22 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Jan  7 14:45:19 2020
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 10 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   FTDI_BDBUS<3>_IBUF
+   FTDI_BDBUS<4>_IBUF
+   FTDI_BDBUS<5>_IBUF
+   FTDI_BDBUS<6>_IBUF
+   FTDI_BDBUS<7>_IBUF
+   M_CLK_EXT0_P_IBUF
+   M_HEADER<0>_IBUF
+   M_HEADER<1>_IBUF
+   M_HEADER_CLK_N_IBUF
+   M_RESET_B_IBUF
+
+

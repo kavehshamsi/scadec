@@ -1,0 +1,21 @@
+# BENCH FILE 
+# circuit:rca.v
+
+INPUT(A1)
+INPUT(A2)
+INPUT(B1)
+INPUT(B2)
+INPUT(C0)
+OUTPUT(S1)
+OUTPUT(S2)
+OUTPUT(C2)
+x1 = xor( A1, B1 )
+S1 = xor( C0, x1 )
+and1 = and( A1, B1 )
+and2 = and( x1, C0 )
+C1 = or( and1, and2 )
+x2 = xor( A2, B2 )
+S2 = xor( C1, x2 )
+and3 = and( A2, B2 )
+and4 = and( x2, C1 )
+C2 = or( and3, and4 )

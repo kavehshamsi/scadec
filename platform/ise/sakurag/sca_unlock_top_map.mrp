@@ -1,0 +1,789 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'sca_unlock_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx75-csg484-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o sca_unlock_top_map.ncd sca_unlock_top.ngd
+sca_unlock_top.pcf 
+Target Device  : xc6slx75
+Target Package : csg484
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue Jan  7 14:44:53 2020
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     8 out of  93,296    1%
+    Number used as Flip Flops:                   8
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                          8 out of  46,648    1%
+    Number used as logic:                        8 out of  46,648    1%
+      Number using O6 output only:               5
+      Number using O5 output only:               0
+      Number using O5 and O6:                    3
+      Number used as ROM:                        0
+    Number used as Memory:                       0 out of  11,072    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     3 out of  11,662    1%
+  Number of MUXCYs used:                         0 out of  23,324    0%
+  Number of LUT Flip Flop pairs used:            8
+    Number with an unused Flip Flop:             1 out of       8   12%
+    Number with an unused LUT:                   0 out of       8    0%
+    Number of fully used LUT-FF pairs:           7 out of       8   87%
+    Number of unique control sets:               2
+    Number of slice register sites lost
+      to control set restrictions:               8 out of  93,296    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        25 out of     328    7%
+    Number of LOCed IOBs:                       25 out of      25  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of     172    0%
+  Number of RAMB8BWERs:                          0 out of     344    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of      12    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     442    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     442    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     442    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     384    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of     132    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       4    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       6    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                1.68
+
+Peak Memory Usage:  852 MB
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   8 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network u0/flip_all_out has no load.
+INFO:LIT:395 - The above info message is repeated 10 more times for the
+   following (max. 5 shown):
+   FTDI_BDBUS<7>_IBUF,
+   FTDI_BDBUS<6>_IBUF,
+   FTDI_BDBUS<5>_IBUF,
+   FTDI_BDBUS<4>_IBUF,
+   FTDI_BDBUS<3>_IBUF
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 251 block(s) removed
+   1 block(s) optimized away
+ 251 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "u0/flip_all_out" is loadless and has been removed.
+ Loadless block "u0/dut_outputs[6]_reduce_xor_11_xo<0>" (ROM) removed.
+  The signal "u0/dut_outputs<6>" is loadless and has been removed.
+   Loadless block "u0/dut/G432gat" (ROM) removed.
+    The signal "u0/dut_inputs<43>" is loadless and has been removed.
+     Loadless block "u0/dut_inputs_43" (FF) removed.
+      The signal "flip_clk_BUFG" is loadless and has been removed.
+       Loadless block "flip_clk_BUFG" (CKBUF) removed.
+      The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_150_o1" is loadless and
+has been removed.
+       Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_150_o11" (ROM)
+removed.
+        The signal "u0/flipbit_index<7>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_7" (FF) removed.
+          The signal "u0/SR/reset_inv" is loadless and has been removed.
+           Loadless block "u0/reset_inv521_INV_0" (BUF) removed.
+          The signal "u0/SR/shift_reg<16>" is loadless and has been removed.
+           Loadless block "u0/SR/shift_reg_16" (FF) removed.
+            The signal "FTDI_BDBUS_1_IBUF_BUFG" is loadless and has been removed.
+             Loadless block "FTDI_BDBUS_1_IBUF_BUFG" (CKBUF) removed.
+            The signal "u0/SR/shift_reg<15>" is loadless and has been removed.
+             Loadless block "u0/SR/shift_reg_15" (FF) removed.
+              The signal "u0/SR/shift_reg<14>" is loadless and has been removed.
+               Loadless block "u0/SR/shift_reg_14" (FF) removed.
+                The signal "u0/SR/shift_reg<13>" is loadless and has been removed.
+                 Loadless block "u0/SR/shift_reg_13" (FF) removed.
+                  The signal "u0/SR/shift_reg<12>" is loadless and has been removed.
+                   Loadless block "u0/SR/shift_reg_12" (FF) removed.
+                    The signal "u0/SR/shift_reg<11>" is loadless and has been removed.
+                     Loadless block "u0/SR/shift_reg_11" (FF) removed.
+                      The signal "u0/SR/shift_reg<10>" is loadless and has been removed.
+                       Loadless block "u0/SR/shift_reg_10" (FF) removed.
+                        The signal "u0/SR/shift_reg<9>" is loadless and has been removed.
+                         Loadless block "u0/SR/shift_reg_9" (FF) removed.
+                          The signal "u0/SR/shift_reg<8>" is loadless and has been removed.
+                           Loadless block "u0/SR/shift_reg_8" (FF) removed.
+                            The signal "u0/SR/shift_reg<7>" is loadless and has been removed.
+                             Loadless block "u0/SR/shift_reg_7" (FF) removed.
+                              The signal "u0/SR/shift_reg<6>" is loadless and has been removed.
+                               Loadless block "u0/SR/shift_reg_6" (FF) removed.
+                                The signal "u0/SR/shift_reg<5>" is loadless and has been removed.
+                                 Loadless block "u0/SR/shift_reg_5" (FF) removed.
+                                  The signal "u0/SR/shift_reg<4>" is loadless and has been removed.
+                                   Loadless block "u0/SR/shift_reg_4" (FF) removed.
+                                    The signal "u0/SR/shift_reg<3>" is loadless and has been removed.
+                                     Loadless block "u0/SR/shift_reg_3" (FF) removed.
+                                      The signal "u0/SR/shift_reg<2>" is loadless and has been removed.
+                                       Loadless block "u0/SR/shift_reg_2" (FF) removed.
+                                        The signal "u0/SR/shift_reg<1>" is loadless and has been removed.
+                                         Loadless block "u0/SR/shift_reg_1" (FF) removed.
+                                          The signal "u0/SR/shift_reg<0>" is loadless and has been removed.
+                                           Loadless block "u0/SR/shift_reg_0" (FF) removed.
+        The signal "u0/flipbit_index<8>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_8" (FF) removed.
+        The signal "u0/flipbit_index<9>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_9" (FF) removed.
+        The signal "u0/flipbit_index<0>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_0" (FF) removed.
+          The signal "u0/SR/shift_reg<23>" is loadless and has been removed.
+           Loadless block "u0/SR/shift_reg_23" (FF) removed.
+            The signal "u0/SR/shift_reg<22>" is loadless and has been removed.
+             Loadless block "u0/SR/shift_reg_22" (FF) removed.
+              The signal "u0/SR/shift_reg<21>" is loadless and has been removed.
+               Loadless block "u0/SR/shift_reg_21" (FF) removed.
+                The signal "u0/SR/shift_reg<20>" is loadless and has been removed.
+                 Loadless block "u0/SR/shift_reg_20" (FF) removed.
+                  The signal "u0/SR/shift_reg<19>" is loadless and has been removed.
+                   Loadless block "u0/SR/shift_reg_19" (FF) removed.
+                    The signal "u0/SR/shift_reg<18>" is loadless and has been removed.
+                     Loadless block "u0/SR/shift_reg_18" (FF) removed.
+                      The signal "u0/SR/shift_reg<17>" is loadless and has been removed.
+                       Loadless block "u0/SR/shift_reg_17" (FF) removed.
+        The signal "N30" is loadless and has been removed.
+         Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o1_SW3" (ROM)
+removed.
+          The signal "u0/flipbit_index<6>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_6" (FF) removed.
+          The signal "u0/flipbit_index<13>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_13" (FF) removed.
+          The signal "u0/flipbit_index<4>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_4" (FF) removed.
+        The signal "N2" is loadless and has been removed.
+         Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o1_SW0" (ROM)
+removed.
+          The signal "u0/flipbit_index<11>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_11" (FF) removed.
+          The signal "u0/flipbit_index<14>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_14" (FF) removed.
+          The signal "u0/flipbit_index<10>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_10" (FF) removed.
+          The signal "u0/flipbit_index<15>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_15" (FF) removed.
+          The signal "u0/flipbit_index<12>" is loadless and has been removed.
+           Loadless block "u0/flipbit_index_12" (FF) removed.
+      The signal "u0/dut_inputs_43_dpot" is loadless and has been removed.
+       Loadless block "u0/dut_inputs_43_dpot" (ROM) removed.
+        The signal "u0/flipbit_index<3>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_3" (FF) removed.
+        The signal "u0/flipbit_index<1>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_1" (FF) removed.
+        The signal "u0/flipbit_index<2>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_2" (FF) removed.
+        The signal "u0/flipbit_index<5>" is loadless and has been removed.
+         Loadless block "u0/flipbit_index_5" (FF) removed.
+        The signal "u0/flipbit_index[5]_INV_50_o1" is loadless and has been removed.
+         Loadless block "u0/flipbit_index[5]_INV_50_o1_1" (ROM) removed.
+          The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_8" is loadless and has been
+removed.
+           Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_8" (ROM) removed.
+            The signal "u0/dut_inputs<50>" is loadless and has been removed.
+             Loadless block "u0/dut_inputs_50" (FF) removed.
+              The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o2" is loadless and
+has been removed.
+               Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o21" (ROM)
+removed.
+                The signal "N26" is loadless and has been removed.
+                 Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o1_SW1" (ROM)
+removed.
+              The signal "u0/dut_inputs_50_dpot" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_50_dpot" (ROM) removed.
+            The signal "u0/dut_inputs<48>" is loadless and has been removed.
+             Loadless block "u0/dut_inputs_48" (FF) removed.
+              The signal "u0/dut_inputs_48_dpot" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_48_dpot" (ROM) removed.
+            The signal "u0/dut_inputs<49>" is loadless and has been removed.
+             Loadless block "u0/dut_inputs_49" (FF) removed.
+              The signal "u0/dut_inputs_49_dpot" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_49_dpot" (ROM) removed.
+          The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_71" is loadless and has been
+removed.
+           Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_71" (ROM) removed.
+            The signal "u0/flipbit_index_3_1" is loadless and has been removed.
+             Loadless block "u0/flipbit_index_3_1" (FF) removed.
+            The signal "u0/flipbit_index_2_1" is loadless and has been removed.
+             Loadless block "u0/flipbit_index_2_1" (FF) removed.
+            The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_124" is loadless and has been
+removed.
+             Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_124" (ROM) removed.
+              The signal "u0/dut_inputs<40>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_40" (FF) removed.
+                The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_151_o1" is loadless and
+has been removed.
+                 Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_151_o11" (ROM)
+removed.
+                The signal "u0/dut_inputs_40_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_40_dpot" (ROM) removed.
+                  The signal "u0/flipbit_index[5]_INV_50_o" is loadless and has been removed.
+                   Loadless block "u0/flipbit_index[5]_INV_50_o1" (ROM) removed.
+                    The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_6" is loadless and has been
+removed.
+                     Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_6" (ROM) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_10" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_10" (ROM) removed.
+                        The signal "u0/dut_inputs<0>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_0" (FF) removed.
+                          The signal "u0/w_shift_reg[0]_flipbit_index[5]_MUX_138_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[0]_flipbit_index[5]_MUX_138_o11" (ROM)
+removed.
+                            The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_164_o1" is loadless and
+has been removed.
+                             Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_164_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<1>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_1" (FF) removed.
+                          The signal "u0/w_shift_reg[1]_flipbit_index[5]_MUX_137_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[1]_flipbit_index[5]_MUX_137_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<3>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_3" (FF) removed.
+                          The signal "u0/w_shift_reg[3]_flipbit_index[5]_MUX_135_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[3]_flipbit_index[5]_MUX_135_o11" (ROM)
+removed.
+                            The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_162_o1" is loadless and
+has been removed.
+                             Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_162_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<2>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_2" (FF) removed.
+                          The signal "u0/w_shift_reg[2]_flipbit_index[5]_MUX_136_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[2]_flipbit_index[5]_MUX_136_o11" (ROM)
+removed.
+                        The signal "u0/flipbit_index_0_2" is loadless and has been removed.
+                         Loadless block "u0/flipbit_index_0_2" (FF) removed.
+                        The signal "u0/flipbit_index_1_2" is loadless and has been removed.
+                         Loadless block "u0/flipbit_index_1_2" (FF) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_12" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_12" (ROM) removed.
+                        The signal "u0/dut_inputs<13>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_13" (FF) removed.
+                          The signal "u0/dut_inputs_13_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_13_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<15>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_15" (FF) removed.
+                          The signal "u0/dut_inputs_15_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_15_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<14>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_14" (FF) removed.
+                          The signal "u0/dut_inputs_14_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_14_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<12>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_12" (FF) removed.
+                          The signal "u0/dut_inputs_12_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_12_dpot" (ROM) removed.
+                        The signal "u0/flipbit_index_0_1" is loadless and has been removed.
+                         Loadless block "u0/flipbit_index_0_1" (FF) removed.
+                        The signal "u0/flipbit_index_1_1" is loadless and has been removed.
+                         Loadless block "u0/flipbit_index_1_1" (FF) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_11" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_11" (ROM) removed.
+                        The signal "u0/dut_inputs<5>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_5" (FF) removed.
+                          The signal "u0/w_shift_reg[5]_flipbit_index[5]_MUX_133_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[5]_flipbit_index[5]_MUX_133_o11" (ROM)
+removed.
+                            The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_160_o1" is loadless and
+has been removed.
+                             Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_160_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<4>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_4" (FF) removed.
+                          The signal "u0/w_shift_reg[4]_flipbit_index[5]_MUX_134_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[4]_flipbit_index[5]_MUX_134_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<7>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_7" (FF) removed.
+                          The signal "u0/w_shift_reg[7]_flipbit_index[5]_MUX_131_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[7]_flipbit_index[5]_MUX_131_o11" (ROM)
+removed.
+                            The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_158_o1" is loadless and
+has been removed.
+                             Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_158_o11" (ROM)
+removed.
+                        The signal "u0/dut_inputs<6>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_6" (FF) removed.
+                          The signal "u0/w_shift_reg[6]_flipbit_index[5]_MUX_132_o" is loadless and has
+been removed.
+                           Loadless block "u0/Mmux_w_shift_reg[6]_flipbit_index[5]_MUX_132_o11" (ROM)
+removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_111" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_111" (ROM) removed.
+                        The signal "u0/dut_inputs<11>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_11" (FF) removed.
+                          The signal "u0/dut_inputs_11_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_11_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<9>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_9" (FF) removed.
+                          The signal "u0/dut_inputs_9_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_9_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<8>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_8" (FF) removed.
+                          The signal "u0/dut_inputs_8_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_8_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<10>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_10" (FF) removed.
+                          The signal "u0/dut_inputs_10_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_10_dpot" (ROM) removed.
+                    The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_7" is loadless and has been
+removed.
+                     Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_7" (ROM) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_122" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_122" (ROM) removed.
+                        The signal "u0/dut_inputs<24>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_24" (FF) removed.
+                          The signal "u0/flipbit_index[5]_flipbit_index[15]_AND_166_o1" is loadless and
+has been removed.
+                           Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_166_o11" (ROM)
+removed.
+                            The signal "N28" is loadless and has been removed.
+                             Loadless block "u0/flipbit_index[5]_flipbit_index[15]_AND_147_o1_SW2" (ROM)
+removed.
+                          The signal "u0/dut_inputs_24_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_24_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<26>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_26" (FF) removed.
+                          The signal "u0/dut_inputs_26_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_26_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<27>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_27" (FF) removed.
+                          The signal "u0/dut_inputs_27_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_27_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<25>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_25" (FF) removed.
+                          The signal "u0/dut_inputs_25_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_25_dpot" (ROM) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_13" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_13" (ROM) removed.
+                        The signal "u0/dut_inputs<28>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_28" (FF) removed.
+                          The signal "u0/dut_inputs_28_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_28_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<31>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_31" (FF) removed.
+                          The signal "u0/dut_inputs_31_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_31_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<30>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_30" (FF) removed.
+                          The signal "u0/dut_inputs_30_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_30_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<29>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_29" (FF) removed.
+                          The signal "u0/dut_inputs_29_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_29_dpot" (ROM) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_121" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_121" (ROM) removed.
+                        The signal "u0/dut_inputs<20>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_20" (FF) removed.
+                          The signal "u0/dut_inputs_20_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_20_dpot" (ROM) removed.
+                            The signal "u0/flipbit_index[5]_INV_50_o11" is loadless and has been removed.
+                             Loadless block "u0/flipbit_index[5]_INV_50_o1_2" (ROM) removed.
+                        The signal "u0/dut_inputs<23>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_23" (FF) removed.
+                          The signal "u0/dut_inputs_23_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_23_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<22>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_22" (FF) removed.
+                          The signal "u0/dut_inputs_22_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_22_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<21>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_21" (FF) removed.
+                          The signal "u0/dut_inputs_21_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_21_dpot" (ROM) removed.
+                      The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_112" is loadless and has been
+removed.
+                       Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_112" (ROM) removed.
+                        The signal "u0/dut_inputs<17>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_17" (FF) removed.
+                          The signal "u0/dut_inputs_17_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_17_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<16>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_16" (FF) removed.
+                          The signal "u0/dut_inputs_16_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_16_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<19>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_19" (FF) removed.
+                          The signal "u0/dut_inputs_19_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_19_dpot" (ROM) removed.
+                        The signal "u0/dut_inputs<18>" is loadless and has been removed.
+                         Loadless block "u0/dut_inputs_18" (FF) removed.
+                          The signal "u0/dut_inputs_18_dpot" is loadless and has been removed.
+                           Loadless block "u0/dut_inputs_18_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<41>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_41" (FF) removed.
+                The signal "u0/dut_inputs_41_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_41_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<42>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_42" (FF) removed.
+                The signal "u0/dut_inputs_42_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_42_dpot" (ROM) removed.
+            The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_131" is loadless and has been
+removed.
+             Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_131" (ROM) removed.
+              The signal "u0/dut_inputs<47>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_47" (FF) removed.
+                The signal "u0/dut_inputs_47_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_47_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<46>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_46" (FF) removed.
+                The signal "u0/dut_inputs_46_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_46_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<45>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_45" (FF) removed.
+                The signal "u0/dut_inputs_45_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_45_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<44>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_44" (FF) removed.
+                The signal "u0/dut_inputs_44_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_44_dpot" (ROM) removed.
+            The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_123" is loadless and has been
+removed.
+             Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_123" (ROM) removed.
+              The signal "u0/dut_inputs<37>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_37" (FF) removed.
+                The signal "u0/dut_inputs_37_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_37_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<38>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_38" (FF) removed.
+                The signal "u0/dut_inputs_38_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_38_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<36>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_36" (FF) removed.
+                The signal "u0/dut_inputs_36_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_36_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<39>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_39" (FF) removed.
+                The signal "u0/dut_inputs_39_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_39_dpot" (ROM) removed.
+            The signal "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_113" is loadless and has been
+removed.
+             Loadless block "u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_113" (ROM) removed.
+              The signal "u0/dut_inputs<33>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_33" (FF) removed.
+                The signal "u0/dut_inputs_33_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_33_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<35>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_35" (FF) removed.
+                The signal "u0/dut_inputs_35_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_35_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<32>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_32" (FF) removed.
+                The signal "u0/dut_inputs_32_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_32_dpot" (ROM) removed.
+              The signal "u0/dut_inputs<34>" is loadless and has been removed.
+               Loadless block "u0/dut_inputs_34" (FF) removed.
+                The signal "u0/dut_inputs_34_dpot" is loadless and has been removed.
+                 Loadless block "u0/dut_inputs_34_dpot" (ROM) removed.
+    The signal "u0/dut/G417gat" is loadless and has been removed.
+     Loadless block "u0/dut/out3" (ROM) removed.
+      The signal "N12" is loadless and has been removed.
+       Loadless block "u0/dut/out3_SW0" (ROM) removed.
+        The signal "u0/dut/G199gat" is loadless and has been removed.
+         Loadless block "u0/dut/out93" (ROM) removed.
+          The signal "u0/dut/G159gat" is loadless and has been removed.
+           Loadless block "u0/dut/G159gat1" (ROM) removed.
+          The signal "u0/dut/out91" is loadless and has been removed.
+           Loadless block "u0/dut/out92" (ROM) removed.
+            The signal "u0/dut/out9" is loadless and has been removed.
+             Loadless block "u0/dut/out91" (ROM) removed.
+          The signal "u0/dut/n0317" is loadless and has been removed.
+           Loadless block "u0/dut/Mxor_n0317_xo<0>1" (ROM) removed.
+          The signal "u0/dut/G171gat" is loadless and has been removed.
+           Loadless block "u0/dut/G171gat1" (ROM) removed.
+      The signal "u0/dut/G296gat" is loadless and has been removed.
+       Loadless block "u0/dut/out177" (ROM) removed.
+        The signal "u0/dut/out175" is loadless and has been removed.
+         Loadless block "u0/dut/out176" (ROM) removed.
+          The signal "u0/dut/out174" is loadless and has been removed.
+           Loadless block "u0/dut/out175" (ROM) removed.
+            The signal "u0/dut/out173" is loadless and has been removed.
+             Loadless block "u0/dut/out174" (ROM) removed.
+              The signal "u0/dut/out172" is loadless and has been removed.
+               Loadless block "u0/dut/out173" (ROM) removed.
+                The signal "u0/dut/out171" is loadless and has been removed.
+                 Loadless block "u0/dut/out172" (ROM) removed.
+                  The signal "u0/dut/out17" is loadless and has been removed.
+                   Loadless block "u0/dut/out171" (ROM) removed.
+                    The signal "u0/dut/n0329" is loadless and has been removed.
+                     Loadless block "u0/dut/Mxor_n0329_xo<0>1" (ROM) removed.
+                    The signal "u0/dut/n0327" is loadless and has been removed.
+                     Loadless block "u0/dut/Mxor_n0327_xo<0>1" (ROM) removed.
+                    The signal "u0/dut/n0332" is loadless and has been removed.
+                     Loadless block "u0/dut/Mxor_n0332_xo<0>1" (ROM) removed.
+                  The signal "u0/dut/G251gat" is loadless and has been removed.
+                   Loadless block "u0/dut/Mxor_G251gat_xo<0>1" (ROM) removed.
+            The signal "u0/dut/xenc12" is loadless and has been removed.
+             Loadless block "u0/dut/Mxor_xenc12_xo<0>1" (ROM) removed.
+        The signal "u0/dut/Mxor_n0321_xo<0>1" is loadless and has been removed.
+         Loadless block "u0/dut/Mxor_n0321_xo<0>11" (ROM) removed.
+      The signal "u0/dut/xenc3" is loadless and has been removed.
+       Loadless block "u0/dut/Mxor_xenc3_xo<0>1" (ROM) removed.
+        The signal "u0/dut_outputs<2>" is loadless and has been removed.
+         Loadless block "u0/dut/G360gat16" (MUX) removed.
+          The signal "N34" is loadless and has been removed.
+           Loadless block "u0/dut/G360gat16_F" (ROM) removed.
+            The signal "u0/dut/G360gat15" is loadless and has been removed.
+             Loadless block "u0/dut/G360gat14" (ROM) removed.
+              The signal "u0/dut/G360gat14" is loadless and has been removed.
+               Loadless block "u0/dut/G360gat13" (ROM) removed.
+                The signal "u0/dut/G236gat" is loadless and has been removed.
+                 Loadless block "u0/dut/Mxor_G236gat_xo<0>1" (ROM) removed.
+                The signal "u0/dut/G360gat11" is loadless and has been removed.
+                 Loadless block "u0/dut/G360gat12" (ROM) removed.
+                  The signal "u0/dut/G247gat" is loadless and has been removed.
+                   Loadless block "u0/dut/Mxor_G247gat_xo<0>1" (ROM) removed.
+                  The signal "u0/dut/G360gat10" is loadless and has been removed.
+                   Loadless block "u0/dut/G360gat11" (ROM) removed.
+                  The signal "u0/dut/G360gat9" is loadless and has been removed.
+                   Loadless block "u0/dut/G360gat10" (ROM) removed.
+                The signal "u0/dut/G360gat8" is loadless and has been removed.
+                 Loadless block "u0/dut/G360gat9" (ROM) removed.
+            The signal "u0/dut/G360gat13" is loadless and has been removed.
+             Loadless block "u0/dut/G360gat131" (ROM) removed.
+            The signal "u0/dut/G360gat12" is loadless and has been removed.
+             Loadless block "u0/dut/G360gat121" (ROM) removed.
+            The signal "u0/dut/G360gat" is loadless and has been removed.
+             Loadless block "u0/dut/G360gat1" (ROM) removed.
+          The signal "N35" is loadless and has been removed.
+           Loadless block "u0/dut/G360gat16_G" (ROM) removed.
+            The signal "u0/dut/G360gat6" is loadless and has been removed.
+             Loadless block "u0/dut/G360gat7" (ROM) removed.
+              The signal "u0/dut/G360gat5" is loadless and has been removed.
+               Loadless block "u0/dut/G360gat6" (ROM) removed.
+                The signal "u0/dut/G360gat4" is loadless and has been removed.
+                 Loadless block "u0/dut/G360gat5" (ROM) removed.
+                  The signal "u0/dut/G224gat" is loadless and has been removed.
+                   Loadless block "u0/dut/Mxor_G224gat_xo<0>1" (ROM) removed.
+                  The signal "u0/dut/G360gat3" is loadless and has been removed.
+                   Loadless block "u0/dut/G360gat4" (ROM) removed.
+                The signal "u0/dut/G360gat2" is loadless and has been removed.
+                 Loadless block "u0/dut/G360gat3" (ROM) removed.
+              The signal "u0/dut/G360gat1" is loadless and has been removed.
+               Loadless block "u0/dut/G360gat2" (ROM) removed.
+    The signal "u0/dut/n0275" is loadless and has been removed.
+     Loadless block "u0/dut/out2" (ROM) removed.
+      The signal "N14" is loadless and has been removed.
+       Loadless block "u0/dut/out2_SW0" (ROM) removed.
+    The signal "N6" is loadless and has been removed.
+     Loadless block "u0/dut/G432gat_SW0" (ROM) removed.
+      The signal "u0/dut/n0279" is loadless and has been removed.
+       Loadless block "u0/dut/out5" (ROM) removed.
+        The signal "N10" is loadless and has been removed.
+         Loadless block "u0/dut/out5_SW0" (ROM) removed.
+      The signal "u0/dut/G418gat" is loadless and has been removed.
+       Loadless block "u0/dut/out6" (ROM) removed.
+        The signal "N20" is loadless and has been removed.
+         Loadless block "u0/dut/out6_SW0" (ROM) removed.
+      The signal "u0/dut/G420gat" is loadless and has been removed.
+       Loadless block "u0/dut/out8" (ROM) removed.
+        The signal "N8" is loadless and has been removed.
+         Loadless block "u0/dut/out8_SW0" (ROM) removed.
+      The signal "u0/dut/G419gat" is loadless and has been removed.
+       Loadless block "u0/dut/out7" (ROM) removed.
+        The signal "N18" is loadless and has been removed.
+         Loadless block "u0/dut/out7_SW0" (ROM) removed.
+    The signal "u0/dut/n0273" is loadless and has been removed.
+     Loadless block "u0/dut/out1" (ROM) removed.
+      The signal "N16" is loadless and has been removed.
+       Loadless block "u0/dut/out1_SW0" (ROM) removed.
+  The signal "u0/dut_outputs<5>" is loadless and has been removed.
+   Loadless block "u0/dut/G431gat1" (ROM) removed.
+  The signal "u0/dut_outputs<4>" is loadless and has been removed.
+   Loadless block "u0/dut/G430gat1" (ROM) removed.
+  The signal "u0/dut_outputs<3>" is loadless and has been removed.
+   Loadless block "u0/dut/G421gat5" (ROM) removed.
+    The signal "u0/dut/G421gat" is loadless and has been removed.
+     Loadless block "u0/dut/G421gat1" (ROM) removed.
+      The signal "u0/dut/G421gat1" is loadless and has been removed.
+       Loadless block "u0/dut/G421gat11" (ROM) removed.
+        The signal "u0/dut/n0325" is loadless and has been removed.
+         Loadless block "u0/dut/Mxor_n0325_xo<0>1" (ROM) removed.
+      The signal "u0/dut/G421gat31" is loadless and has been removed.
+       Loadless block "u0/dut/G421gat311" (ROM) removed.
+    The signal "u0/dut/G421gat3" is loadless and has been removed.
+     Loadless block "u0/dut/G421gat3" (ROM) removed.
+      The signal "u0/dut/G421gat2" is loadless and has been removed.
+       Loadless block "u0/dut/G421gat2" (ROM) removed.
+    The signal "u0/dut/G421gat4" is loadless and has been removed.
+     Loadless block "u0/dut/G421gat4" (ROM) removed.
+  The signal "N4" is loadless and has been removed.
+   Loadless block "u0/dut_outputs[6]_reduce_xor_11_xo<0>_SW0" (ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| FTDI_BDBUS<0>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<1>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<2>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<3>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<4>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<5>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<6>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| FTDI_BDBUS<7>                      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_CLK_EXT0_N                       | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| M_CLK_EXT0_P                       | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_CLK_OSC                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_HEADER<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_HEADER<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_HEADER_CLK_N                     | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| M_LED<0>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<1>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<4>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<5>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<6>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<7>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<8>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_LED<9>                           | IOB              | OUTPUT    | LVCMOS25             |       | 2        | QUIE |              |          |          |
+| M_RESET_B                          | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

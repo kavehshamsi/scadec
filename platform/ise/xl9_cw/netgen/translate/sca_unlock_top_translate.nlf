@@ -1,0 +1,21 @@
+Release 14.7 - netgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -mhf -insert_glbl false -w -dir
+netgen/translate -ofmt verilog -sim sca_unlock_top.ngd
+sca_unlock_top_translate.v  
+
+Reading design 'sca_unlock_top.ngd' ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing multiple Verilog netlists for design 'sca_unlock_top' ...
+Writing hierarchy information file
+'/home/kaveh/projects/scadobf/ise/xl9_cw/netgen/translate/sca_unlock_top_transla
+te_mhf_info.txt' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 311152 kilobytes

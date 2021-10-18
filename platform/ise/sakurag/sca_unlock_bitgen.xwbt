@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock.ncd
+OUTFILE=/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock.bit
+FAMILY=Spartan6
+PART=xc6slx75-3csg484
+WORKINGDIR=/home/kaveh/projects/scadobf/ise/sakurag
+LICENSE=WebPack
+USER_INFO=211062854_1777509334_210607982_000

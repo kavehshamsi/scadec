@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Oct 16 19:13:55 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED1" LOCATE = SITE "P43" LEVEL 1;
+COMP "LED2" LOCATE = SITE "P44" LEVEL 1;
+COMP "LED3" LOCATE = SITE "P45" LEVEL 1;
+COMP "H1" LOCATE = SITE "P138" LEVEL 1;
+PIN H1_pin<0> = BEL "H1" PINNAME PAD;
+PIN "H1_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "H2" LOCATE = SITE "P139" LEVEL 1;
+COMP "H3" LOCATE = SITE "P140" LEVEL 1;
+COMP "H4" LOCATE = SITE "P141" LEVEL 1;
+COMP "H5" LOCATE = SITE "P142" LEVEL 1;
+PIN H5_pin<0> = BEL "H5" PINNAME PAD;
+PIN "H5_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "H7" LOCATE = SITE "P38" LEVEL 1;
+COMP "H8" LOCATE = SITE "P39" LEVEL 1;
+COMP "H9" LOCATE = SITE "P40" LEVEL 1;
+PIN H9_pin<0> = BEL "H9" PINNAME PAD;
+PIN "H9_pin<0>" CLOCK_DEDICATED_ROUTE;
+SCHEMATIC END;
+

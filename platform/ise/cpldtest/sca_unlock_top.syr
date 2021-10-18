@@ -1,0 +1,391 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: sca_unlock_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sca_unlock_top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sca_unlock_top"
+Output Format                      : NGC
+Target Device                      : CoolRunner2 CPLDs
+
+---- Source Options
+Top Module Name                    : sca_unlock_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "dut.v" in library work
+Compiling verilog file "sca_unlock_post.v" in library work
+Module <c432_xor15> compiled
+Module <sca_unlock_top> compiled
+Module <sca_unlock> compiled
+Module <serial_receiver> compiled
+No errors in compilation
+Analysis of file <"sca_unlock_top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <sca_unlock_top> in library <work>.
+
+Analyzing hierarchy for module <sca_unlock> in library <work> with parameters.
+	num_ins = "00000000000000000000000000110011"
+	num_ins_log2 = 6
+	num_outs = "00000000000000000000000000000111"
+	shift_reg_len = 24
+	shift_reg_num_bytes = 3
+
+Analyzing hierarchy for module <serial_receiver> in library <work> with parameters.
+	data_len = "00000000000000000000000000011000"
+
+Analyzing hierarchy for module <c432_xor15> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sca_unlock_top>.
+Module <sca_unlock_top> is correct for synthesis.
+ 
+Analyzing module <sca_unlock> in library <work>.
+	num_ins = 32'sb00000000000000000000000000110011
+	num_ins_log2 = 6
+	num_outs = 32'sb00000000000000000000000000000111
+	shift_reg_len = 24
+	shift_reg_num_bytes = 3
+Module <sca_unlock> is correct for synthesis.
+ 
+Analyzing module <serial_receiver> in library <work>.
+	data_len = 32'sb00000000000000000000000000011000
+Module <serial_receiver> is correct for synthesis.
+ 
+Analyzing module <c432_xor15> in library <work>.
+Module <c432_xor15> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+INFO:Xst:2679 - Register <i> in unit <sca_unlock> has a constant value of 10000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <k> in unit <serial_receiver> has a constant value of 10111 during circuit operation. The register is replaced by logic.
+
+Synthesizing Unit <serial_receiver>.
+    Related source file is "sca_unlock_post.v".
+    Found 24-bit register for signal <shift_reg>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <serial_receiver> synthesized.
+
+
+Synthesizing Unit <c432_xor15>.
+    Related source file is "dut.v".
+    Found 1-bit xor2 for signal <G224gat>.
+    Found 1-bit xor2 for signal <G230gat>.
+    Found 1-bit xor2 for signal <G233gat>.
+    Found 1-bit xor2 for signal <G236gat>.
+    Found 1-bit xor2 for signal <G243gat>.
+    Found 1-bit xor2 for signal <G247gat>.
+    Found 1-bit xor2 for signal <G251gat>.
+    Found 1-bit xor2 for signal <G330gat>.
+    Found 1-bit xor2 for signal <G331gat>.
+    Found 1-bit xor2 for signal <G332gat>.
+    Found 1-bit xor2 for signal <G333gat>.
+    Found 1-bit xor2 for signal <G335gat>.
+    Found 1-bit xor2 for signal <G337gat>.
+    Found 1-bit xor2 for signal <G339gat>.
+    Found 1-bit xor2 for signal <G341gat>.
+    Found 1-bit xor2 for signal <G343gat>.
+    Found 1-bit xor2 for signal <xenc0$xor0000>.
+    Found 1-bit xor2 for signal <xenc1>.
+    Found 1-bit xor2 for signal <xenc10$xor0000>.
+    Found 1-bit xor2 for signal <xenc11$xor0000>.
+    Found 1-bit xor3 for signal <xenc12>.
+    Found 1-bit xor2 for signal <xenc13$xor0000>.
+    Found 1-bit xor2 for signal <xenc14>.
+    Found 1-bit xor2 for signal <xenc2$xor0000>.
+    Found 1-bit xor2 for signal <xenc3>.
+    Found 1-bit xor2 for signal <xenc4$xor0000>.
+    Found 1-bit xor2 for signal <xenc5$xor0000>.
+    Found 1-bit xor3 for signal <xenc6$xor0000>.
+    Found 1-bit xor2 for signal <xenc7>.
+    Found 1-bit xor2 for signal <xenc8>.
+    Found 1-bit xor2 for signal <xenc9$xor0000>.
+    Summary:
+	inferred  29 Xor(s).
+Unit <c432_xor15> synthesized.
+
+
+Synthesizing Unit <sca_unlock>.
+    Related source file is "sca_unlock_post.v".
+WARNING:Xst:647 - Input <M_RESET_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:646 - Signal <r_dut_outputs> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <flipbit_index<15:6>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor7 for signal <xor_out>.
+    Found 51-bit register for signal <dut_inputs>.
+    Found 6-bit register for signal <flipbit_index<5:0>>.
+    Summary:
+	inferred  57 D-type flip-flop(s).
+Unit <sca_unlock> synthesized.
+
+
+Synthesizing Unit <sca_unlock_top>.
+    Related source file is "sca_unlock_post.v".
+Unit <sca_unlock_top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 81
+ 1-bit register                                        : 81
+# Multiplexers                                         : 1
+ 1-bit 51-to-1 multiplexer                             : 1
+# Xors                                                 : 32
+ 1-bit xor2                                            : 29
+ 1-bit xor3                                            : 2
+ 1-bit xor7                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 81
+ Flip-Flops                                            : 81
+# Multiplexers                                         : 1
+ 1-bit 51-to-1 multiplexer                             : 1
+# Xors                                                 : 3
+ 1-bit xor3                                            : 2
+ 1-bit xor7                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sca_unlock_top> ...
+
+Optimizing unit <serial_receiver> ...
+  implementation constraint: INIT=r	 : shift_reg_20
+  implementation constraint: INIT=r	 : shift_reg_4
+  implementation constraint: INIT=r	 : shift_reg_13
+  implementation constraint: INIT=r	 : shift_reg_5
+  implementation constraint: INIT=r	 : shift_reg_6
+  implementation constraint: INIT=r	 : shift_reg_12
+  implementation constraint: INIT=r	 : shift_reg_7
+  implementation constraint: INIT=r	 : shift_reg_21
+  implementation constraint: INIT=r	 : shift_reg_8
+  implementation constraint: INIT=r	 : shift_reg_11
+  implementation constraint: INIT=r	 : shift_reg_9
+  implementation constraint: INIT=r	 : shift_reg_22
+  implementation constraint: INIT=r	 : shift_reg_10
+  implementation constraint: INIT=r	 : shift_reg_19
+  implementation constraint: INIT=r	 : shift_reg_0
+  implementation constraint: INIT=r	 : shift_reg_17
+  implementation constraint: INIT=r	 : shift_reg_1
+  implementation constraint: INIT=r	 : shift_reg_18
+  implementation constraint: INIT=r	 : shift_reg_2
+  implementation constraint: INIT=r	 : shift_reg_14
+  implementation constraint: INIT=r	 : shift_reg_3
+  implementation constraint: INIT=r	 : shift_reg_16
+  implementation constraint: INIT=r	 : shift_reg_23
+  implementation constraint: INIT=r	 : shift_reg_15
+
+Optimizing unit <c432_xor15> ...
+
+Optimizing unit <sca_unlock> ...
+  implementation constraint: INIT=r	 : dut_inputs_0
+  implementation constraint: INIT=r	 : dut_inputs_1
+  implementation constraint: INIT=r	 : dut_inputs_2
+  implementation constraint: INIT=r	 : dut_inputs_3
+  implementation constraint: INIT=r	 : dut_inputs_4
+  implementation constraint: INIT=r	 : dut_inputs_5
+  implementation constraint: INIT=r	 : dut_inputs_11
+  implementation constraint: INIT=r	 : dut_inputs_13
+  implementation constraint: INIT=r	 : dut_inputs_14
+  implementation constraint: INIT=r	 : dut_inputs_15
+  implementation constraint: INIT=r	 : dut_inputs_16
+  implementation constraint: INIT=r	 : dut_inputs_17
+  implementation constraint: INIT=r	 : dut_inputs_18
+  implementation constraint: INIT=r	 : dut_inputs_19
+  implementation constraint: INIT=r	 : dut_inputs_20
+  implementation constraint: INIT=r	 : dut_inputs_21
+  implementation constraint: INIT=r	 : dut_inputs_22
+  implementation constraint: INIT=r	 : dut_inputs_24
+  implementation constraint: INIT=r	 : dut_inputs_25
+  implementation constraint: INIT=r	 : dut_inputs_26
+  implementation constraint: INIT=r	 : dut_inputs_27
+  implementation constraint: INIT=r	 : dut_inputs_28
+  implementation constraint: INIT=r	 : dut_inputs_29
+  implementation constraint: INIT=r	 : dut_inputs_30
+  implementation constraint: INIT=r	 : dut_inputs_31
+  implementation constraint: INIT=r	 : dut_inputs_32
+  implementation constraint: INIT=r	 : dut_inputs_33
+  implementation constraint: INIT=r	 : dut_inputs_35
+  implementation constraint: INIT=r	 : dut_inputs_36
+  implementation constraint: INIT=r	 : dut_inputs_37
+  implementation constraint: INIT=r	 : dut_inputs_38
+  implementation constraint: INIT=r	 : dut_inputs_39
+  implementation constraint: INIT=r	 : dut_inputs_40
+  implementation constraint: INIT=r	 : dut_inputs_41
+  implementation constraint: INIT=r	 : dut_inputs_42
+  implementation constraint: INIT=r	 : dut_inputs_43
+  implementation constraint: INIT=r	 : dut_inputs_44
+  implementation constraint: INIT=r	 : dut_inputs_46
+  implementation constraint: INIT=r	 : dut_inputs_47
+  implementation constraint: INIT=r	 : dut_inputs_48
+  implementation constraint: INIT=r	 : dut_inputs_49
+  implementation constraint: INIT=r	 : dut_inputs_50
+  implementation constraint: INIT=r	 : flipbit_index_0
+  implementation constraint: INIT=r	 : flipbit_index_1
+  implementation constraint: INIT=r	 : flipbit_index_2
+  implementation constraint: INIT=r	 : flipbit_index_3
+  implementation constraint: INIT=r	 : flipbit_index_4
+  implementation constraint: INIT=r	 : dut_inputs_6
+  implementation constraint: INIT=r	 : dut_inputs_7
+  implementation constraint: INIT=r	 : dut_inputs_8
+  implementation constraint: INIT=r	 : dut_inputs_9
+  implementation constraint: INIT=r	 : dut_inputs_10
+  implementation constraint: INIT=r	 : dut_inputs_12
+  implementation constraint: INIT=r	 : dut_inputs_23
+  implementation constraint: INIT=r	 : dut_inputs_34
+  implementation constraint: INIT=r	 : dut_inputs_45
+  implementation constraint: INIT=r	 : flipbit_index_5
+WARNING:Xst:2170 - Unit u0 : the following signal(s) form a combinatorial loop: sca_unlock_top/M_LED<8>, M_CLK_EXT0_P.
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sca_unlock_top.ngr
+Top Level Output File Name         : sca_unlock_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : Yes
+Target Technology                  : CoolRunner2 CPLDs
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 901
+#      AND2                        : 314
+#      AND3                        : 45
+#      AND4                        : 16
+#      AND6                        : 7
+#      AND8                        : 4
+#      GND                         : 1
+#      INV                         : 400
+#      OR2                         : 75
+#      XOR2                        : 39
+# FlipFlops/Latches                : 81
+#      FDC                         : 38
+#      FDCE                        : 43
+# IO Buffers                       : 15
+#      IBUF                        : 4
+#      OBUF                        : 11
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.79 secs
+ 
+--> 
+
+
+Total memory usage is 519576 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

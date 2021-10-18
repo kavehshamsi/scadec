@@ -1,0 +1,7 @@
+INPUT(x1)
+INPUT(x2)
+OUTPUT(y1)
+n1 = not(x1)
+n2 = and(x1, x2)
+y1 = xor(n1, n2)
+

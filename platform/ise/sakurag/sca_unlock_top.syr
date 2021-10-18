@@ -1,0 +1,608 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: sca_unlock_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sca_unlock_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sca_unlock_top"
+Output Format                      : NGC
+Target Device                      : xc6slx75-3-csg484
+
+---- Source Options
+Top Module Name                    : sca_unlock_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/kaveh/projects/scadobf/ise/sakurag/dut.v" into library work
+Parsing module <c432_xor15>.
+Analyzing Verilog file "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v" into library work
+Parsing module <sca_unlock_top>.
+Parsing module <sca_unlock>.
+Parsing module <serial_receiver>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <sca_unlock_top>.
+WARNING:HDLCompiler:413 - "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v" Line 99: Result of 8-bit expression is truncated to fit in 7-bit target.
+
+Elaborating module <sca_unlock>.
+
+Elaborating module <serial_receiver(data_len=32'sb011000)>.
+
+Elaborating module <c432_xor15>.
+WARNING:HDLCompiler:1127 - "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v" Line 177: Assignment to r_dut_outputs ignored, since the identifier is never used
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sca_unlock_top>.
+    Related source file is "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v".
+WARNING:Xst:647 - Input <FTDI_BDBUS<7:3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <M_RESET_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <M_CLK_EXT0_N>.
+    Found 7-bit register for signal <counter>.
+    Found 7-bit adder for signal <counter[6]_GND_1_o_add_2_OUT> created at line 99.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+Unit <sca_unlock_top> synthesized.
+
+Synthesizing Unit <sca_unlock>.
+    Related source file is "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v".
+        num_ins = 51
+        num_outs = 7
+    Set property "KEEP = TRUE" for signal <flip_all_out>.
+WARNING:Xst:653 - Signal <M_LED<8>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 16-bit register for signal <flipbit_index>.
+    Found 1-bit register for signal <dut_inputs<50>>.
+    Found 1-bit register for signal <dut_inputs<49>>.
+    Found 1-bit register for signal <dut_inputs<48>>.
+    Found 1-bit register for signal <dut_inputs<47>>.
+    Found 1-bit register for signal <dut_inputs<46>>.
+    Found 1-bit register for signal <dut_inputs<45>>.
+    Found 1-bit register for signal <dut_inputs<44>>.
+    Found 1-bit register for signal <dut_inputs<43>>.
+    Found 1-bit register for signal <dut_inputs<42>>.
+    Found 1-bit register for signal <dut_inputs<41>>.
+    Found 1-bit register for signal <dut_inputs<40>>.
+    Found 1-bit register for signal <dut_inputs<39>>.
+    Found 1-bit register for signal <dut_inputs<38>>.
+    Found 1-bit register for signal <dut_inputs<37>>.
+    Found 1-bit register for signal <dut_inputs<36>>.
+    Found 1-bit register for signal <dut_inputs<35>>.
+    Found 1-bit register for signal <dut_inputs<34>>.
+    Found 1-bit register for signal <dut_inputs<33>>.
+    Found 1-bit register for signal <dut_inputs<32>>.
+    Found 1-bit register for signal <dut_inputs<31>>.
+    Found 1-bit register for signal <dut_inputs<30>>.
+    Found 1-bit register for signal <dut_inputs<29>>.
+    Found 1-bit register for signal <dut_inputs<28>>.
+    Found 1-bit register for signal <dut_inputs<27>>.
+    Found 1-bit register for signal <dut_inputs<26>>.
+    Found 1-bit register for signal <dut_inputs<25>>.
+    Found 1-bit register for signal <dut_inputs<24>>.
+    Found 1-bit register for signal <dut_inputs<23>>.
+    Found 1-bit register for signal <dut_inputs<22>>.
+    Found 1-bit register for signal <dut_inputs<21>>.
+    Found 1-bit register for signal <dut_inputs<20>>.
+    Found 1-bit register for signal <dut_inputs<19>>.
+    Found 1-bit register for signal <dut_inputs<18>>.
+    Found 1-bit register for signal <dut_inputs<17>>.
+    Found 1-bit register for signal <dut_inputs<16>>.
+    Found 1-bit register for signal <dut_inputs<15>>.
+    Found 1-bit register for signal <dut_inputs<14>>.
+    Found 1-bit register for signal <dut_inputs<13>>.
+    Found 1-bit register for signal <dut_inputs<12>>.
+    Found 1-bit register for signal <dut_inputs<11>>.
+    Found 1-bit register for signal <dut_inputs<10>>.
+    Found 1-bit register for signal <dut_inputs<9>>.
+    Found 1-bit register for signal <dut_inputs<8>>.
+    Found 1-bit register for signal <dut_inputs<7>>.
+    Found 1-bit register for signal <dut_inputs<6>>.
+    Found 1-bit register for signal <dut_inputs<5>>.
+    Found 1-bit register for signal <dut_inputs<4>>.
+    Found 1-bit register for signal <dut_inputs<3>>.
+    Found 1-bit register for signal <dut_inputs<2>>.
+    Found 1-bit register for signal <dut_inputs<1>>.
+    Found 1-bit register for signal <dut_inputs<0>>.
+    Found 1-bit 51-to-1 multiplexer for signal <flipbit_index[5]_X_2_o_Mux_2_o> created at line 188.
+    Found 16-bit comparator lessequal for signal <n0009> created at line 188
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal flip_all_out may hinder XST clustering optimizations.
+    Summary:
+	inferred  67 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   9 Multiplexer(s).
+Unit <sca_unlock> synthesized.
+
+Synthesizing Unit <serial_receiver>.
+    Related source file is "/home/kaveh/projects/scadobf/ise/sakurag/sca_unlock_post.v".
+        data_len = 24
+    Found 24-bit register for signal <shift_reg>.
+    Summary:
+	inferred  24 D-type flip-flop(s).
+Unit <serial_receiver> synthesized.
+
+Synthesizing Unit <c432_xor15>.
+    Related source file is "/home/kaveh/projects/scadobf/ise/sakurag/dut.v".
+    Summary:
+Unit <c432_xor15> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 7-bit adder                                           : 1
+# Registers                                            : 55
+ 1-bit register                                        : 52
+ 16-bit register                                       : 1
+ 24-bit register                                       : 1
+ 7-bit register                                        : 1
+# Comparators                                          : 1
+ 16-bit comparator lessequal                           : 1
+# Multiplexers                                         : 9
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 51-to-1 multiplexer                             : 1
+# Xors                                                 : 34
+ 1-bit xor2                                            : 33
+ 1-bit xor7                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <sca_unlock_top>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <sca_unlock_top> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 7-bit up counter                                      : 1
+# Registers                                            : 92
+ Flip-Flops                                            : 92
+# Comparators                                          : 1
+ 16-bit comparator lessequal                           : 1
+# Multiplexers                                         : 9
+ 1-bit 2-to-1 multiplexer                              : 8
+ 1-bit 51-to-1 multiplexer                             : 1
+# Xors                                                 : 34
+ 1-bit xor2                                            : 33
+ 1-bit xor7                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sca_unlock_top> ...
+
+Optimizing unit <sca_unlock> ...
+
+Optimizing unit <serial_receiver> ...
+
+Optimizing unit <c432_xor15> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sca_unlock_top, actual ratio is 0.
+FlipFlop u0/flipbit_index_0 has been replicated 2 time(s)
+FlipFlop u0/flipbit_index_1 has been replicated 2 time(s)
+FlipFlop u0/flipbit_index_2 has been replicated 1 time(s)
+FlipFlop u0/flipbit_index_3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 105
+ Flip-Flops                                            : 105
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : sca_unlock_top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 164
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 9
+#      LUT3                        : 19
+#      LUT4                        : 14
+#      LUT5                        : 22
+#      LUT6                        : 96
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 105
+#      FD                          : 1
+#      FDC                         : 30
+#      FDC_1                       : 24
+#      FDCE                        : 43
+#      FDR                         : 7
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx75csg484-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             105  out of  93296     0%  
+ Number of Slice LUTs:                  162  out of  46648     0%  
+    Number used as Logic:               162  out of  46648     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    195
+   Number with an unused Flip Flop:      90  out of    195    46%  
+   Number with an unused LUT:            33  out of    195    16%  
+   Number of fully used LUT-FF pairs:    72  out of    195    36%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          25
+ Number of bonded IOBs:                  15  out of    328     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+M_CLK_OSC                          | BUFGP                  | 8     |
+flip_clk                           | BUFG                   | 73    |
+FTDI_BDBUS<1>                      | IBUF+BUFG              | 24    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.136ns (Maximum Frequency: 194.695MHz)
+   Minimum input arrival time before clock: 4.331ns
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: 4.409ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'M_CLK_OSC'
+  Clock period: 3.422ns (frequency: 292.257MHz)
+  Total number of paths / destination ports: 85 / 15
+-------------------------------------------------------------------------
+Delay:               3.422ns (Levels of Logic = 2)
+  Source:            counter_5 (FF)
+  Destination:       counter_0 (FF)
+  Source Clock:      M_CLK_OSC rising
+  Destination Clock: M_CLK_OSC rising
+
+  Data Path: counter_5 to counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.447   0.755  counter_5 (counter_5)
+     LUT2:I0->O            1   0.203   0.580  GND_1_o_GND_1_o_equal_2_o<6>_SW0 (N01)
+     LUT6:I5->O            8   0.205   0.802  GND_1_o_GND_1_o_equal_2_o<6> (GND_1_o_GND_1_o_equal_2_o)
+     FDR:R                     0.430          counter_0
+    ----------------------------------------
+    Total                      3.422ns (1.285ns logic, 2.137ns route)
+                                       (37.6% logic, 62.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'flip_clk'
+  Clock period: 5.136ns (frequency: 194.695MHz)
+  Total number of paths / destination ports: 5194 / 94
+-------------------------------------------------------------------------
+Delay:               5.136ns (Levels of Logic = 4)
+  Source:            u0/dut_inputs_40 (FF)
+  Destination:       u0/dut_inputs_0 (FF)
+  Source Clock:      flip_clk rising
+  Destination Clock: flip_clk rising
+
+  Data Path: u0/dut_inputs_40 to u0/dut_inputs_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.447   1.015  u0/dut_inputs_40 (u0/dut_inputs_40)
+     LUT6:I0->O            1   0.203   0.827  u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_124 (u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_124)
+     LUT6:I2->O            3   0.203   0.879  u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_71 (u0/Mmux_flipbit_index[5]_X_2_o_Mux_2_o_71)
+     LUT6:I3->O           18   0.205   1.050  u0/flipbit_index[5]_INV_50_o1 (u0/flipbit_index[5]_INV_50_o)
+     LUT5:I4->O            1   0.205   0.000  u0/Mmux_w_shift_reg[0]_flipbit_index[5]_MUX_138_o11 (u0/w_shift_reg[0]_flipbit_index[5]_MUX_138_o)
+     FDC:D                     0.102          u0/dut_inputs_0
+    ----------------------------------------
+    Total                      5.136ns (1.365ns logic, 3.771ns route)
+                                       (26.6% logic, 73.4% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'FTDI_BDBUS<1>'
+  Clock period: 1.232ns (frequency: 811.985MHz)
+  Total number of paths / destination ports: 23 / 23
+-------------------------------------------------------------------------
+Delay:               1.232ns (Levels of Logic = 0)
+  Source:            u0/SR/shift_reg_22 (FF)
+  Destination:       u0/SR/shift_reg_23 (FF)
+  Source Clock:      FTDI_BDBUS<1> falling
+  Destination Clock: FTDI_BDBUS<1> falling
+
+  Data Path: u0/SR/shift_reg_22 to u0/SR/shift_reg_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            4   0.447   0.683  u0/SR/shift_reg_22 (u0/SR/shift_reg_22)
+     FDC_1:D                   0.102          u0/SR/shift_reg_23
+    ----------------------------------------
+    Total                      1.232ns (0.549ns logic, 0.683ns route)
+                                       (44.6% logic, 55.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'flip_clk'
+  Total number of paths / destination ports: 73 / 73
+-------------------------------------------------------------------------
+Offset:              4.331ns (Levels of Logic = 2)
+  Source:            FTDI_BDBUS<2> (PAD)
+  Destination:       u0/dut_inputs_0 (FF)
+  Destination Clock: flip_clk rising
+
+  Data Path: FTDI_BDBUS<2> to u0/dut_inputs_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  FTDI_BDBUS_2_IBUF (FTDI_BDBUS_2_IBUF)
+     INV:I->O             97   0.206   1.857  u0/reset_inv521_INV_0 (u0/SR/reset_inv)
+     FDCE:CLR                  0.430          u0/dut_inputs_50
+    ----------------------------------------
+    Total                      4.331ns (1.858ns logic, 2.473ns route)
+                                       (42.9% logic, 57.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FTDI_BDBUS<1>'
+  Total number of paths / destination ports: 25 / 25
+-------------------------------------------------------------------------
+Offset:              4.331ns (Levels of Logic = 2)
+  Source:            FTDI_BDBUS<2> (PAD)
+  Destination:       u0/SR/shift_reg_23 (FF)
+  Destination Clock: FTDI_BDBUS<1> falling
+
+  Data Path: FTDI_BDBUS<2> to u0/SR/shift_reg_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  FTDI_BDBUS_2_IBUF (FTDI_BDBUS_2_IBUF)
+     INV:I->O             97   0.206   1.857  u0/reset_inv521_INV_0 (u0/SR/reset_inv)
+     FDC_1:CLR                 0.430          u0/SR/shift_reg_0
+    ----------------------------------------
+    Total                      4.331ns (1.858ns logic, 2.473ns route)
+                                       (42.9% logic, 57.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'M_CLK_OSC'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            flip_clk (FF)
+  Destination:       M_CLK_EXT0_N (PAD)
+  Source Clock:      M_CLK_OSC rising
+
+  Data Path: flip_clk to M_CLK_EXT0_N
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  flip_clk (flip_clk)
+     OBUF:I->O                 2.571          M_CLK_EXT0_N_OBUF (M_CLK_EXT0_N)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               4.409ns (Levels of Logic = 2)
+  Source:            FTDI_BDBUS<2> (PAD)
+  Destination:       M_LED<7> (PAD)
+
+  Data Path: FTDI_BDBUS<2> to M_LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.616  FTDI_BDBUS_2_IBUF (FTDI_BDBUS_2_IBUF)
+     OBUF:I->O                 2.571          M_LED_7_OBUF (M_LED<7>)
+    ----------------------------------------
+    Total                      4.409ns (3.793ns logic, 0.616ns route)
+                                       (86.0% logic, 14.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock FTDI_BDBUS<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+FTDI_BDBUS<1>  |         |         |    1.232|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock M_CLK_OSC
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+M_CLK_OSC      |    3.422|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock flip_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+FTDI_BDBUS<1>  |         |    1.713|         |         |
+flip_clk       |    5.136|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.08 secs
+ 
+--> 
+
+
+Total memory usage is 396756 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,672 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_CLK_EXT0_N <= M_CLK_EXT0_P;
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(0) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(1) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(2) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(3) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(4) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(5) <= M_HEADER_CLK_N;
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(6) <= M_HEADER(0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(7) <= M_HEADER(1);
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(8) <= M_CLK_EXT0_P;
+</td></tr><tr><td>
+</td></tr><tr><td>
+M_LED(9) <= ((N_PZ_580 AND N_PZ_634)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_580 AND NOT N_PZ_634));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_472 <= ((NOT u0/dut_inputs(12))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(10) AND u0/dut/G199gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(15)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_486 <= u0/dut/G199gat
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((u0/dut_inputs(5) AND u0/dut_inputs(42))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(5) AND NOT u0/dut_inputs(42)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_528 <= ((NOT u0/dut_inputs(18))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(32))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND NOT u0/dut_inputs(45))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(8) AND NOT u0/dut_inputs(45))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(45)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_561 <= ((u0/dut_inputs(39) AND NOT u0/dut/G357gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(39) AND u0/dut/G357gat));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_571 <= u0/dut/G199gat
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((u0/dut_inputs(40) AND u0/dut_inputs(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(40) AND NOT u0/dut_inputs(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_576 <= u0/dut/G199gat
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((u0/dut_inputs(23) AND u0/dut_inputs(36) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(48))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(23) AND NOT u0/dut_inputs(36) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(48))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(23) AND u0/dut_inputs(36) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(48))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(23) AND NOT u0/dut_inputs(36) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(48)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_580 <= u0/dut/G296gat
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((u0/Mxor_xor_out_Mxor__xor0001__xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G430gat_and0000 AND N_PZ_593)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/Mxor_xor_out_Mxor__xor0001__xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G430gat_and0000 AND NOT N_PZ_593)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/Mxor_xor_out_Mxor__xor0001__xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G430gat_and0000 AND NOT N_PZ_593)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/Mxor_xor_out_Mxor__xor0001__xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G430gat_and0000 AND N_PZ_593));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_584 <= ((NOT u0/dut/G199gat AND NOT u0/dut_inputs(29) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(44))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(29) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(27) AND NOT u0/dut_inputs(44))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND u0/dut_inputs(29) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(27) AND NOT u0/dut_inputs(44)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_593 <= ((u0/dut/G199gat AND u0/dut/G357gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND NOT u0/dut/G357gat));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_601 <= ((u0/dut/G199gat AND NOT u0/dut_inputs(8))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND u0/dut_inputs(8)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_607 <= ((u0/dut/G199gat AND u0/dut_inputs(16) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(14))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND u0/dut_inputs(16) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(14)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_634 <= ((NOT N_PZ_528)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(2) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND u0/dut/G399gat_and0000 AND N_PZ_472 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G418gat AND u0/dut/G419gat AND u0/dut/G420gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G381gat_and0000 AND u0/dut/G417gat AND u0/dut/G399gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	N_PZ_472 AND u0/dut/G418gat AND u0/dut/G419gat AND u0/dut/G420gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G381gat_and0000 AND u0/dut/G417gat AND u0/dut/G399gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	N_PZ_472 AND u0/dut/G418gat AND u0/dut/G419gat AND u0/dut/G420gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G381gat_and0000 AND N_PZ_561 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(4) AND u0/dut_inputs(15) AND u0/dut/G417gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G399gat_and0000 AND u0/dut/G418gat AND u0/dut/G419gat AND u0/dut/G420gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G381gat_and0000 AND N_PZ_561 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(4) AND u0/dut/G417gat AND u0/dut/G399gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	N_PZ_472 AND u0/dut/G418gat AND u0/dut/G419gat AND u0/dut/G420gat));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/Mxor_xor_out_Mxor__xor0001__xor0000 <= (NOT u0/dut_inputs(43) AND u0/dut/G381gat_and0000)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND NOT u0/dut/G399gat_and0000 AND N_PZ_472)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G381gat_and0000 AND u0/dut/G417gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G399gat_and0000 AND N_PZ_472 AND NOT u0/dut/G419gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND N_PZ_472 AND u0/dut/G418gat AND u0/dut/G419gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND u0/dut/G399gat_and0000 AND N_PZ_472 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G418gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND N_PZ_472 AND u0/dut/G419gat AND u0/dut/G420gat));
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg8: FDCPE port map (u0/SR/shift_reg(8),u0/w_shift_reg(7),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg9: FDCPE port map (u0/SR/shift_reg(9),u0/SR/shift_reg(8),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg10: FDCPE port map (u0/SR/shift_reg(10),u0/SR/shift_reg(9),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg11: FDCPE port map (u0/SR/shift_reg(11),u0/SR/shift_reg(10),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg12: FDCPE port map (u0/SR/shift_reg(12),u0/SR/shift_reg(11),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg13: FDCPE port map (u0/SR/shift_reg(13),u0/SR/shift_reg(12),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg14: FDCPE port map (u0/SR/shift_reg(14),u0/SR/shift_reg(13),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg15: FDCPE port map (u0/SR/shift_reg(15),u0/SR/shift_reg(14),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg16: FDCPE port map (u0/SR/shift_reg(16),u0/SR/shift_reg(15),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/SR/shift_reg17: FDCPE port map (u0/SR/shift_reg(17),u0/SR/shift_reg(16),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G199gat <= ((u0/dut_inputs(12) AND NOT u0/dut_inputs(10))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(16) AND NOT u0/dut_inputs(14))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(21) AND NOT u0/dut_inputs(19))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(29) AND NOT u0/dut_inputs(27))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(34) AND NOT u0/dut_inputs(31))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(18) AND NOT u0/dut_inputs(8))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(40) AND NOT u0/dut_inputs(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(40) AND u0/dut_inputs(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(7) AND NOT u0/dut_inputs(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(25) AND u0/dut_inputs(23) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(36))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(25) AND NOT u0/dut_inputs(23) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(36))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(40) AND u0/dut_inputs(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G296gat <= ((u0/dut/xenc10_xor0000)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(17) AND NOT u0/dut_inputs(47))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(47) AND NOT N_PZ_607)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(30) AND N_PZ_584)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(17) AND u0/dut_inputs(47) AND N_PZ_607)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND NOT u0/dut_inputs(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(49))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(25) AND NOT u0/dut_inputs(26) AND NOT N_PZ_576)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(2) AND NOT u0/dut_inputs(3) AND N_PZ_571)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(7) AND NOT u0/dut_inputs(9) AND N_PZ_486)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(21) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(19) AND NOT u0/dut_inputs(22))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(34) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(31) AND NOT u0/dut_inputs(35))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND u0/dut_inputs(21) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(19) AND NOT u0/dut_inputs(22))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND u0/dut_inputs(34) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(31) AND NOT u0/dut_inputs(35))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(18) AND u0/dut_inputs(49) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(32) AND N_PZ_601)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(18) AND NOT u0/dut_inputs(49) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(32) AND N_PZ_601));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G350gat_and0000 <= ((u0/dut/G296gat AND u0/dut/xenc10_xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(12) AND u0/dut_inputs(10) AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(15))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut/xenc10_xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(12) AND NOT u0/dut_inputs(10) AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(15))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND NOT u0/dut/xenc10_xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(12) AND u0/dut_inputs(10) AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(15))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND NOT u0/dut/xenc10_xor0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(12) AND NOT u0/dut_inputs(10) AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(15)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G356gat_and0000 <= ((u0/dut/G296gat AND u0/dut_inputs(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(3) AND N_PZ_571 AND NOT u0/dut_inputs(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(3) AND N_PZ_571 AND NOT u0/dut_inputs(4)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G357gat <= ((u0/dut/G356gat_and0000)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G350gat_and0000)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND NOT u0/dut_inputs(30) AND N_PZ_584 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(33))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(30) AND N_PZ_584 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(33))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(47) AND N_PZ_607 AND NOT u0/dut_inputs(20))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND NOT u0/dut_inputs(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(47) AND N_PZ_607 AND NOT u0/dut_inputs(20))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(25) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(26) AND NOT N_PZ_576 AND NOT u0/dut_inputs(28))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(9) AND N_PZ_486 AND NOT u0/dut_inputs(11))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(47) AND N_PZ_607 AND NOT u0/dut_inputs(20))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND NOT u0/dut_inputs(17) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(47) AND N_PZ_607 AND NOT u0/dut_inputs(20))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(25) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(26) AND NOT N_PZ_576 AND NOT u0/dut_inputs(28))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(9) AND N_PZ_486 AND NOT u0/dut_inputs(11))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(21) AND NOT u0/dut_inputs(19) AND NOT u0/dut_inputs(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(24))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(34) AND NOT u0/dut_inputs(31) AND NOT u0/dut_inputs(35) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(21) AND u0/dut_inputs(19) AND NOT u0/dut_inputs(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(24))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(34) AND u0/dut_inputs(31) AND NOT u0/dut_inputs(35) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(49) AND NOT u0/dut_inputs(32) AND N_PZ_601 AND NOT u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(49) AND u0/dut_inputs(32) AND N_PZ_601 AND NOT u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(21) AND NOT u0/dut_inputs(19) AND u0/dut_inputs(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(24))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(34) AND NOT u0/dut_inputs(31) AND u0/dut_inputs(35) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(21) AND u0/dut_inputs(19) AND u0/dut_inputs(22) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(24))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND NOT u0/dut/G199gat AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(34) AND u0/dut_inputs(31) AND u0/dut_inputs(35) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(49) AND u0/dut_inputs(32) AND N_PZ_601 AND NOT u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G296gat AND u0/dut_inputs(18) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(49) AND NOT u0/dut_inputs(32) AND N_PZ_601 AND NOT u0/dut_inputs(6)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G381gat_and0000 <= ((NOT u0/dut_inputs(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(11) AND N_PZ_561));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G399gat_and0000 <= ((NOT u0/dut_inputs(21))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(22))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(19))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(24)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G417gat <= ((NOT u0/dut_inputs(16))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(17))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(14))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(20)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G418gat <= ((NOT u0/dut_inputs(25))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(26))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND NOT u0/dut_inputs(41))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(23) AND NOT u0/dut_inputs(41))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(28))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(23) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(41)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G419gat <= ((NOT u0/dut_inputs(29))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(30))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut/G199gat AND NOT u0/dut_inputs(38))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(27) AND NOT u0/dut_inputs(38))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_561 AND u0/dut_inputs(37))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(33) AND u0/dut_inputs(37))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(27) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(38))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(33) AND NOT u0/dut_inputs(37)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G420gat <= ((NOT u0/dut_inputs(34))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G296gat AND u0/dut_inputs(35))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut/G199gat AND u0/dut_inputs(31))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_561 AND u0/dut_inputs(1)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/G430gat_and0000 <= ((u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G417gat AND u0/dut/G399gat_and0000 AND N_PZ_472)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/dut_inputs(43) AND u0/dut/G381gat_and0000 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut/G417gat AND u0/dut/G399gat_and0000 AND N_PZ_472));
+</td></tr><tr><td>
+</td></tr><tr><td>
+u0/dut/xenc10_xor0000 <= NOT (u0/dut_inputs(46)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT u0/dut_inputs(12) AND u0/dut_inputs(50) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut/G199gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(10) AND u0/dut_inputs(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(50) AND NOT u0/dut/G199gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(12) AND u0/dut_inputs(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(13) AND NOT u0/dut_inputs(50) AND NOT u0/dut/G199gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(12) AND NOT u0/dut_inputs(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/dut_inputs(13) AND u0/dut_inputs(50) AND u0/dut/G199gat)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (u0/dut_inputs(12) AND NOT u0/dut_inputs(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/dut_inputs(13) AND NOT u0/dut_inputs(50) AND u0/dut/G199gat)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs0: FTCPE port map (u0/dut_inputs(0),u0/dut_inputs_T(0),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(0) <= ((u0/w_shift_reg(0) AND NOT u0/dut_inputs(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(0) AND u0/dut_inputs(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs1: FTCPE port map (u0/dut_inputs(1),u0/dut_inputs_T(1),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(1) <= ((u0/w_shift_reg(1) AND NOT u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(1) AND u0/dut_inputs(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs2: FTCPE port map (u0/dut_inputs(2),u0/dut_inputs_T(2),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(2) <= ((u0/w_shift_reg(2) AND NOT u0/dut_inputs(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(2) AND u0/dut_inputs(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs3: FTCPE port map (u0/dut_inputs(3),u0/dut_inputs_T(3),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(3) <= ((u0/w_shift_reg(3) AND NOT u0/dut_inputs(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(3) AND u0/dut_inputs(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs4: FTCPE port map (u0/dut_inputs(4),u0/dut_inputs_T(4),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(4) <= ((u0/w_shift_reg(4) AND NOT u0/dut_inputs(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(4) AND u0/dut_inputs(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs5: FTCPE port map (u0/dut_inputs(5),u0/dut_inputs_T(5),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(5) <= ((u0/w_shift_reg(5) AND NOT u0/dut_inputs(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(5) AND u0/dut_inputs(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs6: FTCPE port map (u0/dut_inputs(6),u0/dut_inputs_T(6),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(6) <= ((u0/w_shift_reg(6) AND NOT u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(6) AND u0/dut_inputs(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs7: FTCPE port map (u0/dut_inputs(7),u0/dut_inputs_T(7),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(7) <= ((u0/w_shift_reg(7) AND NOT u0/dut_inputs(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/w_shift_reg(7) AND u0/dut_inputs(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4)));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs8: FTCPE port map (u0/dut_inputs(8),u0/dut_inputs_T(8),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(8) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs9: FTCPE port map (u0/dut_inputs(9),u0/dut_inputs_T(9),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(9) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs10: FTCPE port map (u0/dut_inputs(10),u0/dut_inputs_T(10),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(10) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs11: FTCPE port map (u0/dut_inputs(11),u0/dut_inputs_T(11),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(11) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs12: FTCPE port map (u0/dut_inputs(12),u0/dut_inputs_T(12),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(12) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs13: FTCPE port map (u0/dut_inputs(13),u0/dut_inputs_T(13),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(13) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs14: FTCPE port map (u0/dut_inputs(14),u0/dut_inputs_T(14),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(14) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs15: FTCPE port map (u0/dut_inputs(15),u0/dut_inputs_T(15),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(15) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs16: FTCPE port map (u0/dut_inputs(16),u0/dut_inputs_T(16),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(16) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs17: FTCPE port map (u0/dut_inputs(17),u0/dut_inputs_T(17),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(17) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs18: FTCPE port map (u0/dut_inputs(18),u0/dut_inputs_T(18),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(18) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs19: FTCPE port map (u0/dut_inputs(19),u0/dut_inputs_T(19),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(19) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs20: FTCPE port map (u0/dut_inputs(20),u0/dut_inputs_T(20),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(20) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs21: FTCPE port map (u0/dut_inputs(21),u0/dut_inputs_T(21),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(21) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs22: FTCPE port map (u0/dut_inputs(22),u0/dut_inputs_T(22),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(22) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs23: FTCPE port map (u0/dut_inputs(23),u0/dut_inputs_T(23),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(23) <= (NOT u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs24: FTCPE port map (u0/dut_inputs(24),u0/dut_inputs_T(24),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(24) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs25: FTCPE port map (u0/dut_inputs(25),u0/dut_inputs_T(25),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(25) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs26: FTCPE port map (u0/dut_inputs(26),u0/dut_inputs_T(26),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(26) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs27: FTCPE port map (u0/dut_inputs(27),u0/dut_inputs_T(27),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(27) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs28: FTCPE port map (u0/dut_inputs(28),u0/dut_inputs_T(28),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(28) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs29: FTCPE port map (u0/dut_inputs(29),u0/dut_inputs_T(29),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(29) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs30: FTCPE port map (u0/dut_inputs(30),u0/dut_inputs_T(30),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(30) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs31: FTCPE port map (u0/dut_inputs(31),u0/dut_inputs_T(31),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(31) <= (NOT u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs32: FTCPE port map (u0/dut_inputs(32),u0/dut_inputs_T(32),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(32) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs33: FTCPE port map (u0/dut_inputs(33),u0/dut_inputs_T(33),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(33) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs34: FTCPE port map (u0/dut_inputs(34),u0/dut_inputs_T(34),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(34) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs35: FTCPE port map (u0/dut_inputs(35),u0/dut_inputs_T(35),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(35) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs36: FTCPE port map (u0/dut_inputs(36),u0/dut_inputs_T(36),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(36) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs37: FTCPE port map (u0/dut_inputs(37),u0/dut_inputs_T(37),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(37) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs38: FTCPE port map (u0/dut_inputs(38),u0/dut_inputs_T(38),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(38) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs39: FTCPE port map (u0/dut_inputs(39),u0/dut_inputs_T(39),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(39) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs40: FTCPE port map (u0/dut_inputs(40),u0/dut_inputs_T(40),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(40) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs41: FTCPE port map (u0/dut_inputs(41),u0/dut_inputs_T(41),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(41) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs42: FTCPE port map (u0/dut_inputs(42),u0/dut_inputs_T(42),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(42) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs43: FTCPE port map (u0/dut_inputs(43),u0/dut_inputs_T(43),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(43) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs44: FTCPE port map (u0/dut_inputs(44),u0/dut_inputs_T(44),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(44) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs45: FTCPE port map (u0/dut_inputs(45),u0/dut_inputs_T(45),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(45) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs46: FTCPE port map (u0/dut_inputs(46),u0/dut_inputs_T(46),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(46) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs47: FTCPE port map (u0/dut_inputs(47),u0/dut_inputs_T(47),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(47) <= (u0/flipbit_index(5) AND u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(2) AND u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs48: FTCPE port map (u0/dut_inputs(48),u0/dut_inputs_T(48),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(48) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs49: FTCPE port map (u0/dut_inputs(49),u0/dut_inputs_T(49),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(49) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND NOT u0/flipbit_index(1) AND u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FTCPE_u0/dut_inputs50: FTCPE port map (u0/dut_inputs(50),u0/dut_inputs_T(50),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;u0/dut_inputs_T(50) <= (u0/flipbit_index(5) AND NOT u0/flipbit_index(3) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT u0/flipbit_index(2) AND u0/flipbit_index(1) AND NOT u0/flipbit_index(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	u0/flipbit_index(4));
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index0: FDCPE port map (u0/flipbit_index(0),u0/w_shift_reg(23),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index1: FDCPE port map (u0/flipbit_index(1),u0/w_shift_reg(22),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index2: FDCPE port map (u0/flipbit_index(2),u0/w_shift_reg(21),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index3: FDCPE port map (u0/flipbit_index(3),u0/w_shift_reg(20),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index4: FDCPE port map (u0/flipbit_index(4),u0/w_shift_reg(19),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/flipbit_index5: FDCPE port map (u0/flipbit_index(5),u0/w_shift_reg(18),M_CLK_EXT0_P,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg0: FDCPE port map (u0/w_shift_reg(0),M_HEADER(0),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg1: FDCPE port map (u0/w_shift_reg(1),u0/w_shift_reg(0),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg2: FDCPE port map (u0/w_shift_reg(2),u0/w_shift_reg(1),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg3: FDCPE port map (u0/w_shift_reg(3),u0/w_shift_reg(2),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg4: FDCPE port map (u0/w_shift_reg(4),u0/w_shift_reg(3),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg5: FDCPE port map (u0/w_shift_reg(5),u0/w_shift_reg(4),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg6: FDCPE port map (u0/w_shift_reg(6),u0/w_shift_reg(5),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg7: FDCPE port map (u0/w_shift_reg(7),u0/w_shift_reg(6),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg18: FDCPE port map (u0/w_shift_reg(18),u0/SR/shift_reg(17),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg19: FDCPE port map (u0/w_shift_reg(19),u0/w_shift_reg(18),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg20: FDCPE port map (u0/w_shift_reg(20),u0/w_shift_reg(19),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg21: FDCPE port map (u0/w_shift_reg(21),u0/w_shift_reg(20),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg22: FDCPE port map (u0/w_shift_reg(22),u0/w_shift_reg(21),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+FDCPE_u0/w_shift_reg23: FDCPE port map (u0/w_shift_reg(23),u0/w_shift_reg(22),NOT M_HEADER_CLK_N,NOT M_HEADER<1>,'0','1');
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

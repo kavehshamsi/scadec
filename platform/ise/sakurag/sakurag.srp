@@ -1,0 +1,871 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+--> 
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: set_process_props
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+ERROR:Xst:425 - Undefined command: foreach
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: file
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: set_project_props
+--> 
+ERROR:Xst:425 - Undefined command: add_source_files
+--> 
+ERROR:Xst:425 - Undefined command: create_libraries
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: run_process
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+--> 
+--> 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+WARNING:Xst:15 - skipping parameter : 
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+ERROR:Xst:1363 - Option "-" is not available for command set.
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: (
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: xfile
+--> 
+ERROR:Xst:425 - Undefined command: xfile
+--> 
+ERROR:Xst:425 - Undefined command: xfile
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: global
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+ERROR:Xst:425 - Undefined command: project
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: proc
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: show_help
+--> 
+ERROR:Xst:425 - Undefined command: return
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: foreach
+--> 
+ERROR:Xst:425 - Undefined command: switch
+--> 
+ERROR:Xst:425 - Undefined command: show_help
+--> 
+ERROR:Xst:425 - Undefined command: run_process
+--> 
+ERROR:Xst:425 - Undefined command: rebuild_project
+--> 
+ERROR:Xst:425 - Undefined command: set_project_props
+--> 
+ERROR:Xst:425 - Undefined command: add_source_files
+--> 
+ERROR:Xst:425 - Undefined command: create_libraries
+--> 
+ERROR:Xst:425 - Undefined command: set_process_props
+--> 
+ERROR:Xst:425 - Undefined command: default
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: show_help
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: if
+--> 
+ERROR:Xst:425 - Undefined command: puts
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+ERROR:Xst:425 - Undefined command: }
+--> 
+
+
+Total memory usage is 287060 kilobytes
+
+Number of errors   :  387 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
